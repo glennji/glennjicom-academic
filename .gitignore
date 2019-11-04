@@ -1,2 +1,6 @@
 public/
 .idea/
+/.firebase/
+/resources/_gen/
+/themes/academic/
+.DS_Store
