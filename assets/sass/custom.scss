@@ -7,11 +7,19 @@ html {
   letter-spacing: 0.06em;
 }
 
+.post-info .tag::before, .lexicon-term-info .tag::before {
+  content: "";
+}
+
 .tag {
   margin-right: .5em;
 
+  .lexicon-term-info .tag::before {
+    content: "";
+  }
+
   & a::before {
-    content: "#"
+    content: "asdf"
   }
 }
 
@@ -161,6 +169,10 @@ html {
 
     .tag {
       margin-right: .5em;
+
+      &::before {
+        content: "#"
+      }
     }
 
     .feather {
