@@ -10,10 +10,10 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: config/_default/content
+  path: content/posts
   label: Pages
   create: all
-  match: "*"
+  match: "**/*"
 upload_dir: config/_default/static/uploads
 public_path: "/uploads"
 front_matter_path: ''
