@@ -1,0 +1,15 @@
+# Font style metadata
+name = "dark_glennji"
+
+# Optional Google font URL
+google_fonts = "Inter+UI|Source+Code+Pro|Cutive+Mono|Lora:400,700|Roboto:400,700"
+
+# Font families
+heading_font = "Roboto"
+body_font = "Inter UI"
+nav_font = "Source Code Pro"
+mono_font = "Source Code Pro"
+
+# Font size
+font_size = "16"
+font_size_small = "12"
