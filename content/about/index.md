@@ -26,7 +26,7 @@ I've a long list of hobbies, including science-fiction novels, motorcycles, camp
 
 ## Spoilers
 
-{{< figure src="/images/timeline.png" caption="Figure 1: One possible timeline">}}
+{{< figure src="/images/timeline.png" lightbox="true" caption="Figure 1: One possible timeline">}}
 
 ***
 
