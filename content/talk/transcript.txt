@@ -1,0 +1,28 @@
+
+For the last decade, newspapers and print media have been on the decline. As we saw in the clip, many papers are shutting down completely. Those that don't have drastically downsized their teams of journalists and editors. More and more often, newspapers are syndicating content from national or even global sources, chasing after diminishing advertising revenue.
+
+Many if not all newspapers have of course moved "online". There are a number of problems that this creates.
+
+For a start, consumers are significantly less likely to want to pay for online-only content. Whilst production costs are
+lessened, as there is no need to run printers, buy paper and operate expensive distribution channels, the corresponding
+losses accumulated by effectively giving content away for free can quickly overrun any production savings.
+
+Additionally, the web itself encourages publication by individuals, rather than well-trained and well-paid journalists. Pages and articles produced by "freelance" hobbyists can act as a 'substitute good' for the articles and stories produced by news outlets. Such articles may be of lower quality -- whether less well researched, documented and fact-checked -- but it often doesn't seem to matter. As an audience, we've become blaise with our media consumption, seemingly preferring gossip to actual news.
+
+And of course, both Google and Facebook take the lion's share of any advertising revenue that may be available, up to 90% in some studies. Acting as news aggregators as well as curators, these web giants determine which articles and stories we find and consume, using our "engagement" -- that is commenting, sharing, arguing -- rather than any other measure of journalistic quality.
+
+As such Google and Facebook operate as a virtual oligopoly, there very existence acting as impediments to any other would-be aggregators, or even the newspapers themselves.
+
+But why should we consider this a market failure? Let's take a look at negative externalities.
+
+Here we see the standard supply-demand curve, with the point of equilibrium traced out to each axis. This is the price point at which demand exactly meets supply: there's no surplus and there's no shortage of goods. In the print media example, this could represent the supply and demand of quality journalism, or from another angle the supply and demand of advertising space in newspapers that is bought by advertisers.
+
+There are costs associated here. Let's call the cost to the advertisers a "private cost".
+
+Now, when there are fewer professional journalists doing their jobs, our news suffers. We call this a "social cost".
+
+When the social cost is considered, as shown here, the supply curve can be considered to have shifted left. That is, each unit of production has a higher cost. This means we can argue that there is a new even "better" equilibrium point which considers the social cost. However, suppliers themselves don't consider social cost.
+
+We call this a negative externality.
+
+So, in summary, monopolistic or oligopolistic practices by a few big players lead organisations that consist of professional journalists to produce less, lower quality content, with few exceptions. The quality of articles is diluted by both "citizen journalism" and the chase of audience engagement and clicks over compelling stories. This produces a negative externality, which is an example of market failure.
