@@ -9,6 +9,7 @@ categories:
   - Bingo Agent
   - Project Build Logs
 crosslink: "true"
+projects: ["agent-bingo-robot"]
 ---
 After [convincing my son][1] to let me <del>destroy</del> _upgrade _his toy robot, I was quick to order a bunch of Arduino-related gear online. A month later and &#8220;[Bingo][2]&#8221; is still sitting in pieces, but when the parts started arriving last weekend I was able to make a minor breakthrough: I installed the Arduino software, connected one of her legs to a DC motor driver and made her twitch forwards and backwards with a little sketch! Small steps, literally, but I was pretty excited to see it working. (I also soldered an 8&#215;8 LED matrix with a MAX7219 controller and, like, three other components &#8230; and it actually worked! I&#8217;m in need of _a lot_ of soldering practice, so this was a big deal for me.)
 

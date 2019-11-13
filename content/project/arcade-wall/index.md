@@ -3,6 +3,7 @@ title: "Arcade Wall"
 draft: false
 projectType: hardware
 type: project
+tags: ["someday", "professional"]
 ---
 The Hack Street office will include an arcade console near one wall, with a large wall-mounted display that doubles as a video-conferencing system (Hangouts, Skype, etc). I want to assemble an awesome system that includes classic arcade titles as well as the best console titles.
 

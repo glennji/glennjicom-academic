@@ -3,7 +3,6 @@ title: The other Taronga
 author: glennji
 type: post
 date: 2017-04-09T08:58:13+00:00
-url: /?p=16379
 featured_image: /wp-content/uploads/2017/04/IMG_20170402_152431-1-e1492323499893-1568x1154.jpg
 categories:
   - Adventure
