@@ -36,5 +36,6 @@ $sta-dark-home-section-even: {{ $scr.Get "dark_home_section_even" }};
 
 @import "bootstrap_variables";
 @import "vendor/bootstrap/bootstrap";
+//@import "academia/academia";
 @import "academic/academic";
 @import "custom";

@@ -6,7 +6,7 @@ title: Posts
 #   2 = Compact
 #   3 = Card
 view: 3
-column: 3
+column: 1
 
 
 # Optional header image (relative to `static/img/` folder).

@@ -2,9 +2,8 @@
 title: Just another day
 author: glennji
 type: post
-date: -001-11-30T00:00:00+00:00
-draft: true
-url: /?p=16786
+date: 2018-11-30T00:00:00+00:00
+draft: false
 categories:
   - Australia
   - Featured

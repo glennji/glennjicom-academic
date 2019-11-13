@@ -1,0 +1,18 @@
+{{- define "main" -}}
+{{ $archYear := .Date.Format "2006" }}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+
+    <h2>Archive for {{ $archYear }}</h2>
+
+    {{ range where .Site.Pages "Section" "post" }}
+      {{ if eq (.Date.Format "2006") $archYear }}
+        {{ partial "li_card" . }}
+      {{ end }}
+    {{ end }}
+
+</div>
+
+{{- end -}}

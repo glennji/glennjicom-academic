@@ -7,7 +7,7 @@ created: '2019-03-19T01:26:00.543Z'
 modified: '2019-04-12T05:09:32.805Z'
 attachments: [ge-clockradio.jpg]
 type: project
-projectType: software
+projectType: hardware
 toc: true
 cover: "/wp-content/uploads/ge-clockradio.jpg"
 ---

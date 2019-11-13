@@ -1,8 +1,8 @@
 ---
 title: "Arcade Wall"
-draft: true
+draft: false
 projectType: hardware
-weight: 1
+type: project
 ---
 The Hack Street office will include an arcade console near one wall, with a large wall-mounted display that doubles as a video-conferencing system (Hangouts, Skype, etc). I want to assemble an awesome system that includes classic arcade titles as well as the best console titles.
 

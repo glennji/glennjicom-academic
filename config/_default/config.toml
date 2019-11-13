@@ -44,6 +44,7 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   attachments = "@attachment/:filename"
   # terms = "lexicon/:title/"
   projects = "projects/:title"
+  archives = "archives/:year/"
 
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]
