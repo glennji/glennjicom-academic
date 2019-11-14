@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Blockchain Ledger Ui"
+title: "Blockchain Ledger UI"
 subtitle: ""
 summary: ""
 authors: []
