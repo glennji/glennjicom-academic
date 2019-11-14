@@ -8,6 +8,8 @@ weight = 65  # Order that this section will appear.
 title = "Projects"
 subtitle = ""
 
+item_limit = "7"
+
 [content]
   # Page type to display. E.g. project.
   page_type = "project"
@@ -81,8 +83,8 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  image = "projects-bg2.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "projects-bg2.jpg" 
+  image_darken = 0.8
 
   # Text color (true=light or false=dark).
   text_color_light = true  
@@ -93,5 +95,12 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+ 
+[cta]
+  url = "projects"
+  label = "See More"
+  icon_pack = "fas"
+  icon = "wrench"
+
 +++
 I've been involved in many, many projects over the years. Here's a small selection of professional and hobby projects I've worked or am working on.

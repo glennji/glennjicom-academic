@@ -157,7 +157,6 @@ sharing = false
   post_view = 3
   publication_view = 3
   talk_view = 2
-  filter_button = ["hardware", "software"]
 
 # Comments.
 [comments]

@@ -5,7 +5,7 @@ title: "Open Lumify"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["inprogress", "hobby", "software"]
 categories: []
 date: 2019-11-14T00:17:54+11:00
 lastmod: 2019-11-14T00:17:54+11:00

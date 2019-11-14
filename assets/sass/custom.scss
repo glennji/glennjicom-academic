@@ -23,6 +23,17 @@ html {
   }
 }
 
+.cta {
+  display: flex;
+  flex-direction: row-reverse;
+  color: #ef525b;
+  text-decoration: none;
+  transition: color .6s ease;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
 #TableOfContents {
   padding-left: 0.5em;
 }
@@ -247,4 +258,8 @@ figure {
       text-align: right;
     }
   }
+}
+
+.btn-xl {
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $btn-font-size-lg, $btn-line-height-lg, $btn-border-radius-lg);
 }

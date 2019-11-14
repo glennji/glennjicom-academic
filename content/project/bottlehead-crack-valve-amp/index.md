@@ -10,7 +10,7 @@ date: 2019-11-14T00:48:00+11:00
 lastmod: 2019-11-14T00:48:00+11:00
 featured: false
 draft: false
-tags: ["hobby"]
+tags: ["hobby", "someday", "hardware"]
 
 
 # Featured image

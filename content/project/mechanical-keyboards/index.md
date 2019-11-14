@@ -5,6 +5,7 @@ draft: false
 type: project
 projectType: hardware
 toc: true
+tags: ["inprogress", "hobby", "hardware"]
 ---
 As the primary user interface for many generations of computer users, the humble keyboard surely deserves its place in the history books as one of the twentieth century’s greatest inventions. From the surface, at least, it appears to be largely unchanged since the electric typewriter of the ’30s, with the layout even older still — a lattice of switches which, when closed, send an appropriate electrical signal to the computing device — and as a frequent, heavy computer user, I should probably have paid more attention.
 

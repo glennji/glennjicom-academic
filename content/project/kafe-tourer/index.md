@@ -4,7 +4,7 @@ date: 2019-05-16T20:10:46+10:00
 draft: false
 projectType: hardware
 weight: 2
-tags: ["someday", "hobby"]
+tags: ["someday", "hobby", "hardware"]
 ---
 >_Ah, Motorcycles, how I love thee. I've got a few ideas about my motorbike restoration job, and have decided that I need to separate "planning" from "action" -- so here is the dreamline, whilst the build log can live elsewhere in the projects space<._
 

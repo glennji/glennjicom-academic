@@ -5,7 +5,7 @@ title: "Agent Bingo Robot"
 subtitle: ""
 summary: ""
 authors: []
-tags: []
+tags: ["inprogress", "hobby", "hardware"]
 categories: []
 date: 2019-11-14T00:38:45+11:00
 lastmod: 2019-11-14T00:38:45+11:00
@@ -26,5 +26,4 @@ image:
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects: []
-tags: ["hobby"]
 ---

@@ -25,6 +25,13 @@
   transition: all 0.2s ease-out;
 }
 
+.card-wide {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-items: center;
+}
+
 .card .card-image {
   display: block;
   position: relative;
@@ -51,6 +58,11 @@
 
 .card .card-text {
   padding: 0.75rem 1rem 0.75rem;
+  font-size: 0.7rem;
+}
+
+.card-wide .card-text {
+  padding: 0.75rem 0 0.75rem;
 }
 
 .card .card-text p {
@@ -64,6 +76,16 @@
 
 .card p:last-child {
   margin-bottom: 0;
+}
+
+.card .card-right {
+  display: flex;
+  padding-right: 1em;
+}
+
+.card .card-right .logo {
+  max-width: 100px;
+  max-height: 100px;
 }
 
 .card .card-image.hover-overlay:before {

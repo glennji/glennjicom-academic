@@ -5,7 +5,7 @@ title: "Picobrewery"
 subtitle: ""
 summary: ""
 authors: []
-tags: ["someday", "hobby"]
+tags: ["someday", "hobby", "hardware"]
 categories: []
 date: 2019-11-14T00:36:53+11:00
 lastmod: 2019-11-14T00:36:53+11:00

@@ -1,8 +1,6 @@
 ---
 title: Clock Radio
-tags:
-  - arduino
-  - raspberrypi
+tags: ["inprogress", "hobby", "hardware"]
 created: '2019-03-19T01:26:00.543Z'
 modified: '2019-04-12T05:09:32.805Z'
 attachments: [ge-clockradio.jpg]
