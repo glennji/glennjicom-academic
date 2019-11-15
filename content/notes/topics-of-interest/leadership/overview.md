@@ -10,7 +10,7 @@ type: note
 crosslink: "true"
 categories: [Leadership]
 tags: [mba]
----k
+---
 **Leadership** is the ability to influence others to work together towards a specific goal.
 
  - Personal Learning Contract

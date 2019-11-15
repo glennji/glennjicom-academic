@@ -20,8 +20,8 @@ Ah, beer -- the great civiliser. As noted in the New York Times:
 
 I'm a big fan of beer, for the reasons above: it is an ancient technology, has deep roots in our social structures and history, and is quintessentially human -- more so than bread, and possibly more so than farming in general. Perhaps the only reason we started static, rather than nomadic, societies is because we needed to brew beer -- and so much of our civilisation began when we had to solve the dual-edged problem(s) of putting up with each other (empathy, logic, law) and the necessity of co-operation.
 
-I'd like to brew my own. Hell, I'd like to grow all my own ingredients and THEN brew my own, much as the ancients would have, but it may have to wait until we own our dream house.
+I'd like to try brewing. Hell, I'd like to grow all my own ingredients and THEN brew my own, much as the ancients would have, but it may have to wait until we own our dream house.
 
 ### femto-brewery
 
-How might I build a nano-brewery? Or a pico-brewery? Or, hell, _femto??_ To start with, I should find out what equipment dad has that I can steal/borrow. (A few days ago I had a daydream -- opening a bar and nano-brewery in Paris, to share delicious Australian craft beer with the Parisians. Something completely different from IT. I also looked up horse-riding places for Dee!)
+How might I build a nano-brewery? Or a [pico-brewery](/project/picobrewery)? Or, hell, _femto??_ To start with, I should find out what equipment dad has that I can steal/borrow. (A few days ago I had a daydream -- opening a bar and nano-brewery in Paris, to share delicious Australian craft beer with the Parisians. Something completely different from IT. I also looked up horse-riding places for Dee!)

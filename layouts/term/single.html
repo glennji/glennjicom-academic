@@ -1,5 +1,7 @@
 {{- define "main" -}}
 
+{{ partial "page_header.html" . }}
+
 <div class="universal-wrapper">
 
     <div class="article-style" itemprop="articleBody">
@@ -44,7 +46,7 @@
                       {{ range . }}
                       {{ $title := .Params.title }}
                       {{ $permalink := .Permalink }}
-                      
+
                       {{ $content := replaceRE (printf "(%s)/" (lower $title)) "meeeeeeeeeeeeeep" ($.Page.Scratch.Get "content") }}
                       {{ $.Page.Scratch.Set "content" $content }}
 

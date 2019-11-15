@@ -68,7 +68,7 @@ Now let's consider a priority-ordered $55-million list — the things I would do
  	<li>Altitude or Kakadu</li>
 </ul>
 </li>
-</ul>
+</ul>k
 </li>
  	<li>Maserati</li>
  	<li>Kit car

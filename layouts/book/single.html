@@ -1,15 +1,36 @@
-{{ define "main" }}
-    <main class="book">
+{{- define "main" -}}
+{{ partial "page_header.html" . }}
+{{ $page := . }}
 
-        <article>
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+
+      <article>
+
+        <main class="post">
+
+        <div class="post  -info">
+          <p>
+            {{ if .IsTranslated }}
+            | {{ i18n "postAvailable" }}
+            {{ range .Translations }}
+            <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+            {{ end}}
+            {{ end }}
+            {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+          </p>
+        </div>
 
             <div class="book-cover">
             {{ with .Params.Cover }}
-                <img src="{{ . }}" class="book-cover" />
+                <img src="{{ . }}" class="book-cover-image" />
             {{ end }}
             </div>
 
-            <h2 class="book-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
             {{ with .Params.bookAuthor }}
                 <h3>by {{ . }}</h3>
             {{ end }}
@@ -55,7 +76,6 @@
               {{ .Content }}
               {{ end }}
             </div>
-        </article>
 
         <hr />
 
@@ -92,5 +112,9 @@
                 {{- partial "comments.html" . -}}
             </div>
         {{ end }}
-    </main>
+        </main>
+      </article>
+    </div>
+  </div>
+</article>
 {{ end }}

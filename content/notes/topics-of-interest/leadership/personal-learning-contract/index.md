@@ -10,7 +10,6 @@ type: note
 crosslink: "true"
 categories: []
 tags: []
-crosslink: "true"
 ---
 # Personal learning contract guide
 ## Introduction

@@ -77,6 +77,8 @@ html {
 
   &-cover {
     float: right;
+    max-width: 40%;
+    width: 40%;
   }
 
   &-abstract {
@@ -89,16 +91,32 @@ html {
       margin-top: 0;
     }
   }
+
+  .book-list {
+    margin-top: 2rem;
+  }
+
+  .card-simple {
+    padding: 0;
+
+    .article-style {
+      font-size: 1rem;
+    }
+  }
+}
+
+.article-metadata {
+  .article-reading-time {
+    svg {
+      padding: 0.3rem;
+      margin-top: -0.18rem;
+    }
+  }
 }
 
 .dark .article-metadata {
   color: rgba(255,255,255,.22);
 }
-
-.article-metadata {
-  font-size: 0.7em;
-}
-
 
 .post, .lexicon-term {
   width: 100%;

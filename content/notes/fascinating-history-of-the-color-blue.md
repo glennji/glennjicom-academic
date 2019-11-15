@@ -2,7 +2,7 @@
 title: "Fascinating History of the Color Blue"
 date: 2011-07-19T13:47:00+10:00
 authors: [Dov Michaeli]
-draft: false
+draft: true
 type: note
 
 # layout: quote, tweet, profile ... ?
