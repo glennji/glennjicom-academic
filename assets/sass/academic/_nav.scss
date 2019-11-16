@@ -7,6 +7,11 @@
   transition: top 0.2s ease-in-out;
 }
 
+.hidden-top {
+  top: -70px;
+  border-width: 0 0 1px;
+}
+
 .navbar-light {
   background: $sta-menu-primary !important;
   box-shadow: 0 0.125rem 0.25rem 0 rgba(0,0,0,.11)
@@ -147,11 +152,6 @@ nav#navbar-main li.nav-item {
   .fixed-top {
     top: 0;
     border-width: 0 0 1px;
-  }
-
-  .hidden-top {
-    top: -70px !important;
-
   }
 
   .navbar-nav > li.nav-item > a.nav-link {

@@ -12,8 +12,6 @@ setInterval(function() {
   if (didScroll) {
     hasScrolled();
     didScroll = false;
-    console.log("scrolled");
-
   }
 }, 250);
 
