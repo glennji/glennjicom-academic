@@ -6,10 +6,11 @@ draft: false
 type: note
 crosslink: "true"
 ---
-<h3>The Personal Shopping List</h3>
+# The Personal Shopping List
+
 NOTE: There is almost no reason for me to buy any of the items below, if I'm honest. In a lot of ways, this is just a place for me to dump "wishes" for further sorting or contemplation, and to remind myself of the dangers of consumerism and crass materialism. That said, knowing my desires -- including desires for "stuff" -- can help me to focus on the things that actually matter. And as it turns out I've somehow acquired some of these already!
-<ul>
- 	<li>Computers
+
+ * Computers
 <ul>
  	<li>Macbook Pro ($3499) - NOTE: I keep getting these from work, so <em>technically</em> I could cross this one out.</li>
  	<li>iMac</li>

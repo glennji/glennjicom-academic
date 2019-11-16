@@ -4,6 +4,7 @@
 
 .navbar {
   min-height: 70px !important;
+  transition: top 0.2s ease-in-out;
 }
 
 .navbar-light {
@@ -146,6 +147,11 @@ nav#navbar-main li.nav-item {
   .fixed-top {
     top: 0;
     border-width: 0 0 1px;
+  }
+
+  .hidden-top {
+    top: -70px !important;
+
   }
 
   .navbar-nav > li.nav-item > a.nav-link {
