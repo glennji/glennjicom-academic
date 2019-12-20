@@ -7,8 +7,8 @@ draft: false
 toc: false
 crosslink: "true"
 images:
-cover: "/wp-content/uploads/2019/01/bede-person-page.jpg"
-feature: "/wp-content/uploads/2019/01/bede-person-page.jpg"
+#cover: "/wp-content/uploads/2019/01/bede-person-page.jpg"
+#feature: "/wp-content/uploads/2019/01/bede-person-page.jpg"
 tags:
   - blogging
   - glennji.com
