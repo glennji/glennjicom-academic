@@ -3,6 +3,7 @@
 
 title: "Wrapping up the year"
 subtitle: ""
+crosslink: "true"
 summary: ""
 authors: [glennji]
 tags: []
