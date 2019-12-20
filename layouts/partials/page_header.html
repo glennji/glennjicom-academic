@@ -58,12 +58,11 @@
 </div> -->
 
 {{/* Featured image */}}
-<div class="article-header {{$image_container}} featured-image-wrapper mt-4 mb-4" style="max-width: {{$image.Width}}px; max-height: {{$image.Height}}px;">
-  <div style="position: relative">
-    <img src="{{ $image.RelPermalink }}" alt="" class="featured-image">
-    {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
-  </div>
-</div>
+    <div class="featured-image-wrapper">
+      <img src="{{ $image.RelPermalink }}" alt="" class="article-banner">
+      {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+    </div>
+
 {{else}}
   {{/* Case when page has no image */}}
 

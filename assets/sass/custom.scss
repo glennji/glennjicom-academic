@@ -118,7 +118,28 @@ html {
   color: rgba(255,255,255,.22);
 }
 
-.post, .lexicon-term {
+  .pagination__buttons {
+    width: 100%;
+    display: flex;
+  }
+
+  .previous {
+    width:100%;
+  }
+
+  .next {
+    width: 100%;
+    text-align: right;
+  }
+
+.post {
+  &-content {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+}
+
+.lexicon-term {
   width: 100%;
   max-width: 800px;
   text-align: left;

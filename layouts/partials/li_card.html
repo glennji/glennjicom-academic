@@ -59,6 +59,10 @@
   </div>
   {{ end }}
 
+  <div class="article-style">
+    <a href="{{ $item.RelPermalink }}">...more</a>
+  </div>
+
   {{ if eq $item.Type "talk" }}
   <div class="article-metadata">
     {{ if $item.Params.authors }}
