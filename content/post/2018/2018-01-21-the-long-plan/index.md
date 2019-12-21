@@ -16,7 +16,7 @@ categories:
 </p>
 
 <p dir="auto">
-  I mean, OF COURSE that is OBJECTIVELY true, of all of us. Even if <a title="Blog post" href="http:///2007/08/24/multi-dimensional-physicality-in-a-10-d-reality/">time is multidimensional</a>, we seem to be falling <em>this </em>way at near-light speed — with no clear way to steer, let alone slow down. We each grow a tiny bit older with every Planck time clock-tick, our cells die and replenish, the pattern of “us” which arises from and is embedded in the physicality of the universe transforms and changes, like a “<a href="https://en.wikiquote.org/wiki/Heraclitus">river once crossed</a>&#8220;.
+  I mean, OF COURSE that is OBJECTIVELY true, of all of us. Even if <a title="Blog post" href="/2007/08/24/multi-dimensional-physicality-in-a-10-d-reality">time is multidimensional</a>, we seem to be falling <em>this </em>way at near-light speed — with no clear way to steer, let alone slow down. We each grow a tiny bit older with every Planck time clock-tick, our cells die and replenish, the pattern of “us” which arises from and is embedded in the physicality of the universe transforms and changes, like a “<a href="https://en.wikiquote.org/wiki/Heraclitus">river once crossed</a>&#8220;.
 </p>
 
 <p dir="auto">

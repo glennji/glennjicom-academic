@@ -1,13 +1,11 @@
 ---
 title: Multi-dimensional physicality in a 10-D reality
-author: glennji
+authors: [glennji]
 type: post
 date: 2007-08-24T10:01:54+00:00
-url: /?p=214
-aktt_notify_twitter:
-  - no
 categories:
-  - Uncategorized
+  - Philosophy
+  - Physics
 
 ---
 I watched a documentary on reincarnation last night, which was interesting. They looked at the case of a boy in Glasgow who from a young age spoke of his &#8220;other family&#8221;. Eventually they visited the place the boy had spoken of, and it was spine-tingling to see both his reaction to the &#8220;old house&#8221; (a normally vibrant boy, he became subdued and was visibly sad) and the number of &#8220;coincidences&#8221; between his stories and the history of the place. When questioned about how he got to Glasgow he said, &#8220;I just fell through from there to here&#8221;.

@@ -6,7 +6,7 @@ date: 2014-08-17T04:45:24+00:00
 url: /?p=7354
 categories:
   - Uncategorized
-
+draft: true
 ---
 <div>
   <img src='' style='max-width:600px;' /></p> 

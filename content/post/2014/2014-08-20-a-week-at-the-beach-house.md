@@ -3,7 +3,6 @@ title: A week at the beach house
 author: glennji
 type: post
 date: 2014-08-20T10:42:34+00:00
-url: /?p=7395
 featured_image: /wp-content/uploads/2014/08/1408531286_featured.jpeg
 categories:
   - Australia

@@ -3,7 +3,6 @@ title: On-demand Quake-like console with iTerm and Alfred
 author: glennji
 type: post
 date: 2014-12-11T02:09:05+00:00
-url: /?p=13290
 featured_image: /wp-content/uploads/2014/12/xlwNj-1568x882.jpg
 fg_temp_metadata:
   - 15106
