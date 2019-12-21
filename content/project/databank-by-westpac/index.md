@@ -11,6 +11,7 @@ date: 2019-11-14T00:26:28+11:00
 lastmod: 2019-11-14T00:26:28+11:00
 featured: false
 draft: false
+crosslink: "true"
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.

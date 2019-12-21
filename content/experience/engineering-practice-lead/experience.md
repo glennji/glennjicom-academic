@@ -5,8 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 
-title = "Curriculum Vitae"
-subtitle = "Career & Work Experience"
+title = "Engineering Practice Lead (Cloud & DevOps)"
+subtitle = "Engagements & Experience at Industrie&Co"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -39,7 +39,7 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "[Engineering Practice Lead (Cloud & DevOps)](/experience/engineering-practice-lead/)"
+  title = "[Engineering Practice Lead (Cloud & DevOps)](/experience/industrie-and-co/engineering-practice-lead/)"
   company = "Industrie&Co"
   company_url = "https://industrie.co/"
   logo = "ico.png"
@@ -126,8 +126,8 @@ I have built and run a deployment all the way from the initial scoping to hardwa
   
 
 [cta]
-  url = "glenn-mason-engineering-manager.pdf"
-  label = "Download my full CV"
+  url = "/cv"
+  label = "Explore more of my work"
   icon_pack = "fas"
   icon = "download"
 
