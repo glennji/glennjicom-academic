@@ -5,7 +5,6 @@ date: 2019-05-16T20:13:18+10:00
 draft: false
 type: note
 crosslink: "true"
-cover: /wp-content/uploads/2016/07/yoda-548x312.jpg
 ---
 (See also: The Five Lists)
 
