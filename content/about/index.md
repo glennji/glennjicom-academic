@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 author: glennji
-date: 2019-03-05T15:54:31+11:00
+date: 2019-10-14T15:54:31+11:00
 type: note
 layout: about
 draft: false
@@ -20,7 +20,9 @@ _This is the personal website of **Glenn J. Mason**, a technologist and unrepent
 
 Somehow you've stumbled onto my (oft-ignored) website, and then have clicked on the "about" link to find out more about me – so thanks!! You probably won't find much of interest here I'm afraid, but you're welcome to have a poke around anyway. Let's see, what can I tell you about myself?
 
-> _A highly-motivated and intelligent computer scientist with a keen interest in all aspects of information technology and more than a decade of commercial experience in developing software, providing 24×7 support, establishing standards and building infrastructure. I like “big data” systems, resilient cloud infrastructure (AWS, GCP), machine learning and AI, and “speak” a couple of programming languages. I’m a Linux/UNIX_ otaku, _an open-source advocate (and occasional contributor) and a generally geeky kind of guy._
+> _A highly-motivated and intelligent computer scientist with a keen interest in all aspects of information technology and more than a decade of commercial experience in developing software, providing 24×7 support, establishing standards and building infrastructure. I like “big data” systems, resilient cloud infrastructure (AWS, GCP), machine learning and AI, and “speak” a couple of programming languages. I’m a Linux/UNIX オタク (although have now spent years in MacOS), an open-source advocate (and very occasional contributor) and a generally geeky kind of guy._
+
+(Yeah, I should probably update this, especially since I had a job interview once in which the lead engineer gave me a `vi` session and a problem statement and said "go for it".  No IDE? What are we, savages?)
 
 I've a long list of hobbies, including science-fiction novels, motorcycles, camping, software engineering, devops, craft beer & brewing, robotics/electronics and boardgames. I've travelled a few places, although there are plenty more things I'd like to try.
 

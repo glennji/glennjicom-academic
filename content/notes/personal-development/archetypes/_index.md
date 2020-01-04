@@ -7,6 +7,12 @@ type: note
 crosslink: "true"
 image:
   placement: 1
+# View.
+#   1 = List
+#   2 = Compact
+#   3 = Card
+#   4 = Citation
+view: 3
 ---
 We all need heroes (from Greek ἥρως, "warrior, defender, protector"), right? Or maybe it's just me.
 I know I certainly appreciate having fellow sentient creatures -- real or imaginary, alive or dead -- to look up to, learn from and attempt to emulate. Of course, real people are complex and complicated, and any mental representation of them we have is necessarily an abstraction.
