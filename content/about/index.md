@@ -8,13 +8,15 @@ draft: false
 crosslink: "true"
 ---
 
-{{< figure src="/images/little-me.png" class="floatright" >}}**Well this was unexpected: I'm in my 13th incarnation!**
+{{< figure src="/images/little-me.png" class="floatright" >}}**Well this was unexpected: I'm in my 13th incarnation[^3]!**
 
-_This is the personal website of **Glenn J. Mason**, a technologist and unrepentant geek living and working in Sydney, Australia with his wife[^1] and son[^2]. He also rarely speaks about himself in the third-person..._
+_This is the personal website of **Glenn J. Mason**, a technologist and unrepentant geek living and working in [Sydney](/places/inner-west-sydney) with his wife[^1] and son[^2]. He also rarely speaks about himself in the third-person..._
 
 [^1]: "common law" wife; for some reason, we've never gotten around to actually "tieing the knot", although it's arguably the best excuse for bringing a bunch of old friends from around the world together for a party.
 
 [^2]: Age seven and with greater mastery of a PS4 controller than I've ever seen, let alone the Wii U, iPad, phone ... how many platforms can you get Minecraft on these days? God, I love that kid.
+
+[^3]: Oh, you don't reincarnate every prime multiple of years? 2,3,5,7,11,13,17,19,23,29,31,37,41
 
 Somehow you've stumbled onto my (oft-ignored) website, and then have clicked on the "about" link to find out more about me – so thanks!! You probably won't find much of interest here I'm afraid, but you're welcome to have a poke around anyway. Let's see, what can I tell you about myself?
 

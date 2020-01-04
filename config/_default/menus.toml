@@ -18,10 +18,10 @@
   url = "notes/start-here"
   weight = 30
 
-[[main]]
-  name = "books/"
-  url = "books"
-  weight = 35
+#[[main]]
+#  name = "books/"
+#  url = "books"
+#  weight = 35
 
 [[main]]
   name = "projects/"

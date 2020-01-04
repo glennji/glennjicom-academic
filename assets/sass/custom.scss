@@ -11,15 +11,21 @@ html {
   content: "";
 }
 
-.tag {
+.tags {
+  text-align: right;
+}
+
+.article-tags {
   margin-right: .5em;
+  font-size: small;
+  font-family: monospace;
 
   .lexicon-term-info .tag::before {
     content: "";
   }
 
   & a::before {
-    content: "asdf"
+    content: "# "
   }
 }
 

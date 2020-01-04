@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Cloud + Data Geek / Coder / Futurist
+role: Cloud + Data Geek / Coder / Futurist / Biohacker / Entrepreneur
 
 # Organizations/Affiliations
 #organizations:
@@ -18,14 +18,13 @@ role: Cloud + Data Geek / Coder / Futurist
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio:
+bio: 
 
 interests:
 - Computer Science
-- Artificial Intelligence
-- Robotics
-- Electronics
-- Futurism / Transhumanism / Posthumanism
+- "[Artificial Intelligence](notes/terms/artificial-intelligence)"
+- Robotics / Electronics / IoT
+- "Futurism / [Transhumanism](notes/terms/transhumanism) / Posthumanism"
 
 education:
   courses:
@@ -71,3 +70,4 @@ email: "glenn@glennji.com"
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups: []
 ---
+Read more [about me](/about)
