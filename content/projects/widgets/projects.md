@@ -3,7 +3,7 @@
 widget = "portfolio"
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+weight = 45 # Order that this section will appear.
 
 title = "Projects"
 subtitle = ""
@@ -65,7 +65,7 @@ subtitle = ""
   view = 3
 
   # For Showcase view, flip alternate rows?
-  flip_alt_rows = false
+  flip_alt_rows = true
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -94,4 +94,4 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
-I've been involved in many, many projects over the years. Here's a small selection of professional and hobby projects I've worked or am working on.
+I've done a bunch of projects over the years, but almost never remember to either write them up or keep a copy of the code. As such, this section is pretty bare (for now), but I am trying to fill it out with the new stuff I might work/play on.
