@@ -106,18 +106,31 @@
               </div>
 
 
-  {{/*        {{ $paginator := .Paginate .Data.Pages }}*/}}
-  {{/*        {{ range $paginator.Pages }}*/}}
-  {{/*            {{ if eq $.Params.view 1 }}*/}}
-  {{/*                {{ partial "li_list" . }}*/}}
-  {{/*            {{ else if eq $.Params.view 3 }}*/}}
-  {{/*                {{ partial "li_card" . }}*/}}
-  {{/*            {{ else }}*/}}
-  {{/*                {{ partial "li_compact" . }}*/}}
-  {{/*            {{ end }}*/}}
-  {{/*        {{ end }}*/}}
+      {{ partial "tags" . }}
 
-  {{/*        {{ partial "pagination" . }}*/}}
+      {{ if ne .Type "page" }}
+      {{ partial "page_author" . }}
+      {{ $related := site.RegularPages.Related . | first 5 }}
+      {{/*      {{ with $related }}*/}}
+      {{/*      <div class="article-widget">*/}}
+      {{/*        <div class="hr-light"></div>*/}}
+      {{/*        <h3>{{ i18n "related" }}</h3>*/}}
+      {{/*        <ul>*/}}
+        {{/*          {{ range . }}*/}}
+        {{/*          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>*/}}
+        {{/*          {{ end }}*/}}
+        {{/*        </ul>*/}}
+      {{/*      </div>*/}}
+      {{/*      {{ end }}*/}}
+      {{ end }}
+
+      {{ if site.Params.section_pager }}
+      <div class="article-widget">
+        {{ partial "section_pager" . }}
+      </div>
+      {{ end }}
+
+      {{ partial "comments" . }}
       </div> <!-- card-simple -->
     </div> <!-- universal-wrapper -->
 
