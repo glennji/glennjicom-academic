@@ -1,9 +1,23 @@
 {{- define "main" -}}
+{{ $page := . }}
+
 
 <div class="universal-wrapper">
   <article class="card-simple article article-project" itemscope itemtype="http://schema.org/Article">
 
     {{ partial "page_header.html" . }}
+
+    <div class="post-info">
+      <p>
+        {{ if .IsTranslated }}
+        | {{ i18n "postAvailable" }}
+        {{ range .Translations }}
+        <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+        {{ end}}
+        {{ end }}
+        {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+      </p>
+    </div>
 
     <div class="article-container">
       <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
@@ -32,6 +46,13 @@
         {{ .Content }}
         {{ end }}
       </div>
+
+
+      {{ partial "page_links_div.html" . }}
+
+      {{ partial "tags" . }}
+
+
 
       {{ $page := . }}
       {{ $project := .File.ContentBaseName }}
