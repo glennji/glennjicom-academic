@@ -24,24 +24,33 @@ article {
 }
 
 .article-header {
+  max-height: 13em;
+  overflow: hidden;
   position: relative; /* Required for caption positioning */
   clear: both;
 }
 
 .article-banner {
   width: 100%;
-  height: auto;
-  margin: auto;
+  min-width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.card-featured-image-wrapper {
+  max-height: 13em;
+  overflow: hidden;
 }
 
 .featured-image-wrapper {
-  position: relative;
+  max-height: 29em;
+  overflow: hidden;
   padding-left: 0; /* Override container padding. */
   padding-right: 0; /* Override container padding. */
+  height: 100%;
 }
 
 .featured-image {
-  position: flex;
   width: 100%;
   display: block;
   margin: 0 auto;
@@ -263,7 +272,7 @@ article .article-metadata {
 
 .author-card .card-text {
   color: rgba(0, 0, 0, 0.76);
-  font-size: 0.8rem;
+  //font-size: 0.8rem;
   margin-bottom: 4px;
 }
 

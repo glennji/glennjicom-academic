@@ -71,6 +71,8 @@ email: "glenn@glennji.com"
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups: []
+
+summary: Read more [about me](/about)
 ---
 
 {{< figure src="/images/little-me.png" class="floatright" >}}**Well this was unexpected: I'm in my 13th incarnation[^3]!**

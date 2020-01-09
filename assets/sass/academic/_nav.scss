@@ -108,6 +108,11 @@ nav#navbar-main li.nav-item {
   outline: 0;
 }
 
+.navbar {
+  min-height: 50px !important;
+  font-size: 10pt;
+}
+
 .navbar-light .navbar-nav>.open>a,
 .navbar-light .navbar-nav>.open>a:focus,
 .navbar-light .navbar-nav>.open>a:hover,
@@ -131,6 +136,7 @@ nav#navbar-main li.nav-item {
 @media screen and (max-width: 1200px) {
   .navbar {
     min-height: 50px !important;
+    font-size: 10pt;
   }
 
   .navbar-brand,
