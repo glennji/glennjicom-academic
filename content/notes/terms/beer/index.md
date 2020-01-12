@@ -1,5 +1,5 @@
 ---
-title: "Beer"
+title: "Craft beer"
 author: glennji
 date: 2019-05-05T23:06:44+10:00
 draft: false

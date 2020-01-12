@@ -14,17 +14,16 @@ I'm terrible at making time for non-directed research, play and practise -- aka 
  * writing/creating
  * playing
 * running
- * events
-  * London marathon
-  * Edinburgh marathon
-  * triathlon
-  * Ironman
-  * Kokoda trail
+    * London marathon
+    * Edinburgh marathon
+    * triathlon
+    * Ironman
+    * Kokoda trail
 * cycling
- * activities
-  * family tour
-  * adventure triathlon
- * get bike shipped from Bendigo
+   * activities
+    * family tour
+    * adventure triathlon
+   * get bike shipped from Bendigo
 * ham radio
 * astronomy
 * minatures (hobby modelling and painting)

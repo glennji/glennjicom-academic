@@ -1,13 +1,17 @@
 {{ $ := .root }}
 {{ $page := .page }}
+{{ $cols_css := "col-lg-16" }}
 
 <!-- Experience widget -->
 <div class="row">
-  <div class="col-12 col-lg-4 section-heading">
+  {{ if not (eq $page.Params.view 2) }}
+  {{ $cols_css = "col-lg-8" }}
+  <div class="col-16 col-lg-4 section-heading">
     <h1>{{ with $page.Title }}{{ . | markdownify }}{{ end }}</h1>
     {{ with $page.Params.subtitle }}<p>{{ . | markdownify }}</p>{{ end }}
   </div>
-  <div class="col-12 col-lg-8">
+  {{ end }}
+  <div class="col-16 {{ $cols_css }}">
     {{ with $page.Content }}{{ . }}{{ end }}
 
     {{ if $page.Params.experience }}
@@ -33,14 +37,14 @@
         <div class="card card-wide">
           {{ with .logo }}
           <div class="card-right">
-            <img src="images/logos/{{ . }}" class="logo" itemprop="image" alt="">
+            <img src="/images/logos/{{ . }}" class="logo" itemprop="image" alt="">
           </div>
           {{ end }}
           <div class="card-body">
-            <h4 class="card-title exp-title text-muted mt-0 mb-1">{{.title | markdownify | emojify}}</h4>
-            <h4 class="card-title exp-company text-muted my-0">
+            <h3 class="card-title exp-title text-muted mt-0 mb-1">{{.title | markdownify | emojify}}</h3>
+            <h3 class="card-title exp-company text-muted my-0">
               {{- with .company_url}}<a href="{{.}}" target="_blank" rel="noopener">{{end}}{{.company | markdownify | emojify}}{{with .company_url}}</a>{{end -}}
-            </h4>
+            </h3>
             <div class="text-muted exp-meta">
               {{ (time .date_start).Format ($page.Params.date_format | default "January 2006") }} –
               {{ if .date_end}}

@@ -36,7 +36,7 @@ slides: ""
 
 I worked for a "data discovery and analytics platform" company[^1] for a couple of years, and got to see first-hand the power of graph-based datastores for analysis, hypothesis-testing and pattern discovery. It truly was an example of intelligence amplification and allowed the analysts I worked with to work more effectively than ever.
 
-Since that day I've had a desire to map things out, to build a kind of mega-mindmap[^2]to really understand some of the more complex and complicated situations — ancient and modern history, the middle east, US politics, the powerful people behind every conspiracy theory imaginable...
+Since that day I've had a desire to map things out, to build a kind of mega-mindmap[^2] to really understand some of the more complex and complicated situations — ancient and modern history, the middle east, US politics, the powerful people behind every conspiracy theory imaginable...
 
 So I was quite happy to see that someone somewhere had started an opensource graph-based analysis suite of a similar sort. Unfortunately by the time I found it, it had become abandonware, moving from open- to (assumed) closed-source by the IP owner, who was then bought by another company, then again, renamed, _ad absurdum infinitum_. I grabbed the last opensource I could find and have started on the long journey to revive it.
 

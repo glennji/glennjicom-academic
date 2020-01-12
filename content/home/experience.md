@@ -104,9 +104,9 @@ I have built and run a deployment all the way from the initial scoping to hardwa
   """
 
 [cta]
-  url = "glenn-mason-engineering-manager.pdf"
-  label = "Download my full CV"
+  url = "/cv"
+  label = "Read More"
   icon_pack = "fas"
-  icon = "download"
+  icon = "dna"
 
 +++

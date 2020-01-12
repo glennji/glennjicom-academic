@@ -4,7 +4,8 @@
 title: "Picobrewery"
 subtitle: ""
 summary: ""
-authors: []
+authors: [glennji]
+crosslink: "true"
 tags: ["someday", "hobby", "hardware"]
 categories: []
 date: 2019-11-14T00:36:53+11:00
@@ -16,14 +17,11 @@ draft: false
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
+  caption: "Beer, glorious beer"
   focal_point: ""
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: []
 ---
+
+Oh man, this is cool: a benchtop brewery/brewing robot out of the US.
+
+Can I get one please? (Probably need to find our dream home first.)

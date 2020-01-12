@@ -3,7 +3,6 @@ title: The Chronofiles
 author: glennji
 type: post
 date: 2004-06-05T21:51:11+00:00
-url: /?p=16689
 featured_image: /wp-content/uploads/2016/08/BuckminsterFuller16x9.jpg
 categories:
   - Australia

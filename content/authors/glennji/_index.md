@@ -9,6 +9,8 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
+crosslink: "true"
+
 url: /about
 
 # Role/position
@@ -23,7 +25,8 @@ role: Cloud + Data Geek / Coder / Futurist / Biohacker / Entrepreneur
 bio: 
 
 interests:
-- Computer Science
+- Software Engineering
+- DevOps (Kubernetes)
 - "[Artificial Intelligence](notes/terms/artificial-intelligence)"
 - Robotics / Electronics / IoT
 - "Futurism / [Transhumanism](notes/terms/transhumanism) / Posthumanism"
@@ -44,7 +47,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: "mailto:glenn@glennji.com"
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/glennji
@@ -91,7 +94,7 @@ Somehow you've stumbled onto my (oft-ignored) website, and then have clicked on 
 
 (Yeah, I should probably update this, especially since I had a job interview once in which the lead engineer gave me a `vi` session and a problem statement and said "go for it".  No IDE? What are we, savages?)
 
-I've a long list of hobbies, including science-fiction novels, motorcycles, camping, software engineering, devops, craft beer & brewing, robotics/electronics and boardgames. I've travelled a few places, although there are plenty more things I'd like to try.
+I've a long list of hobbies, including science-fiction, motorcycles, camping, software engineering, devops, craft beer & brewing, robotics/electronics and boardgames. I've travelled a few places, although there are plenty more things I'd like to try.
 
 ***
 

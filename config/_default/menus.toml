@@ -14,6 +14,11 @@
   weight = 20
 
 [[main]]
+  name = "cv/"
+  url = "cv"
+  weight = 25
+
+[[main]]
   name = "notes/"
   url = "notes/start-here"
   weight = 30
@@ -29,9 +34,10 @@
   weight = 40
 
 [[main]]
-  name = "contact/"
+  name = "@contact"
   url = "contact"
   weight = 60
+
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

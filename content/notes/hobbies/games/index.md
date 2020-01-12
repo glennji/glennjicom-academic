@@ -6,7 +6,7 @@ draft: false
 type: note
 crosslink: "true"
 ---
-I like playing all sorts of games, even if I don't seem to find much time for playing them at the moment: board games, cards, table-top war games and video games alike. Of course, once we move into the Hack Street office I will have access to the Ultimate Arcade Machine.
+I like playing all sorts of games, even if I don't seem to find much time for playing them at the moment: boardgames, cards, table-top war games and video games alike. Of course, once we move into the Hack Street office I will have access to the Ultimate Arcade Machine.
 
 Games I consider "good" often combine different aspects, such as intellectual or coordination challenges, imagination and escapism. This page attempts to list the games I like playing, or things I would like to try, and serves as a mental reminder in case I find myself at a loss on a Friday or Saturday night.
 
@@ -34,19 +34,6 @@ Video game examples:
   * Xbox Original
   * SNES Classic
   * MAME
-
-We have a some boardgames:
-
-  - chess
-  - checkers
-  - dominoes
-  - backgammon
-  - Articulate!
-  - Would you rather?
-  - Kerplunk!
-  - Monopoly
-  - Mahjong
-  - Forbidden Island
 
 There are others I'd like to try:
 

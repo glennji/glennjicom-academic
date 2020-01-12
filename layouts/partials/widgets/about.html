@@ -18,14 +18,14 @@
 
 <!-- About widget -->
 <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
-  <div class="col-12 col-lg-4">
+  <div class="col-12 col-sm-4">
     <div id="profile">
 
-      {{ if (and site.Params.gravatar $person.email) }}
-      <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar">
-      {{ else if $avatar }}
+      {{ if $avatar }}
       {{ $avatar_image := $avatar.Fill "250x250 Center" }}
       <img class="portrait" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar">
+      {{ else if (and site.Params.gravatar $person.email) }}
+      <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar">
       {{ end }}
 
       <div class="portrait-title">
@@ -68,15 +68,38 @@
 
     </div>
   </div>
-  <div class="col-12 col-lg-8" itemprop="description">
+  <div class="col-12 col-sm-8" itemprop="description">
 
     {{/* Only display widget title in explicit instances of about widget, not in author pages. */}}
     {{ if and $page.Params.widget $page.Title }}<h1>{{ $page.Title | markdownify | emojify }}</h1>{{ end }}
 
-    {{ if $page.Params.widget }}
-    {{ $person_page.Params.summary | markdownify | emojify }}
+    {{ if $page.Params.bio }}
+      {{$page.Params.bio | markdownify}}
+    {{ else if $page.Params.widget }}
+      {{ $person_page.Params.summary | markdownify | emojify }}
     {{ else }}
-    {{ $person_page.Content }}
+      {{ if $person_page.Params.crosslink }}
+        {{ $related := $person_page.Site.RegularPages.RelatedIndices $person_page "crosslink" }}
+        {{ $person_page.Scratch.Set "content" $person_page.Content }}
+        {{ with $related }}
+          {{ range . }}
+            {{ $title := .Params.title }}
+            {{ $permalink := .Permalink }}
+
+            {{ $content := replaceRE (printf "(%s)/" (lower $title)) "meeeeeeeeeeeeeep" ($person_page.Page.Scratch.Get "content") }}
+            {{ $person_page.Page.Scratch.Set "content" $content }}
+
+            {{ $content := replaceRE (printf "(.*)\\b(%s|%s|%s)\\b" (lower $title) $title (title $title)) (printf "$1[$2](%s)" $permalink | markdownify ) ($person_page.Page.Scratch.Get "content") }}
+            {{ $person_page.Page.Scratch.Set "content" $content }}
+
+            {{ $content := replaceRE "meeeeeeeeeeeeeep" (printf "%s/" (lower $title)) ($person_page.Page.Scratch.Get "content") }}
+            {{ $person_page.Page.Scratch.Set "content" $content }}
+          {{ end }}
+        {{ end }}
+          {{ $person_page.Scratch.Get "content" | safeHTML }}
+      {{ else }}
+        {{ $person_page.Content }}
+      {{ end }}
     {{ end }}
 
     <div class="row">

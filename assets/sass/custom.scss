@@ -7,6 +7,35 @@ html {
   letter-spacing: 0.06em;
 }
 
+@media print {
+  html {
+    font-size: 12pt;
+  }
+  body {
+    font-size: 12pt;
+  }
+  .cta-btns {
+    display: none;
+  }
+  #back_to_top {
+    display: none;
+  }
+  .experience {
+    page-break-inside: avoid;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+  }
+  //@page {
+  //  size: A4;
+  //  margin: 10px;
+  //}
+}
+
+
 .post-info .tag::before, .lexicon-term-info .tag::before {
   content: "";
 }

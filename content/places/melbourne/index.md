@@ -6,10 +6,16 @@ draft: false
 type: note
 crosslink: "true"
 ---
-We lived, for a short time, at the base of the Dandenongs in the outskirts of Melbourne. We actually bought a house there (which we named "tinderbox" for its history as a victim of Black Friday, and an all-wood home in a forest) and moved up to Canberra, then inner-west Sydney. We wanted the house to be our <em>ancestral home</em>, a place to grow a family and get old and all that. It wasn't to be.
+We lived for a relatively short time at the base of the Dandenongs in the outskirts of Melbourne. We actually bought a house[^1] there, before moving up to Canberra, then Inner-west Sydney. We wanted the house to be our <em>ancestral home</em>, a place to grow a family and get old and all that. It wasn't to be.
+
 Whilst we eventually sold the place (for a loss!), it gave us some ideas about our dream home and also practise at renovation -- even if I now feel like it was basically Dee who did all the work.
-I don't think <a href="http://glennji.com/lexicon/where-should-we-live/">we want to live</a> on the outskirts again -- it's either the <a href="http://glennji.com/lexicon/inner-west-sydney/">city proper</a> or <a href="http://glennji.com/lexicon/otway-coast/">way out in the country</a>.
+
+I don't think we want to live on the outskirts again -- it's either the city proper or way out in the country on the Otway Coast.
+
 The following lists are my thoughts and plans for Baker Street. Some of these at least should make it into our dream home.
+
+[^1]: ... which we named "tinderbox" for its history as a victim of Black Friday, and an all-wood home in a forest)
+
 <div class="entry-content">
 <h2>Baker Street</h2>
 <ul>

@@ -23,6 +23,7 @@
   background: #fff;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
   transition: all 0.2s ease-out;
+  page-break-inside: avoid;
 }
 
 .card-wide {
@@ -38,19 +39,19 @@
   min-height: 100px;
 }
 
-.card h4 {
+.card h3 {
   //font-size: 0.9rem;
   font-weight: 700;
   line-height: 1.5;
   text-transform: uppercase;
 }
 
-.card h4 a {
+.card h3 a {
   color: #000;
   border-bottom: solid 1px transparent;
 }
 
-.card h4 a:hover {
+.card h3 a:hover {
   color: #000;
   border-bottom: solid 1px #000;
   text-decoration: none;
