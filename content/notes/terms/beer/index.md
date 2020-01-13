@@ -1,6 +1,6 @@
 ---
 title: "Craft beer"
-author: glennji
+authors: [glennji]
 date: 2019-05-05T23:06:44+10:00
 draft: false
 type: note
@@ -23,4 +23,4 @@ I'd like to try brewing. Hell, I'd like to grow all my own ingredients and THEN 
 
 ### femto-brewery
 
-How might I build a nano-brewery? Or a [pico-brewery](/projects/picobrewery)? Or, hell, _femto??_ To start with, I should should experiment with "consumer" brewing kits. (A few days ago I had a daydream -- opening a bar and nano-brewery in Paris, to share delicious Australian craft beer with the Parisians. Something completely different from IT. I also looked up horse-riding places for Dee!)
+How might I build a nano-brewery? Or a picobrewery? Or, hell, _femto??_ To start with, I should should experiment with "consumer" brewing kits. (A few days ago I had a daydream -- opening a bar and nano-brewery in Paris, to share delicious Australian craft beer with the Parisians. Something completely different from IT. I also looked up horse-riding places for Dee!)

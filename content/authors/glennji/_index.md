@@ -25,11 +25,11 @@ role: Cloud + Data Geek / Coder / Futurist / Biohacker / Entrepreneur
 bio: 
 
 interests:
-- Software Engineering
-- DevOps (Kubernetes)
-- "[Artificial Intelligence](notes/terms/artificial-intelligence)"
-- Robotics / Electronics / IoT
-- "Futurism / [Transhumanism](notes/terms/transhumanism) / Posthumanism"
+- Software Engineering / DevOps
+- Kubernetes
+- "[Artificial Intelligence](/notes/terms/artificial-intelligence)"
+- Robotics / Electronics
+- "Futurism / [Transhumanism](/notes/terms/transhumanism)"
 
 education:
   courses:
