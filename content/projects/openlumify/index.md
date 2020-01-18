@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Open Lumify"
+title: "Openlumify"
 subtitle: ""
 summary: ""
 authors: [glennji]

@@ -39,8 +39,9 @@ There are a couple of interesting things we can do with these models now:
 
 1. GraphQL
 2. JSON schema form rendering
-3. Programmatic mappers
 3. Reactive REST
+4. Reactive Message handling
+5. Mapping
 
 ## GraphQL
 As mentioned, the system manipulates a number of "entities": users, companies, securities, participants, etc. We've built a Java-based microservice that provides a GraphQL API for the query and mutation of each of these using a library called `graphql-spqr`.
@@ -49,7 +50,41 @@ With `graphql-spqr`, we simply annotate some Spring components: `@GraphQLApi` on
 
 ## JSON schema form rendering
 
+## Reactive REST (Webflux)
 
-## Programmatic mappers
+## Reactive message handling (RxJava)
 
-## Reactive REST
+The ledger provides us with a number of "clients" which are implemented with RxJava and allow for non-blocking, reactive stream processing — we are particularly concerned with the `CommandClient` and the `TransactionClient`.
+
+* `CommandClient` allows messages to be submitted to the ledger.
+*  `TransactionClient` allows us to receive a (filtered) stream of transactions
+
+Transactions contain events representing changes on the ledger, and as the clients are reactive it is reasonably easy to filter, map and process the streams themselves.
+
+When an endpoint is called that requests a particular ledger activity, we have a few things to do:
+
+1. Construct an appropriate call to the ledger, including a `messageId` that allows for correlation
+2. Connect a "listener" to the transaction stream that is waiting for any matching "response" messages
+3. Submit the call to the ledger
+4. Receive a matching "response" message and decode it.
+
+For now, the transaction stream "listener" will forward the (decoded) response message to the initiating user via a reactive REST endpoint (`/onNotification`), which in turn is used to drive a GraphQL subscription endpoint of the same name. In the near future, we will need to persist and manage notifications in such a way as to allow users to e.g. submit requests, log out, change machines, reconnect.
+
+## Mapping
+
+One of the ways the ledger communicates is via ISO20022-like messages. These are represented by corresponding protobuf types, which are converted into Java classes that we use via a "client stub" library i.e. JAR.
+
+In order to keep things together (i.e. the principle of encapsulation), we have created a set of `CommandSet` classes for each model type: `EntityCommandSet`, `ParticipantCommandSet`, etc. Each of these implements:
+
+1. Submission methods (`create()`, `update()` and/or `delete()`) - returns a `List<Command>` containing the appropriate ISO-like message hierarchies to perform the action. This list is submitted to the ledger via a non-consuming contract.
+2. Response handler - Each message that is submitted has a set of possible response messages, which represent e.g. "success", "failure" or "deferred". As mentioned, after we submit we "watch" the outgoing transaction stream looking for related messages. When found, they are passed to the message handler function which decodes them into a message (`CommandStatus`) for the front-end.
+
+Unfortunately, ISO20022's XML structure leads to deeply nested object trees which we need to both construct (when submitting messages) and unpack (when processing the outcome). This isn't particularly pretty code, and is definitely something that I'd love to revisit, but in the meantime it means that we have a lot of message-specific handling in each `CommandSet` class.
+
+Further, some (most?) messages can be used to create/update/delete different underlying types, so there is an amount of duplication required for both submission and handling.
+
+In summary, this means that each "type" that we wish to manipulate will require a `CommandSet` subclass that knows everything about the ISO messages, and is regretably "brittle":
+
+* Should the ISO message itself change (e.g. ledger version upgrade), the `CommandSet` for each type that uses the message will also need to be changed. 
+* Should the ledger API change which messages are being used, the `CommandSet` will also need to be changed
+* If the meaning of fields or location of particular data inside an ISO message changes, the `CommandSet` for each type will need to be updated correspondingly.
