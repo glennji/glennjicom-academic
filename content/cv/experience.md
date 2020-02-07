@@ -12,7 +12,7 @@ subtitle = ""
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
 # <!--  padding = ["0", "200px", "20px", "280px"]-->
-  padding = ["0", "12em", "20px", "12em"]
+  padding = ["0", "7em", "20px", "7em"]
 
 [design.background]
   # Apply a background color, gradient, or image.
