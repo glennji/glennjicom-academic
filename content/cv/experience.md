@@ -151,7 +151,7 @@ improved resilience
   """
 
 [cta]
-  url = "CV%20-%20Glenn%20J.%20Mason.pdf"
+  url = "glenn-mason-engineering-manager.pdf"
   label = "Download PDF"
   icon_pack = "fas"
   icon = "download"
