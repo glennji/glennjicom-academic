@@ -3,7 +3,7 @@ title: A vicious cycle
 author: glennji
 type: post
 date: 2012-09-26T11:07:36+00:00
-url: /?p=702
+#url: /?p=702
 featured_image: /wp-content/uploads/2012/09/wpid-1348656554088.jpg
 categories:
   - Uncategorized

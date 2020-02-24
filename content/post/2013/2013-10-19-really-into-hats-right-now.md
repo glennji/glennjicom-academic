@@ -3,7 +3,7 @@ title: Really into hats right now.
 author: glennji
 type: post
 date: 2013-10-19T00:46:40+00:00
-url: /?p=1068
+#url: /?p=1068
 featured_image: /wp-content/uploads/2013/10/1374911_10151656567170741_178040008_n.jpg
 categories:
   - Uncategorized

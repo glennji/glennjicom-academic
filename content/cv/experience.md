@@ -45,9 +45,9 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "[Engineering Practice Lead (Cloud & DevOps)](/experience/engineering-practice-lead/)"
+  title = "Engineering Practice Lead"
   company = "Industrie&Co"
-  company_url = "https://industrie.co/"
+  company_url = ""
   logo = "ico.png"
   location = "Sydney"
   date_start = "2016-02-01"
@@ -55,9 +55,9 @@ date_format = "Jan 2006"
 _Delivering faster, easier, scalable and secure software solutions for start-ups, disruptors and technology companies, whilst helping make our engineering practice the best in the world. I&Co is a technology venturing company, forging partnerships with our
 clients to deliver cutting-edge solutions._
 
-Engineering is in my DNA, with a long history of software development, cloud-focused devops and agile practices, and I bring experience and near-limitless enthusiasm to the difficult problems facing organisations and entrepreneurs today.
+Engineering is in my DNA, with a long history of polyglot software development (Java, Python, Go, etc), cloud-focused devops and agile practices, and I bring experience and near-limitless enthusiasm to the difficult problems facing organisations and entrepreneurs today.
 
-I have completed short and long-term engagements, with clients including the **ASX**, **Atlassian**, **CompareAsia** and **Westpac Databank**.
+I have completed short and long-term engagements, primarily in Python and Java, with clients including the **ASX**, **Atlassian**, **CompareAsia** and **Westpac Databank**.
   """
 
 [[experience]]
@@ -69,7 +69,7 @@ I have completed short and long-term engagements, with clients including the **A
   date_start = "2018-08-01"
   date_end = "2019-02-01"
   description = """
-As the technical team lead, I helped set the direction of the Cloud Platforms team. We provide robust and intelligent platform solutions to empower barrier-free development and innovation for our internal customers at Domain. Whilst with Domain I was able to:
+As the technical team lead, I helped set the direction of the Cloud Platforms team. We provide robust and intelligent platform solutions to empower barrier-free development and innovation for our internal customers at Domain for a wide range of technologies including Python, .NET, React and native mobile. Whilst with Domain I was able to:
 
 * Implement the Kubernetes-based platform consisting of several purpose-built clusters running on EC2
 * Drive a number of initiatives focused on developer experience, configuration management and “SlackOps” (self-service)
@@ -78,7 +78,7 @@ As the technical team lead, I helped set the direction of the Cloud Platforms te
   """  
 
 [[experience]]
-  title = "Senior Software Lead"
+  title = "Senior Software Lead (Python)"
   company = "RoZetta Technology"
   company_url = ""
   logo = "rozetta.jpeg"
@@ -88,7 +88,7 @@ As the technical team lead, I helped set the direction of the Cloud Platforms te
   description = """
 Applying effective analysis, design, programming and testing skills to produce software systems, while assisting with the technical direction of projects.
 
-As a senior software engineer and lead, I have been responsible for requirements analysis, design and implementation of distributed, cloud-based (Amazon AWS) software systems, mostly in Python. I have also line-managed four technical resources, and provided technical guidance and leadership across the life of a project.
+As a senior software engineer and lead, I have been responsible for requirements analysis, design and implementation of distributed Python software into AWS. I have also line-managed  a team of engineers and provided technical guidance and leadership across the life of a project.
   """
 
 [[experience]]
@@ -108,7 +108,7 @@ As a forward-deployed engineer, it was  my job to solve “the world’s hardest
 * Develop data integrations, customisations to the Palantir platform and entirely new services using the best possible technology available
 * Independently break down and solve complex client problems with little direction
 
-I have built and run a deployment all the way from the initial scoping to hardware installation, system integration, custom code and ongoing maintenance, using a combination of Java, Oracle, Elasticsearch, Cassandra and Gradle.
+I have built and run a deployment all the way from the initial scoping to hardware installation, system integration, custom code and ongoing maintenance, using a combination of Python, Java, Oracle, Elasticsearch, Cassandra and Gradle.
 
   """
 
@@ -124,7 +124,7 @@ I have built and run a deployment all the way from the initial scoping to hardwa
 In an era before “DevOps”, my team and I provided that essential function
 to development teams around the world. I was responsible for:
 
- *  Deploying services and applications to test and production
+ * Deploying services and applications to test and production
  * Publishing packages and libraries for fostering re-use
  * Building and supporting the build and support systems
  * Proving a cloud-based deployment to Amazon EC2 and RDS
@@ -132,7 +132,7 @@ to development teams around the world. I was responsible for:
   """
 
 [[experience]]
-  title = "Software Configuration Manager"
+  title = "Software Engineer (Support & Delivery)"
   company = "Royal Bank of Scotland"
   company_url = ""
   logo = "rbs.png"
@@ -148,6 +148,18 @@ applications
  * Implementation of continuous integration (Hudson)
  * Proactive system monitoring and the development of patches for
 improved resilience
+  """
+
+[[experience]]
+  title = "Tech Lead"
+  company = "GUI Computing"
+  company_url = ""
+  logo = "gui.png"
+  location = "Melbourne"
+  date_start = "2003-06-01"
+  date_end = "2005-06-01"
+  description = """
+As the lead developer for the new GUI Java team it was my responsibility to design and implement the full Java development environment, from version control (CVS) and the build system (Apache Ant, Cruise-Control) through to development best-practises such as code reviews.
   """
 
 [cta]

@@ -3,7 +3,7 @@ title: Late start for me, and Im going paleo/4HB for the rest of the year!
 author: glennji
 type: post
 date: 2013-10-27T02:10:50+00:00
-url: /?p=1092
+#url: /?p=1092
 featured_image: /wp-content/uploads/2013/10/1378898_10151671168180741_1502581866_n.jpg
 categories:
   - Uncategorized

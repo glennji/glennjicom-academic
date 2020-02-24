@@ -3,7 +3,7 @@ title: Beach comber.
 author: glennji
 type: post
 date: 2013-10-25T23:13:34+00:00
-url: /?p=1080
+#url: /?p=1080
 featured_image: /wp-content/uploads/2013/10/1375839_10151669037980741_1844392042_n.jpg
 categories:
   - Uncategorized

@@ -4,7 +4,7 @@ author: glennji
 type: post
 date: 2015-04-06T14:18:10+00:00
 draft: true
-url: /?p=14934
+#url: /?p=14934
 featured_image: /wp-content/uploads/2015/03/blog1.jpg
 fg_temp_metadata:
   - 7181,7192

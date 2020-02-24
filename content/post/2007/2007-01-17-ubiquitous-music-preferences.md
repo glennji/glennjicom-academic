@@ -3,7 +3,7 @@ title: Ubiquitous music preferences
 author: glennji
 type: post
 date: 2007-01-17T08:26:36+00:00
-url: /?p=13044
+#url: /?p=13044
 featured_image: /wp-content/uploads/2018/01/57981160_6458b4b9df_b.jpg
 categories:
   - Technology

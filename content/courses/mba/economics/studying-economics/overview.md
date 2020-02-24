@@ -3,15 +3,18 @@ title: "Studying Economics"
 date: 2019-08-14T14:27:59+10:00
 authors: [glennji]
 draft: false
-type: note
-
-# layout: quote, tweet, profile ... ?
-
+toc: true  # Show table of contents? true/false
+type: docs  # Do not modify.
 crosslink: "true"
 categories:
   - Economics
 tags:
   - studying
+menu:
+  mba:
+    parent: Economics
+    weight: 71
+weight: 7001
 ---
 ## Why study economics?
 It's a good question, and one I'd like to be able to answer with something better than "it's part of my schoolwork". I do think that understanding more about the forces and principles at play in these critical systems is useful: expanding my mind, informing decisions.  Isn't that the whole point of the MBA?

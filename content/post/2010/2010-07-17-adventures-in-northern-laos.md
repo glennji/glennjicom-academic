@@ -3,7 +3,7 @@ title: Adventures in Northern Laos
 author: glennji
 type: post
 date: 2010-07-17T07:11:44+00:00
-url: /?p=494
+#url: /?p=494
 aktt_notify_twitter:
   - no
 categories:

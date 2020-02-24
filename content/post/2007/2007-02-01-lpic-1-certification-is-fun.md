@@ -3,7 +3,7 @@ title: LPIC-1 – Certification is fun!
 author: glennji
 type: post
 date: 2007-02-01T00:51:22+00:00
-url: /?p=13065
+#url: /?p=13065
 featured_image: /wp-content/uploads/2007/02/maxresdefault.jpg
 categories:
   - Technology

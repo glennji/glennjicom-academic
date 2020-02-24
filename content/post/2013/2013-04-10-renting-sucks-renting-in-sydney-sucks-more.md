@@ -3,7 +3,7 @@ title: Renting sucks; Renting in Sydney sucks more
 author: glennji
 type: post
 date: 2013-04-10T04:18:21+00:00
-url: /?p=799
+#url: /?p=799
 featured_image: /wp-content/uploads/2013/04/575353_10151369083120741_1470133286_n.jpg
 categories:
   - Australia

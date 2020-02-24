@@ -4,7 +4,7 @@ author: glennji
 type: post
 date: 2016-07-25T04:21:29+00:00
 excerpt: Today we spent over 20 minutes in traffic to go the 1 kilometre from home to preschool — it’s time to start looking for a house on the other side of Parramatta Road again.
-url: /?p=15672
+#url: /?p=15672
 featured_image: /wp-content/uploads/2016/07/1469420461_featured.jpeg
 categories:
   - Australia

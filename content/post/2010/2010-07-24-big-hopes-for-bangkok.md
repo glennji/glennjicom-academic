@@ -3,7 +3,7 @@ title: Big hopes for Bangkok
 author: glennji
 type: post
 date: 2010-07-24T13:42:12+00:00
-url: /?p=515
+#url: /?p=515
 featured_image: /wp-content/uploads/2010/07/4861868012_efc48f5e19_b.jpg
 aktt_notify_twitter:
   - no

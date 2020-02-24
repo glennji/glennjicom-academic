@@ -3,7 +3,7 @@ title: Remembering the now
 author: glennji
 type: post
 date: 2007-11-01T13:58:40+00:00
-url: /?p=202
+#url: /?p=202
 featured_image: /wp-content/uploads/2018/01/57981160_6458b4b9df_b.jpg
 aktt_notify_twitter:
   - no

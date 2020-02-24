@@ -3,7 +3,7 @@ title: Dees birthday extravaganza 2 — Duck, duck, goose!
 author: glennji
 type: post
 date: 2007-12-19T12:41:05+00:00
-url: /?p=177
+#url: /?p=177
 aktt_notify_twitter:
   - no
 categories:

@@ -3,7 +3,7 @@ title: I wish the in-mates WERE running the asylum
 author: glennji
 type: post
 date: 2007-07-11T22:43:03+00:00
-url: /?p=258
+#url: /?p=258
 aktt_notify_twitter:
   - no
 categories:

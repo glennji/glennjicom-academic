@@ -3,7 +3,7 @@ title: Gear-less weekend
 author: glennji
 type: post
 date: 2007-03-16T07:54:24+00:00
-url: /?p=13076
+#url: /?p=13076
 categories:
   - Uncategorized
 

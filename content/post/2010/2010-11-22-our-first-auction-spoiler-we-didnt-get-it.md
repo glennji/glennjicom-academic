@@ -3,7 +3,7 @@ title: "Our first auction (spoiler: we didnt get it)"
 author: glennji
 type: post
 date: 2010-11-22T06:58:04+00:00
-url: /?p=544
+#url: /?p=544
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

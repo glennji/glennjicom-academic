@@ -3,7 +3,7 @@ title: Blink!  Were in London!
 author: glennji
 type: post
 date: 2007-07-11T22:34:55+00:00
-url: /?p=253
+#url: /?p=253
 aktt_notify_twitter:
   - no
 categories:

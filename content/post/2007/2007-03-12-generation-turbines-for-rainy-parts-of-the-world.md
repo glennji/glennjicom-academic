@@ -3,7 +3,7 @@ title: Generation Turbines for rainy parts of the world
 author: glennji
 type: post
 date: 2007-03-12T23:47:44+00:00
-url: /?p=286
+#url: /?p=286
 featured_image: /wp-content/uploads/2007/03/gettyimages-1036933720-612x612.jpg
 aktt_notify_twitter:
   - no

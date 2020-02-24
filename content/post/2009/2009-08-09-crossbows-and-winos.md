@@ -3,7 +3,7 @@ title: Crossbows and winos
 author: glennji
 type: post
 date: 2009-08-09T22:10:15+00:00
-url: /?p=54
+#url: /?p=54
 aktt_notify_twitter:
   - no
 categories:

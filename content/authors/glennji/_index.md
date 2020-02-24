@@ -22,14 +22,13 @@ role: Cloud + Data Geek / Coder / Futurist / Biohacker / Entrepreneur
 #  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
-- "Software Engineering / [DevOps](/notes/terms/devops)"
-- "[Kubernetes](/notes/terms/kubernetes)"
-- "[Artificial Intelligence](/notes/terms/artificial-intelligence)"
-- Robotics / Electronics
-- "Futurism / [Transhumanism](/notes/terms/transhumanism)"
+- "Dev: [Python](/notes/terms/python), Java, React"
+- "[DevOps](/notes/terms/devops) / [Kubernetes](/notes/terms/kubernetes)"
+- "Big Data / [AI](/notes/terms/artificial-intelligence)"
+- "Robotics & [Transhumanism](/notes/terms/transhumanism)"
 
 education:
   courses:

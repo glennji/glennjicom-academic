@@ -3,7 +3,7 @@ title: "Wee swally while watching the fireworks. I love this beer: unlike any ot
 author: glennji
 type: post
 date: 2013-12-31T10:14:59+00:00
-url: /?p=1193
+#url: /?p=1193
 featured_image: /wp-content/uploads/2013/12/1486827_10151805501630741_1297627425_n.jpg
 categories:
   - Uncategorized

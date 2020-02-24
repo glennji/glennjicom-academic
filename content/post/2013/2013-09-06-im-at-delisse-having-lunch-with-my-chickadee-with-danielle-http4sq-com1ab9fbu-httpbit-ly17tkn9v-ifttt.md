@@ -3,7 +3,7 @@ title: "Im at delisse! Having lunch with my chickadee. — with Danielle http://
 author: glennji
 type: post
 date: 2013-09-06T02:34:16+00:00
-url: /?p=1010
+#url: /?p=1010
 featured_image: /wp-content/uploads/2013/09/603089_10151580613725741_79994217_n.jpg
 categories:
   - Uncategorized

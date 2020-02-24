@@ -3,7 +3,7 @@ title: Nos ancestres les Gaulois
 author: glennji
 type: post
 date: 2010-06-02T20:57:54+00:00
-url: /?p=413
+#url: /?p=413
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

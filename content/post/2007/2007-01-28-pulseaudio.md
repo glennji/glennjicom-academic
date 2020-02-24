@@ -3,7 +3,7 @@ title: PulseAudio
 author: glennji
 type: post
 date: 2007-01-28T11:41:13+00:00
-url: /?p=13062
+#url: /?p=13062
 featured_image: /wp-content/uploads/2007/01/pavucontrol.png
 categories:
   - Technology

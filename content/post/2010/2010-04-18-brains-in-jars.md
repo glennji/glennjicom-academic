@@ -3,7 +3,7 @@ title: Brains in jars
 author: glennji
 type: post
 date: 2010-04-18T10:11:56+00:00
-url: /?p=354
+#url: /?p=354
 featured_image: /wp-content/uploads/2010/04/image.jpg
 aktt_notify_twitter:
   - no

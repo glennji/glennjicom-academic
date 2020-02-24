@@ -3,7 +3,7 @@ title: Vampires have more fun
 author: glennji
 type: post
 date: 2007-03-18T22:53:55+00:00
-url: /?p=262
+#url: /?p=262
 aktt_notify_twitter:
   - no
 categories:

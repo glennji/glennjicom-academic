@@ -3,7 +3,7 @@ title: Is it Friday yet??
 author: glennji
 type: post
 date: 2008-09-26T13:16:07+00:00
-url: /?p=142
+#url: /?p=142
 featured_image: /wp-content/uploads/2008/09/2929340256_eaf3582d85_o-e1532494245894.jpg
 aktt_notify_twitter:
   - no

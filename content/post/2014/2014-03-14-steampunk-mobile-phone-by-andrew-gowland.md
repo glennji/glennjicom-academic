@@ -3,7 +3,7 @@ title: Steampunk Mobile Phone by Andrew Gowland
 author: glennji
 type: post
 date: 2014-03-13T20:52:58+00:00
-url: /?p=1384
+#url: /?p=1384
 featured_image: /wp-content/uploads/2014/03/1896911_10151932156770741_399852630_n.jpg
 categories:
   - Uncategorized

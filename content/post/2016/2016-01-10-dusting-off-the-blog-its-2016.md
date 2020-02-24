@@ -3,7 +3,7 @@ title: "Dusting off the ‘blog: It’s 2016!"
 author: glennji
 type: post
 date: 2016-01-10T12:46:01+00:00
-url: /?p=15479
+#url: /?p=15479
 featured_image: /wp-content/uploads/2016/01/23923823109_9a6f0b86b0_k-1568x1045.jpg
 slide_template:
   - default

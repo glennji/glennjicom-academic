@@ -3,7 +3,7 @@ title: .. and I got a new singer and I got a new SONG! Doo-doo-do-doooo.
 author: glennji
 type: post
 date: 2007-07-27T08:32:03+00:00
-url: /?p=217
+#url: /?p=217
 aktt_notify_twitter:
   - no
 categories:

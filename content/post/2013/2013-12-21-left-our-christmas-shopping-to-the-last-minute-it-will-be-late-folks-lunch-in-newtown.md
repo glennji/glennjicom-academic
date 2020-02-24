@@ -3,7 +3,7 @@ title: Left our Christmas shopping to the last minute – it will be late, folks
 author: glennji
 type: post
 date: 2013-12-21T01:59:39+00:00
-url: /?p=1165
+#url: /?p=1165
 featured_image: /wp-content/uploads/2013/12/1535501_10151786965005741_1586945074_n.jpg
 categories:
   - Uncategorized

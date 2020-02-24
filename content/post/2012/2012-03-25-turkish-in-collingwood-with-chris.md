@@ -3,7 +3,7 @@ title: Turkish in Collingwood with Chris
 author: glennji
 type: post
 date: 2012-03-25T01:55:36+00:00
-url: /?p=682
+#url: /?p=682
 categories:
   - Uncategorized
 

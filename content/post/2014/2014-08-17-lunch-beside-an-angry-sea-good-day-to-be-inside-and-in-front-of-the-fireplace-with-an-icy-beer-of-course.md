@@ -3,7 +3,7 @@ title: Lunch beside an angry sea; good day to be inside and in front of the fire
 author: glennji
 type: post
 date: 2014-08-17T04:45:24+00:00
-url: /?p=7354
+#url: /?p=7354
 categories:
   - Uncategorized
 draft: true

@@ -3,7 +3,7 @@ title: "Im at Vella Nero! I think Ive found my new favourite coffee place! (Blac
 author: glennji
 type: post
 date: 2013-10-17T01:03:37+00:00
-url: /?p=1056
+#url: /?p=1056
 featured_image: /wp-content/uploads/2013/10/1383934_10151653174040741_630841547_n.jpg
 categories:
   - Uncategorized

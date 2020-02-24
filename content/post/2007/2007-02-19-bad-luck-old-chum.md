@@ -3,7 +3,7 @@ title: Bad luck old chum
 author: glennji
 type: post
 date: 2007-02-19T11:59:31+00:00
-url: /?p=13085
+#url: /?p=13085
 featured_image: /wp-content/uploads/2007/02/maxresdefault.jpg
 categories:
   - Technology

@@ -3,7 +3,7 @@ title: If you cage the beast, the beast will get angry
 author: glennji
 type: post
 date: 2013-12-31T06:44:05+00:00
-url: /?p=1190
+#url: /?p=1190
 featured_image: /wp-content/uploads/2013/12/1532115_10151805351905741_645997286_n.jpg
 categories:
   - Uncategorized

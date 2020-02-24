@@ -3,7 +3,7 @@ title: "Strasbourg: Meet the meat (and more photos)"
 author: glennji
 type: post
 date: 2010-06-05T18:11:19+00:00
-url: /?p=429
+#url: /?p=429
 aktt_notify_twitter:
   - no
 categories:

@@ -3,7 +3,7 @@ title: Ya! Heading HOME! A mostly productive day.
 author: glennji
 type: post
 date: 2013-08-06T07:53:32+00:00
-url: /?p=966
+#url: /?p=966
 featured_image: /wp-content/uploads/2013/08/1002599_10151525895890741_732285500_n.jpg
 categories:
   - Uncategorized

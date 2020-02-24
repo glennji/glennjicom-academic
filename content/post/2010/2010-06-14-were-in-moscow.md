@@ -3,7 +3,7 @@ title: Were in Moscow!
 author: glennji
 type: post
 date: 2010-06-14T11:20:57+00:00
-url: /?p=472
+#url: /?p=472
 aktt_notify_twitter:
   - no
 categories:

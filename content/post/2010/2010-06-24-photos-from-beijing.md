@@ -3,7 +3,7 @@ title: Photos from Beijing
 author: admin
 type: post
 date: 2010-06-24T10:09:37+00:00
-url: /?p=489
+#url: /?p=489
 aktt_notify_twitter:
   - no
 categories:

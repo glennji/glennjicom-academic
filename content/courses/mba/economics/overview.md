@@ -11,7 +11,8 @@ toc: false
 menu:
   mba:
     name: Economics
-    weight: 12
+    weight: 7
+weight: 7000
 ---
 **Economics** (from Greek _oikonomos_, for one who manages the household) is the study of the production, distribution and consumption of goods and services, focusing on the behaviour and interaction of _economic agents_ and economies themselves. It almost always assumes _scarcity_ of some resource or another, although post-scarcity economics could be interesting to think about.
 

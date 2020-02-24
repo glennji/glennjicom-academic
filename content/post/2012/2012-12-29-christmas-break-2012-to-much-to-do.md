@@ -7,7 +7,7 @@ excerpt: |
   It feels like a long week, and a short one simultaneously. We're planning to have a proper holiday in 2013, perhaps over to Perth to explore Margaret River, but in the meantime I feel like 2012 has just been go, Diego, go!
   Even this "break": we left Canberra last Saturday (was it really only a week ago?), after dropping off Lucy to the kennels, driving down to Beechworth for a couple of nights in the Indigo Cottage there. It was nice: a beautiful old house, with air-conditioning to hold back the heatwave and broadband so we could do a bunch of system updates. Jules crawled around exploring, we went for walks, Dee put together a great little grazing platter ... just relaxing, unwinding as best we could in a short time.
   We had things to unwind from, too...
-url: /?p=736
+#url: /?p=736
 featured_image: /wp-content/uploads/2012/12/IMG_1687.jpg
 categories:
   - Australia

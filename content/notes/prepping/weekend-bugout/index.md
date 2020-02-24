@@ -4,6 +4,7 @@ author: glennji
 date: 2019-05-15T17:38:24+10:00
 draft: false
 type: note
+categories: [Bugout]
 crosslink: "true"
 ---
 <div>This is the bag I will have packed, ready for us to go away for an impromptu weekend at an AirBNB, hotel or caravan park. I'm still thinking this through ...</div>

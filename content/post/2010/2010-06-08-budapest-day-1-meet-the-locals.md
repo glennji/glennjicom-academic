@@ -3,7 +3,7 @@ title: "Budapest, Day 1: Meet the locals"
 author: glennji
 type: post
 date: 2010-06-08T09:10:16+00:00
-url: /?p=449
+#url: /?p=449
 featured_image: /wp-content/uploads/2010/06/p1020054jpg_4689796769_o-1568x1176.jpg
 aktt_notify_twitter:
   - yes

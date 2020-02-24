@@ -3,7 +3,7 @@ title: Time for a haircut!
 author: glennji
 type: post
 date: 2013-05-20T04:59:36+00:00
-url: /?p=930
+#url: /?p=930
 featured_image: /wp-content/uploads/2013/05/971295_10151398336885741_359020316_n.jpg
 categories:
   - Uncategorized

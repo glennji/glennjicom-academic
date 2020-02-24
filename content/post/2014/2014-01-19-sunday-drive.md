@@ -3,7 +3,7 @@ title: Sunday drive.
 author: glennji
 type: post
 date: 2014-01-19T08:40:26+00:00
-url: /?p=1239
+#url: /?p=1239
 featured_image: /wp-content/uploads/2014/01/1559638_10151841175585741_881391533_n.jpg
 categories:
   - Uncategorized

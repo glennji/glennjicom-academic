@@ -51,13 +51,15 @@ ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "
   about = [ "HTML", "RSS", "JSON" ]
   section = [ "HTML", "RSS" ]
 
-# Configure BlackFriday Markdown rendering.
-#   See: https://gohugo.io/getting-started/configuration/#configure-blackfriday
-[blackfriday]
-  hrefTargetBlank = false  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
-	angledQuotes = false
-	latexDashes = true
-  extensions = ["backslashLineBreak"]
+[markup]
+#  defaultMarkdownHandler = "blackFriday"
+#  [markup.blackFriday]
+#    hrefTargetBlank = false  # `true` opens external links in a new tab. See https://github.com/gohugoio/hugo/issues/2424
+#    angledQuotes = false
+#    latexDashes = true
+#    extensions = ["backslashLineBreak"]
+  [markup.goldmark.renderer]
+  unsafe = true
 
 [imaging]
   resampleFilter = "lanczos"

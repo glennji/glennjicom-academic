@@ -4,7 +4,7 @@ author: glennji
 type: post
 date: 2013-08-01T12:27:40+00:00
 draft: true
-url: /?p=957
+#url: /?p=957
 featured_image: /wp-content/uploads/2013/08/603314_10151517420435741_579763309_n.jpg
 categories:
   - Uncategorized

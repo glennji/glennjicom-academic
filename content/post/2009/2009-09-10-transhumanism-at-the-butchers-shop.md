@@ -3,7 +3,7 @@ title: Transhumanism at the Butchers Shop
 author: glennji
 type: post
 date: 2009-09-10T08:27:38+00:00
-url: /?p=15742
+#url: /?p=15742
 featured_image: /wp-content/uploads/2016/08/transhumanism.jpg
 categories:
   - London

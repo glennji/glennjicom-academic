@@ -3,7 +3,7 @@ title: Early lunch and caffeine hit before I get back to the office. Tee-jif!
 author: glennji
 type: post
 date: 2013-05-24T01:44:48+00:00
-url: /?p=933
+#url: /?p=933
 featured_image: /wp-content/uploads/2013/05/971123_10151404463935741_1032386533_n.jpg
 categories:
   - Uncategorized

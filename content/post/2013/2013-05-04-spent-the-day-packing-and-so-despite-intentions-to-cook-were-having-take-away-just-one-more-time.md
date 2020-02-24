@@ -3,7 +3,7 @@ title: Spent the day packing, and so despite intentions to cook were having take
 author: glennji
 type: post
 date: 2013-05-04T07:03:41+00:00
-url: /?p=912
+#url: /?p=912
 featured_image: /wp-content/uploads/2013/05/603651_10151376347075741_1714642267_n.jpg
 categories:
   - Uncategorized

@@ -3,7 +3,7 @@ title: Catching up on the last few months
 author: glennji
 type: post
 date: 2012-08-25T12:20:24+00:00
-url: /?p=691
+#url: /?p=691
 featured_image: /wp-content/uploads/2012/08/21011023538_9b524f2f1f_k-e1485526591188.jpg
 categories:
   - Australia

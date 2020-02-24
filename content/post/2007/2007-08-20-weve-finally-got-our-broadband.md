@@ -3,7 +3,7 @@ title: Weve finally got our broadband ...
 author: glennji
 type: post
 date: 2007-08-20T11:44:09+00:00
-url: /?p=211
+#url: /?p=211
 aktt_notify_twitter:
   - no
 categories:

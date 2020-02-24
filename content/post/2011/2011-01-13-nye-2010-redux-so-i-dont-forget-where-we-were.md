@@ -3,7 +3,7 @@ title: NYE 2010 Redux (so I dont forget where we were)
 author: glennji
 type: post
 date: 2011-01-13T06:20:44+00:00
-url: /?p=563
+#url: /?p=563
 aktt_notify_twitter:
   - no
 categories:

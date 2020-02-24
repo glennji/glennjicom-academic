@@ -3,7 +3,7 @@ title: "Step one: disassemble"
 author: glennji
 type: post
 date: 2017-03-06T00:45:53+00:00
-url: /?p=16361
+#url: /?p=16361
 featured_image: /wp-content/uploads/2017/03/IMG_20170304_145940-1568x1176.jpg
 categories:
   - Electronics

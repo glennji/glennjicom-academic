@@ -4,6 +4,7 @@ author: glennji
 date: 2019-05-15T17:39:18+10:00
 draft: false
 type: note
+categories: [Bugout]
 crosslink: "true"
 ---
 The "Get Back Home (GBH) Bag" is the one full of the things you might need if, say, you were stranded somewhere and had to walk back to base - or, in my case, out of the city office and back home. I'd like to keep some <em>really</em><em> </em>basic "urban survival" gear in my daily commuter bag, and I've just had a <em>Crumpler</em> <strong><em>Local Identity</em></strong> backpack repaired (for free under Crumpler's lifetime warranty) so it seems like a good one to design around.

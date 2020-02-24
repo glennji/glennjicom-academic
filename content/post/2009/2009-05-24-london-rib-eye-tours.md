@@ -3,7 +3,7 @@ title: London Rib-Eye Tours
 author: glennji
 type: post
 date: 2009-05-24T22:02:54+00:00
-url: /?p=52
+#url: /?p=52
 featured_image: /wp-content/uploads/2014/08/4263_99716751400_519406400_2283295_1263693_n.jpg
 categories:
   - Uncategorized

@@ -3,7 +3,7 @@ title: Qantas Club
 author: glennji
 type: post
 date: 2013-04-15T20:55:37+00:00
-url: /?p=841
+#url: /?p=841
 categories:
   - Uncategorized
 

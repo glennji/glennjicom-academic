@@ -3,7 +3,7 @@ title: Coding, contracts, sci-fi
 author: glennji
 type: post
 date: 2007-03-18T13:13:20+00:00
-url: /?p=13079
+#url: /?p=13079
 categories:
   - Uncategorized
 

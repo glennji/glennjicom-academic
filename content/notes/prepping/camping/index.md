@@ -4,6 +4,7 @@ author: glennji
 date: 2016-07-26T11:38:32+10:00
 draft: false
 type: note
+categories: [Bugout]
 crosslink: "true"
 ---
 Ah, camping: relaxing under Australia's enormous sky, with nothing to do and no place to be! We haven't been for a long time, and have <em>never</em> taken Jules, so this year and early next year we'll have to pack our bug out bags and just go for it.

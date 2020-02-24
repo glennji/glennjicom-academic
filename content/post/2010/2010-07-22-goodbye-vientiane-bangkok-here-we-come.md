@@ -3,7 +3,7 @@ title: Goodbye Vientiane; Bangkok, here we come!
 author: glennji
 type: post
 date: 2010-07-22T03:40:57+00:00
-url: /?p=504
+#url: /?p=504
 featured_image: /wp-content/uploads/2010/07/4820904250_e9a448c1cd_b.jpg
 aktt_notify_twitter:
   - yes

@@ -3,7 +3,7 @@ title: Choose your weapon. (Naw, mines the treadly.)
 author: glennji
 type: post
 date: 2013-09-18T00:15:34+00:00
-url: /?p=1025
+#url: /?p=1025
 featured_image: /wp-content/uploads/2013/09/733818_10151600668430741_121802692_n.jpg
 categories:
   - Uncategorized

@@ -3,7 +3,7 @@ title: Kilted Aussie — almost!
 author: glennji
 type: post
 date: 2007-01-19T23:24:36+00:00
-url: /?p=282
+#url: /?p=282
 featured_image: /wp-content/uploads/2007/01/370548546_1edc02c50b_o.jpg
 aktt_notify_twitter:
   - no

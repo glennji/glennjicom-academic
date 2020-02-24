@@ -3,7 +3,7 @@ title: Back Down Under
 author: glennji
 type: post
 date: 2010-09-01T08:07:17+00:00
-url: /?p=527
+#url: /?p=527
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

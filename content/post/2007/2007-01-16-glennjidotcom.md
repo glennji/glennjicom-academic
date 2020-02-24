@@ -3,7 +3,7 @@ title: GlennjiDotCom
 author: glennji
 type: post
 date: 2007-01-16T11:01:13+00:00
-url: /?p=13048
+#url: /?p=13048
 categories:
   - Uncategorized
 

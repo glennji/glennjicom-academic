@@ -3,7 +3,7 @@ title: "Budapest Day 3: Tourist time"
 author: glennji
 type: post
 date: 2010-06-11T11:09:40+00:00
-url: /?p=464
+#url: /?p=464
 featured_image: /wp-content/uploads/2010/06/4689798457_86909a4744_b.jpg
 aktt_notify_twitter:
   - yes

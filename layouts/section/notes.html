@@ -40,8 +40,7 @@
   </div>
   {{ end }}
 
-  {{ $paginator := .Paginate .Data.Pages }}
-  {{ range $paginator.Pages }}
+
     {{ if eq $.Params.view 1 }}
       {{ partial "li_list" . }}
     {{ else if eq $.Params.view 3 }}
@@ -50,8 +49,10 @@
       {{ partial "li_compact" . }}
     {{ else if eq $.Params.view 5 }}
       {{ partial "widget_page.html" . }}
+    {{ else }}
+      {{ partial "li_showcase" . }}
     {{ end }}
-  {{ end }}
+
 
 
 </div>

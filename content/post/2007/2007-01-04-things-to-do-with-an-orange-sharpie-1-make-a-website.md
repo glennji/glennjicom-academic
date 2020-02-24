@@ -3,7 +3,7 @@ title: "Things to do with an orange sharpie #1: make a website"
 author: glennji
 type: post
 date: 2007-01-04T00:39:17+00:00
-url: /?p=299
+#url: /?p=299
 aktt_notify_twitter:
   - no
 categories:

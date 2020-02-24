@@ -3,7 +3,7 @@ title: Caved To Facebook
 author: glennji
 type: post
 date: 2014-10-10T03:01:34+00:00
-url: /?p=12529
+#url: /?p=12529
 featured_image: /wp-content/uploads/2014/10/5162323251_651ef6c333_o.jpg
 slide_template:
   - default

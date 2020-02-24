@@ -3,7 +3,7 @@ title: Only just back at the hotel – talk about a long day! Had to prep for an
 author: glennji
 type: post
 date: 2013-04-29T14:52:52+00:00
-url: /?p=909
+#url: /?p=909
 featured_image: /wp-content/uploads/2013/04/575353_10151369083120741_1470133286_n.jpg
 categories:
   - Uncategorized

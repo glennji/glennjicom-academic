@@ -3,7 +3,7 @@ title: Nelson Street Nomads
 author: glennji
 type: post
 date: 2016-01-23T17:22:00+00:00
-url: /?p=15572
+#url: /?p=15572
 featured_image: /wp-content/uploads/2016/01/1453534223_featured.jpeg
 categories:
   - Australia

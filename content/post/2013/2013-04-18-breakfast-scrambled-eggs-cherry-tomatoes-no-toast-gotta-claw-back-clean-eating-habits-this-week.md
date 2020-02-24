@@ -3,7 +3,7 @@ title: "Breakfast: scrambled eggs, cherry tomatoes, no toast. Gotta claw back cl
 author: glennji
 type: post
 date: 2013-04-17T21:50:55+00:00
-url: /?p=864
+#url: /?p=864
 featured_image: /wp-content/uploads/2013/04/560035_10151352345975741_1233964168_n.jpg
 categories:
   - Uncategorized

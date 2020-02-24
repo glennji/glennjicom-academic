@@ -3,7 +3,7 @@ title: Why the quantum nature of reality can be a good thing
 author: glennji
 type: post
 date: 2007-11-01T13:57:55+00:00
-url: /?p=205
+#url: /?p=205
 aktt_notify_twitter:
   - no
 categories:

@@ -3,7 +3,7 @@ title: "Overloading: results, and new weeks resolutions"
 author: glennji
 type: post
 date: 2011-05-21T14:00:04+00:00
-url: /?p=600
+#url: /?p=600
 categories:
   - Uncategorized
 

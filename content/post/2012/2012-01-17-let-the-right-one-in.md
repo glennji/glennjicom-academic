@@ -3,7 +3,7 @@ title: Let the right one in
 author: glennji
 type: post
 date: 2012-01-16T20:44:24+00:00
-url: /?p=650
+#url: /?p=650
 featured_image: /wp-content/uploads/2012/01/wpid-IMAG0163.jpg
 categories:
   - Uncategorized

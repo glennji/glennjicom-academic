@@ -3,7 +3,7 @@ title: Lovely little area here. Planning a long weekend away!
 author: glennji
 type: post
 date: 2013-09-14T02:38:32+00:00
-url: /?p=1019
+#url: /?p=1019
 featured_image: /wp-content/uploads/2013/09/1185625_10151593948710741_1037009598_n.jpg
 categories:
   - Uncategorized

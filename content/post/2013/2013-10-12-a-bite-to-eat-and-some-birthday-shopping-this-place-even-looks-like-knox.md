@@ -3,7 +3,7 @@ title: A bite to eat and some birthday shopping. This place even looks like Knox
 author: glennji
 type: post
 date: 2013-10-12T00:49:28+00:00
-url: /?p=1044
+#url: /?p=1044
 featured_image: /wp-content/uploads/2013/10/935980_10151644290615741_1497520759_n.jpg
 categories:
   - Uncategorized

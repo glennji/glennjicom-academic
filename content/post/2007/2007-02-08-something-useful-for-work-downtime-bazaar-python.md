@@ -3,7 +3,7 @@ title: Something useful for work downtime – Bazaar, Python
 author: glennji
 type: post
 date: 2007-02-08T06:51:56+00:00
-url: /?p=13082
+#url: /?p=13082
 featured_image: /wp-content/uploads/2007/02/bazaar-vcs.org_.png
 categories:
   - Technology

@@ -3,7 +3,7 @@ title: Public transport blues
 author: glennji
 type: post
 date: 2014-09-10T22:49:03+00:00
-url: /?p=12420
+#url: /?p=12420
 featured_image: /wp-content/uploads/2014/09/wpid-wp-1410389256546.jpg
 geo_latitude:
   - -33.88442745

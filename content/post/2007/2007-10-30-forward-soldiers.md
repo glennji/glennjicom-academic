@@ -3,7 +3,7 @@ title: Forward, soldiers
 author: glennji
 type: post
 date: 2007-10-30T08:03:57+00:00
-url: /?p=197
+#url: /?p=197
 aktt_notify_twitter:
   - no
 categories:

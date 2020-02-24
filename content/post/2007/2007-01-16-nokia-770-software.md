@@ -3,7 +3,7 @@ title: Nokia 770 Software
 author: glennji
 type: post
 date: 2007-01-16T07:44:00+00:00
-url: /?p=12930
+#url: /?p=12930
 categories:
   - Uncategorized
 

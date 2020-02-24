@@ -3,7 +3,7 @@ title: Smart Home
 author: glennji
 type: post
 date: 2007-03-20T05:04:20+00:00
-url: /?p=12927
+#url: /?p=12927
 categories:
   - Uncategorized
 

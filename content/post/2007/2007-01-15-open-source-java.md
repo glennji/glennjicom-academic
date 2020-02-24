@@ -3,7 +3,7 @@ title: Open Source Java
 author: glennji
 type: post
 date: 2007-01-15T13:19:13+00:00
-url: /?p=13053
+#url: /?p=13053
 categories:
   - Uncategorized
 

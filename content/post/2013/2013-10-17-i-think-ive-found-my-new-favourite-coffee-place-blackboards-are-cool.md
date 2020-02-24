@@ -3,7 +3,7 @@ title: I think Ive found my new favourite coffee place! (Blackboards are cool.)
 author: glennji
 type: post
 date: 2013-10-17T01:03:31+00:00
-url: /?p=1053
+#url: /?p=1053
 featured_image: /wp-content/uploads/2013/10/1393469_10151653173980741_2073528411_n.jpg
 categories:
   - Uncategorized

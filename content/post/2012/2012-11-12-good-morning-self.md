@@ -3,7 +3,7 @@ title: Good morning, Self.
 author: glennji
 type: post
 date: 2012-11-11T22:46:57+00:00
-url: /?p=696
+#url: /?p=696
 categories:
   - Uncategorized
 

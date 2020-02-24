@@ -3,7 +3,7 @@ title: Happenstance
 author: glennji
 type: post
 date: 2010-03-30T12:41:06+00:00
-url: /?p=109
+#url: /?p=109
 aktt_notify_twitter:
   - no
 categories:

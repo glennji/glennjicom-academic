@@ -3,7 +3,7 @@ title: Our adventure starts at the gift shop .... wait, shouldnt this be the las
 author: glennji
 type: post
 date: 2013-09-08T03:58:18+00:00
-url: /?p=1016
+#url: /?p=1016
 featured_image: /wp-content/uploads/2013/09/1240166_10151583996545741_217451639_n.jpg
 categories:
   - Uncategorized

@@ -3,7 +3,7 @@ title: Were out of China (and the Great Firewall)
 author: glennji
 type: post
 date: 2010-07-12T06:33:55+00:00
-url: /?p=479
+#url: /?p=479
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

@@ -3,7 +3,7 @@ title: God help us if they ever start...
 author: glennji
 type: post
 date: 2013-08-03T03:00:18+00:00
-url: /?p=963
+#url: /?p=963
 featured_image: /wp-content/uploads/2013/08/1098529_10151520144335741_520555238_n.jpg
 categories:
   - Uncategorized

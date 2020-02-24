@@ -3,7 +3,7 @@ title: "Paperwork: contracts, inspections, mortgages"
 author: glennji
 type: post
 date: 2010-12-16T06:02:27+00:00
-url: /?p=555
+#url: /?p=555
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

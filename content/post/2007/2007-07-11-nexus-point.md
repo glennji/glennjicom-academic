@@ -3,7 +3,7 @@ title: Nexus point
 author: glennji
 type: post
 date: 2007-07-11T22:06:27+00:00
-url: /?p=241
+#url: /?p=241
 featured_image: /wp-content/uploads/2007/07/21051404309_c0cb18546f_o-1568x980.jpg
 aktt_notify_twitter:
   - no

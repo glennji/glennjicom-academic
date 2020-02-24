@@ -3,7 +3,7 @@ title: Photos from Scotland
 author: glennji
 type: post
 date: 2010-02-28T09:23:41+00:00
-url: /?p=68
+#url: /?p=68
 aktt_notify_twitter:
   - no
 categories:

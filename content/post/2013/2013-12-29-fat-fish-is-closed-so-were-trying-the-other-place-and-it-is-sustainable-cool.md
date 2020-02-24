@@ -3,7 +3,7 @@ title: Fat Fish is closed, so were trying the OTHER place. And it is sustainable
 author: glennji
 type: post
 date: 2013-12-29T07:31:02+00:00
-url: /?p=1187
+#url: /?p=1187
 featured_image: /wp-content/uploads/2013/12/1531750_10151801760670741_2005266821_n.jpg
 categories:
   - Uncategorized

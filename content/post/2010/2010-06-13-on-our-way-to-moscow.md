@@ -3,7 +3,7 @@ title: On our way to Moscow
 author: glennji
 type: post
 date: 2010-06-13T07:28:40+00:00
-url: /?p=459
+#url: /?p=459
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

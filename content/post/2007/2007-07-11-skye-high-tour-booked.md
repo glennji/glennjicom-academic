@@ -3,7 +3,7 @@ title: Skye High Tour – booked
 author: glennji
 type: post
 date: 2007-07-11T08:17:39+00:00
-url: /?p=223
+#url: /?p=223
 featured_image: /wp-content/uploads/2007/07/4430939851_7d44446a44_b.jpg
 aktt_notify_twitter:
   - no

@@ -3,7 +3,7 @@ title: Is there such a thing as bad luck?
 author: glennji
 type: post
 date: 2007-02-19T23:15:40+00:00
-url: /?p=276
+#url: /?p=276
 featured_image: /wp-content/uploads/2007/02/1233955419_be76b552dd_o.jpg
 aktt_notify_twitter:
   - no

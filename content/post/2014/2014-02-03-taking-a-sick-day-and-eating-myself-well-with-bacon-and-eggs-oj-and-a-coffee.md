@@ -3,7 +3,7 @@ title: Taking a sick day and eating myself well with bacon and eggs, OJ, and a c
 author: glennji
 type: post
 date: 2014-02-02T21:24:13+00:00
-url: /?p=1287
+#url: /?p=1287
 featured_image: /wp-content/uploads/2014/02/1782127_10151865701650741_1321113627_n.jpg
 categories:
   - Uncategorized

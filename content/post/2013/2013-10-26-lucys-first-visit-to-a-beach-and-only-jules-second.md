@@ -3,7 +3,7 @@ title: Lucys first visit to a beach, and only Jules second.
 author: glennji
 type: post
 date: 2013-10-25T23:07:54+00:00
-url: /?p=1077
+#url: /?p=1077
 featured_image: /wp-content/uploads/2013/10/482400_10151669034365741_418623985_n.jpg
 categories:
   - Uncategorized

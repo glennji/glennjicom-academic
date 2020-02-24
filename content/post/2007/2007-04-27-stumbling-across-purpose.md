@@ -3,7 +3,7 @@ title: Stumbling across purpose
 author: glennji
 type: post
 date: 2007-04-27T14:09:06+00:00
-url: /?p=174
+#url: /?p=174
 aktt_notify_twitter:
   - no
 categories:

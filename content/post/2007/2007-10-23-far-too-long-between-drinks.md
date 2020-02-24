@@ -3,7 +3,7 @@ title: Far too long between drinks ...
 author: glennji
 type: post
 date: 2007-10-23T13:22:54+00:00
-url: /?p=199
+#url: /?p=199
 aktt_notify_twitter:
   - no
 categories:

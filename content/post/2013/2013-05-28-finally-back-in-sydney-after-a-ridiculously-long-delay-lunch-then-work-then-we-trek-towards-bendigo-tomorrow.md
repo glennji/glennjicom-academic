@@ -3,7 +3,7 @@ title: Finally back in Sydney after a ridiculously long delay. Lunch, then work,
 author: glennji
 type: post
 date: 2013-05-28T02:26:25+00:00
-url: /?p=945
+#url: /?p=945
 featured_image: /wp-content/uploads/2013/05/431839_10151410955990741_1274539976_n.jpg
 categories:
   - Uncategorized

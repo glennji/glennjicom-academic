@@ -3,7 +3,7 @@ title: "I dont remember this outlook at your place in Glasgow, Andy Melrose. :-P
 author: glennji
 type: post
 date: 2013-10-26T11:18:52+00:00
-url: /?p=1089
+#url: /?p=1089
 featured_image: /wp-content/uploads/2013/10/548330_10151669802825741_1078551007_n.jpg
 categories:
   - Uncategorized

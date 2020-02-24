@@ -3,7 +3,7 @@ title: Recovery! Delicious recovery. This exercise thing is alright!
 author: glennji
 type: post
 date: 2013-04-22T10:50:35+00:00
-url: /?p=890
+#url: /?p=890
 featured_image: /wp-content/uploads/2013/04/20824_10151359141830741_1995210538_n.jpg
 categories:
   - Uncategorized

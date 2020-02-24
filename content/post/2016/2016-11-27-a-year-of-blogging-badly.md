@@ -3,7 +3,7 @@ title: A year of blogging badly
 author: glennji
 type: post
 date: 2016-11-27T08:16:04+00:00
-url: /?p=16044
+#url: /?p=16044
 featured_image: /wp-content/uploads/2016/11/1480227286_featured-1568x2091.jpeg
 categories:
   - Australia

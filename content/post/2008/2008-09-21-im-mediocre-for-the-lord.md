@@ -3,7 +3,7 @@ title: Im mediocre for the lord!
 author: glennji
 type: post
 date: 2008-09-21T15:22:49+00:00
-url: /?p=148
+#url: /?p=148
 aktt_notify_twitter:
   - no
 categories:

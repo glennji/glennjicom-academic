@@ -3,7 +3,7 @@ title: Were having a baby (an alien baby)!
 author: glennji
 type: post
 date: 2011-02-23T12:55:59+00:00
-url: /?p=567
+#url: /?p=567
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

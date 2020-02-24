@@ -3,7 +3,7 @@ title: Happy version of #formalfriday. Thats a formal t-shirt, you know!
 author: glennji
 type: post
 date: 2013-10-17T21:09:06+00:00
-url: /?p=1062
+#url: /?p=1062
 featured_image: /wp-content/uploads/2013/10/1393075_10151654518230741_1779282173_n.jpg
 categories:
   - Uncategorized

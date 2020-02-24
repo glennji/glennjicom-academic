@@ -3,7 +3,7 @@ title: Murray Valley Riverina
 author: glennji
 type: post
 date: 2010-09-15T11:49:40+00:00
-url: /?p=534
+#url: /?p=534
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

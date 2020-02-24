@@ -3,7 +3,7 @@ title: Coffee + butter = winning at life!
 author: glennji
 type: post
 date: 2013-09-03T02:41:02+00:00
-url: /?p=998
+#url: /?p=998
 featured_image: /wp-content/uploads/2013/09/1185987_10151574973970741_524327622_n.jpg
 categories:
   - Uncategorized

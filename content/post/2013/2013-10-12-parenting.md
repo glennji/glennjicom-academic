@@ -3,7 +3,7 @@ title: Parenting.
 author: glennji
 type: post
 date: 2013-10-11T23:52:55+00:00
-url: /?p=1041
+#url: /?p=1041
 featured_image: /wp-content/uploads/2013/10/1383911_10151644221060741_249105410_n.jpg
 categories:
   - Uncategorized

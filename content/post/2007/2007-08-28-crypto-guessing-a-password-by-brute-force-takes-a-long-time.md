@@ -3,7 +3,7 @@ title: "Crypto: Guessing a password by brute-force takes a long time!"
 author: glennji
 type: post
 date: 2007-08-28T01:28:41+00:00
-url: /?p=13094
+#url: /?p=13094
 categories:
   - Uncategorized
 

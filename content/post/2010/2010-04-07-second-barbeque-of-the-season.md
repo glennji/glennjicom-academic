@@ -3,7 +3,7 @@ title: Second barbeque of the season
 author: glennji
 type: post
 date: 2010-04-07T12:29:39+00:00
-url: /?p=342
+#url: /?p=342
 aktt_notify_twitter:
   - no
 slide_template:

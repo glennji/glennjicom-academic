@@ -3,7 +3,7 @@ title: "— via http://goo.gl/6GlGc3 (Glenn Mason)"
 author: glennji
 type: post
 date: 2014-02-26T10:55:19+00:00
-url: /?p=1321
+#url: /?p=1321
 featured_image: /wp-content/uploads/2014/02/1780903_10151906188165741_822300470_n.jpg
 categories:
   - Uncategorized

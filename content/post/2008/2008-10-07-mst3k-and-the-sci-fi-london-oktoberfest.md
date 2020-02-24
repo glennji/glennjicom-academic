@@ -3,7 +3,7 @@ title: MST3K and the Sci-Fi London Oktoberfest
 author: glennji
 type: post
 date: 2008-10-07T17:21:53+00:00
-url: /?p=144
+#url: /?p=144
 featured_image: /wp-content/uploads/2014/08/903.jpg
 aktt_notify_twitter:
   - no

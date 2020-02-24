@@ -3,7 +3,7 @@ title: Not a goth-club
 author: glennji
 type: post
 date: 2010-04-26T11:43:22+00:00
-url: /?p=385
+#url: /?p=385
 aktt_notify_twitter:
   - no
 categories:

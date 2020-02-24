@@ -3,7 +3,7 @@ title: Football, fish and (green) fairies
 author: glennji
 type: post
 date: 2010-05-10T12:34:59+00:00
-url: /?p=392
+#url: /?p=392
 featured_image: /wp-content/uploads/2010/05/DSC00562-1568x1176.jpg
 aktt_notify_twitter:
   - no

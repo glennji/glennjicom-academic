@@ -3,7 +3,7 @@ title: Snowed under with work
 author: glennji
 type: post
 date: 2009-02-02T11:38:46+00:00
-url: /?p=130
+#url: /?p=130
 aktt_notify_twitter:
   - no
 categories:

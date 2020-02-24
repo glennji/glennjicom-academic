@@ -3,7 +3,7 @@ title: Last day in KL
 author: glennji
 type: post
 date: 2010-08-11T06:18:25+00:00
-url: /?p=525
+#url: /?p=525
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

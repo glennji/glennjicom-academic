@@ -10,7 +10,8 @@ categories:
 menu:
   mba:
     name: Opportunity Discovery
-    weight: 4
+    weight: 13
+weight: 13000
 ---
 I'm studying opportunity discovery for *ENT60006* as part of an MBA from Swinburne Online.
 

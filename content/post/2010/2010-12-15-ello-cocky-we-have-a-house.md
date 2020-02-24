@@ -3,7 +3,7 @@ title: "ello cocky! We have a house!"
 author: glennji
 type: post
 date: 2010-12-15T10:59:45+00:00
-url: /?p=549
+#url: /?p=549
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

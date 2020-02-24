@@ -3,7 +3,7 @@ title: Early start, Singapore vs. London
 author: glennji
 type: post
 date: 2007-05-11T06:46:31+00:00
-url: /?p=226
+#url: /?p=226
 featured_image: /wp-content/uploads/2007/05/544612963_e3960a9baf_b.jpg
 aktt_notify_twitter:
   - no

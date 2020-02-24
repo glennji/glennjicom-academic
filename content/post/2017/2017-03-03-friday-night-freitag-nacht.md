@@ -3,7 +3,7 @@ title: Friday night / Freitag Nacht
 author: glennji
 type: post
 date: 2017-03-03T12:44:59+00:00
-url: /?p=16354
+#url: /?p=16354
 featured_image: /wp-content/uploads/2017/03/1488545069_featured.jpeg
 categories:
   - Australia

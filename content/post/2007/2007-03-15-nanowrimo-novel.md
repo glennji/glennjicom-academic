@@ -3,7 +3,7 @@ title: Nanowrimo novel
 author: glennji
 type: post
 date: 2007-03-15T23:06:36+00:00
-url: /?p=268
+#url: /?p=268
 aktt_notify_twitter:
   - no
 categories:

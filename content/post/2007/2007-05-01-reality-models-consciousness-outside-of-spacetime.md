@@ -3,7 +3,7 @@ title: "Reality Models: Consciousness outside of spacetime"
 author: glennji
 type: post
 date: 2007-05-01T22:16:15+00:00
-url: /?p=249
+#url: /?p=249
 categories:
   - Uncategorized
 

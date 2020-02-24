@@ -3,7 +3,7 @@ title: Mortgages and dodgy debt
 author: glennji
 type: post
 date: 2010-10-18T03:41:59+00:00
-url: /?p=536
+#url: /?p=536
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

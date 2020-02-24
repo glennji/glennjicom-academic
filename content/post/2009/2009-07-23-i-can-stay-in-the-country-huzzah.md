@@ -3,7 +3,7 @@ title: I can stay in the country, huzzah!
 author: glennji
 type: post
 date: 2009-07-23T22:14:03+00:00
-url: /?p=57
+#url: /?p=57
 featured_image: /wp-content/uploads/2009/07/2009-07-12-200551jpg_3784918564_o.jpg
 categories:
   - UK

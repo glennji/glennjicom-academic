@@ -3,7 +3,7 @@ title: "Reality/Consciousness Model: Non-physical, non-temporal consciousness as
 author: glennji
 type: post
 date: 2007-05-02T09:42:05+00:00
-url: /?p=238
+#url: /?p=238
 aktt_notify_twitter:
   - no
 categories:

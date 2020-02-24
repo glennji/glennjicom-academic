@@ -3,7 +3,7 @@ title: "Divergent Paths: Update"
 author: glennji
 type: post
 date: 2008-09-03T16:17:59+00:00
-url: /?p=160
+#url: /?p=160
 aktt_notify_twitter:
   - no
 categories:

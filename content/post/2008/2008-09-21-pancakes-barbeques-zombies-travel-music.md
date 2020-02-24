@@ -3,7 +3,7 @@ title: Pancakes, barbeques, zombies, travel, music
 author: glennji
 type: post
 date: 2008-09-21T10:45:05+00:00
-url: /?p=152
+#url: /?p=152
 aktt_notify_twitter:
   - no
 categories:

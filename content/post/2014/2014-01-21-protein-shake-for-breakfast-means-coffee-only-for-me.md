@@ -3,7 +3,7 @@ title: Protein shake for breakfast means coffee only for me.
 author: glennji
 type: post
 date: 2014-01-20T21:44:42+00:00
-url: /?p=1245
+#url: /?p=1245
 featured_image: /wp-content/uploads/2014/01/942496_10151844334270741_48610508_n.jpg
 categories:
   - Uncategorized

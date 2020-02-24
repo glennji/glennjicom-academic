@@ -3,7 +3,7 @@ title: So much preparation
 author: glennji
 type: post
 date: 2010-03-16T07:30:51+00:00
-url: /?p=89
+#url: /?p=89
 featured_image: /wp-content/uploads/2010/03/p1010602jpg_4429259165_o-1568x1176.jpg
 aktt_notify_twitter:
   - no

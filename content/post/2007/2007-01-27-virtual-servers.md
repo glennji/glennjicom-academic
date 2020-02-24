@@ -3,7 +3,7 @@ title: Virtual Servers
 author: glennji
 type: post
 date: 2007-01-26T21:59:40+00:00
-url: /?p=13058
+#url: /?p=13058
 featured_image: /wp-content/uploads/2007/01/server-rack-buying-guide-e1546351310634.jpg
 categories:
   - Uncategorized

@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: Masters of Business Administration (MBA)
-summary: My study notes for topics in the MBA from Swinburne
+summary: "This Master of Business Administration (MBA) course focuses on leadership and change, strategic thinking, innovation and entrepreneurship, finance and ethical practices and social responsibility to equip graduates for career satisfaction and success."
 weight: 1
 
 # Page metadata.
@@ -25,15 +25,15 @@ I'm currently studying towards at _Masters of Business Administration_, which is
 # Subjects
 
 - [x] Accounting Systems and Reporting (ACC60005/ACC60008)
-- [ ] Marketing Management (MKT60010)
 - [x] Behaviour in Organisations (HRM60016)
-- [x] Opportunity Discovery (ENT60006)
-- [ ] Corporations and Contract Law (LAW60003)
 - [ ] Business Strategy (BUS80005/MGT80002)
-- [ ] Leadership for Innovation (ORG80008)
-- [ ] Strategic Human Resource Management in the Business Context (HRM70006)
-- [ ] Management Analysis and Problem Solving (BUS60010/MGT60040)
+- [ ] Corporations and Contract Law (LAW60003)
 - [ ] Corporate Financial Management (FIN80005)
-- [ ] International Trade and Investment 1 (ENT80010)
 - [x] Economics (ECO80001)
+- [ ] International Trade and Investment (ENT80010)
+- [ ] Leadership for Innovation (ORG80008)
+- [ ] Management Analysis and Problem Solving (BUS60010/MGT60040)
+- [ ] Marketing Management (MKT60010)
+- [x] Opportunity Discovery (ENT60006)
+- [ ] Strategic Human Resource Management in the Business Context (HRM70006)
 

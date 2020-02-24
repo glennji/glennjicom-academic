@@ -3,7 +3,7 @@ title: "Budapest Day 2: I love the nightlife!"
 author: glennji
 type: post
 date: 2010-06-10T10:59:23+00:00
-url: /?p=461
+#url: /?p=461
 featured_image: /wp-content/uploads/2010/06/4694257306_da53d425f8_b.jpg
 aktt_notify_twitter:
   - yes

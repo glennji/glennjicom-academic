@@ -1,5 +1,5 @@
 ---
-title: "Leadership"
+title: "Leadership For Innovation"
 date: 2019-11-06T16:29:32+11:00
 authors: [glennji]
 draft: false
@@ -13,7 +13,8 @@ tags: [mba]
 menu:
   mba:
     name: Leadership for Innovation
-    weight: 7
+    weight: 10
+weight: 10000
 ---
 **Leadership** is the ability to influence others to work together towards a specific goal.
 

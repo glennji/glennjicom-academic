@@ -3,7 +3,7 @@ title: "Country life: fishin, 4WDing and barbeques"
 author: glennji
 type: post
 date: 2010-09-11T12:28:55+00:00
-url: /?p=529
+#url: /?p=529
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

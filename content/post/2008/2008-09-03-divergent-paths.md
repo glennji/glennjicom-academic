@@ -3,7 +3,7 @@ title: Divergent paths
 author: glennji
 type: post
 date: 2008-09-03T15:38:24+00:00
-url: /?p=164
+#url: /?p=164
 featured_image: /wp-content/uploads/2008/09/mohammed-and-the-birth-of-islam_100412.jpg
 aktt_notify_twitter:
   - no

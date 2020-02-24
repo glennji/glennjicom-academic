@@ -3,7 +3,7 @@ title: James gave me a lift, and hes Platinum. Business lounge, baby! Oh, thats 
 author: glennji
 type: post
 date: 2014-01-21T08:35:39+00:00
-url: /?p=1251
+#url: /?p=1251
 featured_image: /wp-content/uploads/2014/01/1536748_10151845079430741_1421077855_n.jpg
 categories:
   - Uncategorized

@@ -3,7 +3,7 @@ title: Electroencephalogram
 author: glennji
 type: post
 date: 2007-05-09T16:33:44+00:00
-url: /?p=229
+#url: /?p=229
 aktt_notify_twitter:
   - no
 categories:

@@ -3,7 +3,7 @@ title: "Strasbourg: is it France, or Germany?"
 author: glennji
 type: post
 date: 2010-06-03T20:26:01+00:00
-url: /?p=415
+#url: /?p=415
 featured_image: /wp-content/uploads/2010/06/4680879405_a6930f54db_b.jpg
 aktt_notify_twitter:
   - yes

@@ -3,7 +3,7 @@ title: Why collapsing probability waveforms is just bloody stupid
 author: glennji
 type: post
 date: 2007-08-31T09:55:50+00:00
-url: /?p=208
+#url: /?p=208
 aktt_notify_twitter:
   - no
 categories:

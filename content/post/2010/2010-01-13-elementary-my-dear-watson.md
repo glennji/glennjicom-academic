@@ -3,7 +3,7 @@ title: Elementary, my dear Watson!
 author: glennji
 type: post
 date: 2010-01-13T20:51:28+00:00
-url: /?p=32
+#url: /?p=32
 aktt_notify_twitter:
   - no
 categories:

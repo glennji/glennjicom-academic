@@ -3,7 +3,7 @@ title: First ride of the new year. Good weather for it but Im stuffed!
 author: glennji
 type: post
 date: 2014-01-07T22:19:42+00:00
-url: /?p=1209
+#url: /?p=1209
 featured_image: /wp-content/uploads/2014/01/1499430_10151820443645741_971301388_n.jpg
 categories:
   - Uncategorized

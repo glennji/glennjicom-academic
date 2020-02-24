@@ -3,7 +3,7 @@ title: Arriving in Warsawa
 author: glennji
 type: post
 date: 2010-06-13T11:14:11+00:00
-url: /?p=468
+#url: /?p=468
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

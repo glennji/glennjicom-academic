@@ -3,7 +3,7 @@ title: Singapore, London and an esteemed visitor
 author: glennji
 type: post
 date: 2007-07-11T21:56:19+00:00
-url: /?p=235
+#url: /?p=235
 featured_image: /wp-content/uploads/2007/07/1233908493_d611066f0b_b-e1497260736881.jpg
 aktt_notify_twitter:
   - no

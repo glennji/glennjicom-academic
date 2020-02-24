@@ -3,7 +3,7 @@ title: A quick post for the Melbourne Cup
 author: glennji
 type: post
 date: 2010-11-02T07:25:00+00:00
-url: /?p=540
+#url: /?p=540
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

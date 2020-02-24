@@ -3,7 +3,7 @@ title: "Salzburg: its mostly about the drinking"
 author: glennji
 type: post
 date: 2010-06-06T06:28:12+00:00
-url: /?p=431
+#url: /?p=431
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

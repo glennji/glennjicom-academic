@@ -3,7 +3,7 @@ title: London Science Fiction and Fantastic Film Festival
 author: glennji
 type: post
 date: 2010-05-02T12:43:57+00:00
-url: /?p=388
+#url: /?p=388
 featured_image: /wp-content/uploads/2010/05/spaceship-wallpaper-1568x882.jpeg
 aktt_notify_twitter:
   - no

@@ -3,7 +3,7 @@ title: Some great phishing spam this morning
 author: glennji
 type: post
 date: 2014-05-05T20:58:00+00:00
-url: /?p=1408
+#url: /?p=1408
 featured_image: /wp-content/uploads/2014/08/1407768980_featured.jpeg
 categories:
   - Uncategorized

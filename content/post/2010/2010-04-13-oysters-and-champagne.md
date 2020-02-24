@@ -3,7 +3,7 @@ title: Oysters and champagne
 author: glennji
 type: post
 date: 2010-04-13T21:35:37+00:00
-url: /?p=345
+#url: /?p=345
 aktt_notify_twitter:
   - no
 categories:

@@ -1,0 +1,34 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  {{ with .Content }}
+  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  {{ end }}
+
+  {{ $paginator := .Paginate .Data.Pages }}
+  {{ range $paginator.Pages }}
+  <div>
+    <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+    <div class="article-style">
+      {{ range $paginator.Pages }}
+      {{ if eq $.Params.view 1 }}
+      {{ partial "li_list" . }}
+      {{ else if eq $.Params.view 3 }}
+      {{ partial "li_card" . }}
+      {{ else if eq $.Params.view 4 }}
+      {{ partial "li_compact" . }}
+      {{ else }}
+      {{ partial "li_showcase" . }}
+      {{ end }}
+      {{ end }}
+
+    </div>
+  </div>
+  {{ end }}
+
+  {{ partial "pagination" . }}
+</div>
+
+{{- end -}}

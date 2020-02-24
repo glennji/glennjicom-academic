@@ -3,7 +3,7 @@ title: Hospital scares and reassessing the whole point of existence
 author: glennji
 type: post
 date: 2007-03-12T23:10:58+00:00
-url: /?p=272
+#url: /?p=272
 featured_image: /wp-content/uploads/2007/03/20012007028_370548546_o.jpg
 aktt_notify_twitter:
   - no

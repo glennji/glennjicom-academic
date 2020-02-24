@@ -5,6 +5,7 @@ date: 2019-05-14T18:47:33+10:00
 draft: false
 type: note
 crosslink: "true"
+categories: [Bugout]
 aliases:
   - /notes/prepper/everyday-carry
 ---

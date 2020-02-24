@@ -3,7 +3,7 @@ title: Krakow and Oswiecim (Auschwitz)
 author: glennji
 type: post
 date: 2010-06-13T11:11:00+00:00
-url: /?p=466
+#url: /?p=466
 aktt_notify_twitter:
   - yes
 aktt_tweeted:

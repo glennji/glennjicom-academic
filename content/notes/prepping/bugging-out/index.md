@@ -5,6 +5,7 @@ originalDate: Aug 29, 2016 @ 07:09
 date: 2016-08-29T07:09:42+10:00
 draft: false
 type: note
+categories: [Bugout]
 crosslink: "true"
 ---
 >A bug-out bag is a bag that contains food, tools, and other things for use in a disaster or other type of emergency.  Often times when a disaster occurs, the infrastructure that we normally take for granted becomes bogged down or completely unavailable.  Electricity may be out for days or even weeks, the supermarkets we buy our food and water from may be low or out of stock, hospitals may be extremely over capacity, and even the roads we use everyday may be closed.

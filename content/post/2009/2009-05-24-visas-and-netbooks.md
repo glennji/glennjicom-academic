@@ -3,7 +3,7 @@ title: VISAs and netbooks
 author: glennji
 type: post
 date: 2009-05-24T12:49:12+00:00
-url: /?p=41
+#url: /?p=41
 aktt_notify_twitter:
   - no
 categories:

@@ -3,7 +3,7 @@ title: Finding a house is not easy
 author: glennji
 type: post
 date: 2016-01-21T20:19:07+00:00
-url: /?p=15570
+#url: /?p=15570
 featured_image: /wp-content/uploads/2016/01/1453371346_featured.jpeg
 categories:
   - Australia

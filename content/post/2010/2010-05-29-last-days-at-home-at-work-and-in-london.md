@@ -3,7 +3,7 @@ title: Last days at home, at work and in London
 author: glennji
 type: post
 date: 2010-05-29T10:08:35+00:00
-url: /?p=406
+#url: /?p=406
 featured_image: /wp-content/uploads/2010/05/p1010810jpg_4666733253_o-e1485526177465-1568x1008.jpg
 aktt_notify_twitter:
   - no

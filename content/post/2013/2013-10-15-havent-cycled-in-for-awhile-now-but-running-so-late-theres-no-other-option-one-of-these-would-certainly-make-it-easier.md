@@ -3,7 +3,7 @@ title: Havent cycled in for awhile now, but running so late theres no other opti
 author: glennji
 type: post
 date: 2013-10-15T00:38:08+00:00
-url: /?p=1050
+#url: /?p=1050
 featured_image: /wp-content/uploads/2013/10/1393724_10151649568525741_425476004_n.jpg
 categories:
   - Uncategorized

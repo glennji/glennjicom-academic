@@ -3,7 +3,7 @@ title: Crank up some Maiden, Manowar or metal of your choice and take a swig. Ve
 author: glennji
 type: post
 date: 2013-10-27T07:26:34+00:00
-url: /?p=1095
+#url: /?p=1095
 featured_image: /wp-content/uploads/2013/10/1378273_10151671519220741_1982624532_n.jpg
 categories:
   - Uncategorized

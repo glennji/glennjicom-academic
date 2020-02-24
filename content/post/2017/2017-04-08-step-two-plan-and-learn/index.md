@@ -3,7 +3,7 @@ title: "Step Two: Plan (and learn!)"
 author: glennji
 type: post
 date: 2017-04-08T09:59:10+00:00
-url: /?p=16373
+#url: /?p=16373
 featured_image: /wp-content/uploads/2017/04/IMG_20170406_204623-1568x882.jpg
 categories:
   - Bingo Agent

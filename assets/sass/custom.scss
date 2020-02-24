@@ -9,10 +9,10 @@ html {
 
 @media print {
   html {
-    font-size: 12pt;
+    font-size: 11pt;
   }
   body {
-    font-size: 12pt;
+    font-size: 11pt;
   }
   .cta-btns {
     display: none;
@@ -33,6 +33,9 @@ html {
   //  size: A4;
   //  margin: 10px;
   //}
+  #education {
+    //page-break-before:always
+  }
 }
 
 

@@ -3,7 +3,7 @@ title: Made it home again, but didnt think I would! Must. Get. Fitter.
 author: glennji
 type: post
 date: 2014-01-08T07:27:46+00:00
-url: /?p=1215
+#url: /?p=1215
 featured_image: /wp-content/uploads/2014/01/1506715_10151821191790741_1955662439_n.jpg
 categories:
   - Uncategorized

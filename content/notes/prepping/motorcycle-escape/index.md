@@ -4,68 +4,60 @@ author: glennji
 date: 2019-05-16T20:42:41+10:00
 draft: false
 type: note
+categories: [Bugout]
 crosslink: "true"
 ---
+Okay, so I'm trying to sell the motorbike, and in fact I'm a little freaked by the idea of having an accident _and abandoning my child_, so it's pretty unlikely that I'm going to be doing any motorcycle-based bugging out any time soon ... but I'll keep this page around until he's all grown up and I've retired[^1].
 
-<ul>
- 	<li>first-aid essentials/motorcycle kit
-<ul>
- 	<li><strong>Ibuprofen </strong>(pain and fever reducer, anti-inflammatory)</li>
- 	<li><strong>Antihistamine (Telfast 180mg) </strong>(allergies, sleep aid)</li>
- 	<li><strong>Pseudoephedrine </strong>(nasal decongestant, helps with “ear pop” from planes)</li>
- 	<li><strong>Safety pins</strong> (quick fix for clothing, making an arm sling, emergency cloth)</li>
- 	<li><strong>Bandana</strong> (sling for arm, dust mask,</li>
- 	<li><strong>Antiseptic towelettes</strong> (cleaning hands and wounds)</li>
- 	<li><strong>Electrolyte packets</strong> (for replacing electrolyte loss due to vomiting or diarrhoea)</li>
- 	<li><strong>Tweezers</strong> (removing ticks, thorns, cactus, sea urchins, etc)</li>
- 	<li><strong>Band-aids </strong>(minor cuts and scrapes)</li>
- 	<li><strong>Gauze roll</strong> (minor cuts and scrapes)</li>
- 	<li><strong>Antibiotic ointment </strong>(minor cuts and scrapes)</li>
- 	<li><strong>Thermometer </strong>(is that really a fever, how high)</li>
- 	<li><strong>Latex gloves </strong>(protect yourself first)</li>
- 	<li><strong>4 x 4 gauze pads</strong> (minor cuts and scrapes)</li>
- 	<li><strong>Hand sanitizer</strong> (dirty hands mean infected cuts)</li>
-</ul>
-</li>
- 	<li>survival essentials kit
-<ul>
- 	<li><strong>Multi-tool </strong>(Macgyver always had his)</li>
- 	<li><strong>Spork</strong> + screwdriver + bottle-opener</li>
- 	<li><strong>Bushman's Insect Repellent &amp; Sunscreen</strong> (SPF 15 minimum, small bottle)</li>
- 	<li><strong>Fire-starter</strong></li>
- 	<li><strong>Portable flashlight </strong>(looking into mouths, dark rooms) or three</li>
- 	<li><strong>Signal mirror</strong></li>
- 	<li><strong>Emergency blanket</strong></li>
- 	<li><strong>Whistle</strong></li>
- 	<li><strong>Compass</strong></li>
- 	<li><strong>Glow-stick</strong></li>
- 	<li><strong>Mini wood saw</strong> (hand chainsaw)</li>
- 	<li><strong>(Bonus) Fishing</strong>: line, hooks, sinkers and lures.</li>
-</ul>
-</li>
- 	<li>Clothes, underwear</li>
- 	<li>Towels</li>
- 	<li>
+[^1]: And Tez, if you ever come across this page then let me reiterate that I'm 100% into us having a tour of the Rockies and Canada in general. Just say the word, cuz...
+
+There's a bunch of prep required to have a safe and comfortable moto-based escape/bugout. 
+
+* first-aid essentials/motorcycle kit
+ 	* <strong>Ibuprofen </strong>(pain and fever reducer, anti-inflammatory)
+ 	* <strong>Antihistamine (Telfast 180mg) </strong>(allergies, sleep aid)
+ 	* <strong>Pseudoephedrine </strong>(nasal decongestant, helps with “ear pop” from planes)
+ 	* <strong>Safety pins</strong> (quick fix for clothing, making an arm sling, emergency cloth)
+ 	* <strong>Bandana</strong> (sling for arm, dust mask,
+ 	* <strong>Antiseptic towelettes</strong> (cleaning hands and wounds)
+ 	* <strong>Electrolyte packets</strong> (for replacing electrolyte loss due to vomiting or diarrhoea)
+ 	* <strong>Tweezers</strong> (removing ticks, thorns, cactus, sea urchins, etc)
+ 	* <strong>Band-aids </strong>(minor cuts and scrapes)
+ 	* <strong>Gauze roll</strong> (minor cuts and scrapes)
+ 	* <strong>Antibiotic ointment </strong>(minor cuts and scrapes)
+ 	* <strong>Thermometer </strong>(is that really a fever, how high)
+ 	* <strong>Latex gloves </strong>(protect yourself first)
+ 	* <strong>4 x 4 gauze pads</strong> (minor cuts and scrapes)
+ 	* <strong>Hand sanitizer</strong> (dirty hands mean infected cuts)
+* survival essentials kit
+ 	* <strong>Multi-tool </strong>(Macgyver always had his)
+ 	* <strong>Spork</strong> + screwdriver + bottle-opener
+ 	* <strong>Bushman's Insect Repellent &amp; Sunscreen</strong> (SPF 15 minimum, small bottle)
+ 	* <strong>Fire-starter</strong>
+ 	* <strong>Portable flashlight </strong>(looking into mouths, dark rooms) or three
+ 	* <strong>Signal mirror</strong>
+ 	* <strong>Emergency blanket</strong>
+ 	* <strong>Whistle</strong>
+ 	* <strong>Compass</strong>
+ 	* <strong>Glow-stick</strong>
+ 	* <strong>Mini wood saw</strong> (hand chainsaw)
+ 	* <strong>(Bonus) Fishing</strong>: line, hooks, sinkers and lures.
+ 
+ * Clothes, underwear
+ 	* Towels
+ 	* 
 <div>Support/Tech</div>
-<ul>
- 	<li>solar panel phone charger</li>
- 	<li>...?</li>
-</ul>
-</li>
- 	<li>Swag</li>
- 	<li>Sleeping bag</li>
- 	<li>Tool roll</li>
- 	<li>Cooking
-<ul>
- 	<li>Liquid-fuel stove + pot</li>
- 	<li>Some fuel</li>
- 	<li>Firestarter</li>
- 	<li>Pot holder</li>
- 	<li>Cutlery</li>
- 	<li>Plate/Bowl - ex-Army?</li>
-</ul>
-</li>
- 	<li>...?</li>
- 	<li></li>
-</ul>
-###
+ 	* solar panel phone charger
+ 	* ...?
+ 	* Swag
+ 	* Sleeping bag
+ 	* Tool roll
+ 	* Cooking
+ 	* Liquid-fuel stove + pot
+ 	* Some fuel
+ 	* Firestarter
+ 	* Pot holder
+ 	* Cutlery
+ 	* Plate/Bowl - ex-Army?
+ 	* ...?
+ 	* 

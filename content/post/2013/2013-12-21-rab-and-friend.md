@@ -3,7 +3,7 @@ title: Rab and friend
 author: glennji
 type: post
 date: 2013-12-21T07:35:16+00:00
-url: /?p=1172
+#url: /?p=1172
 featured_image: /wp-content/uploads/2013/12/1486919_10151787286930741_727696580_n.jpg
 categories:
   - Uncategorized

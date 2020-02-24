@@ -3,7 +3,7 @@ title: A penthouse apartment in Bethnal Green thanks guv
 author: glennji
 type: post
 date: 2007-07-11T11:42:39+00:00
-url: /?p=232
+#url: /?p=232
 aktt_notify_twitter:
   - no
 categories:

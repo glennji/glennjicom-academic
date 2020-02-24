@@ -3,7 +3,7 @@ title: Java and saké
 author: glennji
 type: post
 date: 2007-03-17T07:06:51+00:00
-url: /?p=13072
+#url: /?p=13072
 categories:
   - Uncategorized
 

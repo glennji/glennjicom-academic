@@ -3,7 +3,7 @@ title: Finally Friday!
 author: glennji
 type: post
 date: 2014-08-08T02:30:00+00:00
-url: /?p=1428
+#url: /?p=1428
 categories:
   - Uncategorized
 

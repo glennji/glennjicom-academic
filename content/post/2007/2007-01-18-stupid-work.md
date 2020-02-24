@@ -3,7 +3,7 @@ title: Stupid work
 author: glennji
 type: post
 date: 2007-01-18T00:28:17+00:00
-url: /?p=291
+#url: /?p=291
 aktt_notify_twitter:
   - no
 categories:

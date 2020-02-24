@@ -3,7 +3,7 @@ title: We (probably) have to move
 author: glennji
 type: post
 date: 2015-09-20T12:14:00+00:00
-url: /?p=15459
+#url: /?p=15459
 featured_image: /wp-content/uploads/2015/09/1442750976_full-1568x2091.jpeg
 price_table:
   - 'a:0:{}'

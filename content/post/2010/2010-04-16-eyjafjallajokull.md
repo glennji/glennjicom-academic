@@ -3,7 +3,7 @@ title: Eyjafjallajokull
 author: glennji
 type: post
 date: 2010-04-16T14:47:38+00:00
-url: /?p=349
+#url: /?p=349
 aktt_notify_twitter:
   - no
 categories:

@@ -3,7 +3,7 @@ title: "Egonomics: the dichotomy of decision-self"
 author: glennji
 type: post
 date: 2008-09-19T11:57:05+00:00
-url: /?p=155
+#url: /?p=155
 aktt_notify_twitter:
   - no
 categories:

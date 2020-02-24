@@ -3,7 +3,7 @@ title: Wow! Chilli hits like a slap in the face. Rose and watermelon on a sturdy
 author: glennji
 type: post
 date: 2013-12-23T09:42:03+00:00
-url: /?p=1178
+#url: /?p=1178
 featured_image: /wp-content/uploads/2013/12/532139_10151790935785741_244052577_n.jpg
 categories:
   - Uncategorized

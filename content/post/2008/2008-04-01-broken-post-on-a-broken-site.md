@@ -3,7 +3,7 @@ title: Broken post on a broken site
 author: glennji
 type: post
 date: 2008-04-01T16:49:41+00:00
-url: /?p=171
+#url: /?p=171
 aktt_notify_twitter:
   - no
 categories:

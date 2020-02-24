@@ -3,7 +3,7 @@ title: Here again. Early days, long nights.
 author: glennji
 type: post
 date: 2013-05-19T21:15:28+00:00
-url: /?p=927
+#url: /?p=927
 featured_image: /wp-content/uploads/2013/05/576667_10151397820110741_503538308_n.jpg
 categories:
   - Uncategorized

@@ -3,7 +3,7 @@ title: This WILL get easier, wont it Doc?
 author: glennji
 type: post
 date: 2014-01-28T20:09:47+00:00
-url: /?p=1272
+#url: /?p=1272
 featured_image: /wp-content/uploads/2014/01/1656042_10151856342430741_1756633093_n.jpg
 categories:
   - Uncategorized

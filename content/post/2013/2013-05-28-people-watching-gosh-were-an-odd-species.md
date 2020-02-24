@@ -3,7 +3,7 @@ title: People-watching. Gosh were an odd species!
 author: glennji
 type: post
 date: 2013-05-27T20:51:58+00:00
-url: /?p=942
+#url: /?p=942
 featured_image: /wp-content/uploads/2013/05/253278_10151410578400741_1897129680_n.jpg
 categories:
   - Uncategorized
