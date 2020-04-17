@@ -42,5 +42,7 @@ Anyway, the bikes arrived today and I spent my lunchtime reassembling Dee's Poly
 
 ![polygon-](polygon-path-2-reassembled.jpg)
 
-Back to the bike store tomorrow for a new tube, then time to assemble my Polygon Path 3.
+Back to the bike store tomorrow for a new tube and then assembling my Polygon Path 3, but for now it's time to sit up in bed with a saison from the local craft brewery and watch something on Netflix.
+
+Or maybe bicycle restoration and repair videos. It's my new favourite [hobby](/notes/hobbies/overview)!
 
