@@ -13,7 +13,7 @@ tags: [mba]
 menu:
   mba:
     name: Marketing Management
-    weight: 12
+    weight: 122
 weight: 12000
 ---
 Case Method

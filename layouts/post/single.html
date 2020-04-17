@@ -41,7 +41,7 @@
                           <div class="post-content">
                             {{ if .Params.crosslink }}
                             {{ $related := .Site.RegularPages.RelatedIndices . "crosslink" }}
-                            {{ .Scratch.Set "content" .Content }}
+                            {{ $.Page.Scratch.Set "content" .Content }}
                             {{ range $related }}
 
                             {{ $title := .Params.title }}
@@ -57,7 +57,7 @@
                             {{ $.Page.Scratch.Set "content" $content }}
 
                             {{ end }}
-                            {{ $.Scratch.Get "content" | markdownify }}
+                            {{ $.Page.Scratch.Get "content" | markdownify }}
                             {{ else }}
                             {{ .Content }}
                             {{ end }}
