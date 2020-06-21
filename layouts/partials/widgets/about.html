@@ -79,7 +79,7 @@
       {{ $person_page.Params.summary | markdownify | emojify }}
     {{ else }}
       {{ if $person_page.Params.crosslink }}
-        {{ $related := $person_page.Site.RegularPages.RelatedIndices $person_page "crosslink" }}
+        {{ $related := $person_page.Site.Pages.RelatedIndices $person_page "crosslink" }}
         {{ $person_page.Scratch.Set "content" $person_page.Content }}
 
         {{ with $related }}
