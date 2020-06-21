@@ -2,7 +2,7 @@
 title: "Principles of Economics"
 authors: [N. Gregory Mankiw]
 bookAuthor: N. Gregory Mankiw
-cover: /images/covers/principles-of-economics.jpg
+cover: cover.jpg
 author: glennji
 date: 2019-06-11T15:37:26+10:00
 draft: false
@@ -15,7 +15,9 @@ categories:
   - Books
 ---
 # Introduction
+
 ## Chapter 1: Ten Principles of Economics
+
 ### BLUF
 People face trade offs for achieving alternative goals; cost is measured in foregone opportunity; rational people compare marginal costs+benefits; and people act on incentives.
 

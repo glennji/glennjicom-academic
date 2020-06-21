@@ -2,7 +2,10 @@
 title: "The Lean Startup"
 bookAuthor: Eric Ries
 authors: [Eric Ries]
-cover: /images/book-cover.jpg
+cover: cover.jpg
+abstract: >
+  > _The Lean Startup_ is a new approach to business that's being adopted around the world. It is a movement that is 
+  transforming the way companies are built and new products are launched.
 author: glennji
 date: 2019-06-18T18:20:31+10:00
 draft: false

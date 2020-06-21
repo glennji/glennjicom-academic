@@ -1,10 +1,12 @@
 {{- define "main" -}}
 
 {{ partial "page_header.html" . }}
+<div class="universal-wrapper">
 
-<div class="article-container">
-  <div class="book">
-    <div class="col-lg-12">
+  {{ if ne .Name "Books" }}
+  <a href="/books">← Back to books</a>
+  {{ end }}
+
 
       {{ with .Content }}
       <div class="article-style" itemprop="articleBody">{{ . }}</div>
@@ -26,6 +28,8 @@
             {{ partial "li_card" . }}
           {{ else if eq $.Params.view 4 }}
             {{ partial "li_citation" . }}
+          {{ else if eq $.Params.view 5 }}
+            {{ partial "li_showcase" . }}
           {{ else }}
             {{ partial "li_compact" . }}
           {{ end }}
@@ -34,8 +38,6 @@
         {{ end }}
       </div>
 
-    </div>
-  </div>
 </div>
 
 {{- end -}}

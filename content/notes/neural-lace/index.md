@@ -6,11 +6,13 @@ draft: false
 type: note
 crosslink: "true"
 categories:
-  - whoami
+  - Technology
 ---
-A <em>neural lace</em> is an ultra-thin mesh of electrodes which can be implanted in, or otherwise delivered to, living biological tissue. It can then be used for monitoring and/or electrical signalling, which the most commonly cited use being the creation of a <strong>brain-machine interface</strong> by the reading and stimulation of individual <a href="http://glennji.com/lexicon/neuron/">neurons</a> via a 3D mesh embedded within the brain. Several companies are working on lace technology, including Elon Musk's <em>Neuralink</em>.
-&nbsp;
+A neural lace is an ultra-thin mesh of electrodes which can be implanted in, or otherwise delivered to, living 
+biological tissue. It can then be used for monitoring and/or electrical signalling, which the most commonly cited use 
+being the creation of a brain-machine interface by the reading and stimulation of individual neurons via a 3D mesh 
+embedded within the brain. Several companies are working on lace technology, including Elon Musk's _Neuralink_.
+
 To read:
-<ul>
- 	<li>https://humanizing.tech/what-is-a-neural-lace-628eae0f6ec4</li>
-</ul>
+ * https://humanizing.tech/what-is-a-neural-lace-628eae0f6ec4
+
