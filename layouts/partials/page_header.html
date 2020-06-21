@@ -59,7 +59,7 @@
 
 {{/* Featured image */}}
     <div class="featured-image-wrapper">
-      {{ with $.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
+      {{ with $page.Params.image.caption }}<span class="article-header-caption">{{ . | markdownify | emojify }}</span>{{ end }}
       <img src="{{ $image.RelPermalink }}" alt="" class="article-banner">
     </div>
 

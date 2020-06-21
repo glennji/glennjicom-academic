@@ -9,7 +9,6 @@ categories:
   - Anthropology
   - Language
   - Theosophy
-cover: /wp-content/uploads/2016/07/Hercules-br-disneyscreencaps.com-635-768x432.jpg
 ---
 Hades (Άδης or Ἀΐδας; from Greek ᾍδης, Hadēs, originally Ἅιδης, Haidēs or Άΐδης, Aidēs, meaning "the unseen") refers both to the ancient Greek underworld, the abode of Hades, and to the god of the underworld. Hades in Homer referred just to the god; the genitive ᾍδου, Haidou, was an elision to denote locality: "[the house/dominion] of Hades". Eventually, the nominative, too, came to designate the abode of the dead.
 

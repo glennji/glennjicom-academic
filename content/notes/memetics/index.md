@@ -5,7 +5,7 @@ draft: false
 type: note
 crosslink: "true"
 categories:
-  - anthropology
+  - Anthropology
 ---
 
 Memes are the hypothetical "unit of transmission" in information-transfer within social environments i.e. "ideas" that pass from one entity to another in an almost viral way.

@@ -6,17 +6,18 @@ draft: false
 type: note
 crosslink: "true"
 ---
-<div>"Home automation" is the design and inclusion of cybernetics that improve the "habitability" of a residence i.e. computer-controlled systems that attempt to adjust the environment in anticipation of our messy, fleshy human needs.</div>
-<div></div>
-<h2>Ideas</h2>
-<h3>Lighting</h3>
+"Home automation" is the design and inclusion of cybernetics that improve the "habitability" of a residence i.e. 
+computer-controlled systems that attempt to adjust the environment in anticipation of our messy, fleshy human needs.
+
+## Ideas
+### Lighting
 <ul>
  	<li>smart-switches lights</li>
  	<li>dimmers</li>
  	<li>motion-sensitive stair lighting</li>
  	<li>controllable shelf accent lights in library for finding books</li>
 </ul>
-<h3>Environment control</h3>
+### Environment control
 <ul>
  	<li>temperature logging
 <ul>
@@ -28,7 +29,7 @@ crosslink: "true"
  	<li>automatic heating, cooling</li>
  	<li>powered curtains/blinds</li>
 </ul>
-<h3>Monitoring</h3>
+### Monitoring
 <ul>
  	<li>utilities
 <ul>
@@ -65,7 +66,7 @@ crosslink: "true"
 </ul>
 </li>
 </ul>
-<h3>Network/Comms</h3>
+### Network/Comms
 <ul>
  	<li>Media
 <ul>
@@ -120,3 +121,5 @@ crosslink: "true"
  	<li>separate short run to the lab</li>
  	<li>Telemetry with the Jeep</li>
 </ul>
+
+

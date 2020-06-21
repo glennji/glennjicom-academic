@@ -6,18 +6,15 @@ draft: false
 type: note
 crosslink: "true"
 categories:
-  - whoami
+  - Anthropology
 ---
-<div>The <i>apocrypha</i> are books deleted from the Abrahamic old testament:</div>
-<div>
-<ul>
- 	<li>Tobias</li>
- 	<li>Judith</li>
- 	<li>Jubillees - mentions the nephilim</li>
- 	<li>Enoch - mentions the nephilim</li>
- 	<li>Esther</li>
- 	<li>Baruch</li>
- 	<li>Sirach</li>
- 	<li>Maccabees</li>
-</ul>
-</div>
+The _apocrypha_ are books deleted from the Abrahamic old testament:
+ - Tobias
+ - Judith
+ - Jubillees - mentions the nephilim
+ - Enoch - mentions the nephilim
+ - Esther
+ - Baruch
+ - Sirach
+ - Maccabees
+

@@ -6,7 +6,6 @@ draft: false
 type: note
 toc: true
 crosslink: "true"
-cover: /wp-content/uploads/2016/07/start-here-300x186.jpg
 ---
 _So on and off I have this idea to set myself challenges, then take whatever concrete steps I can towards them as a way of deciding what it is I actually value, as well as hoping that the training or changes required on the "journey" are ones that will make me a better person regardless of the "destination". But I do need to revise them for 2020._
 
