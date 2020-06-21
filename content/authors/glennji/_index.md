@@ -24,10 +24,10 @@ role: Cloud + Data Geek / Coder / Futurist / Biohacker / Entrepreneur
 bio:
 
 interests:
-- "Dev: [Python](/notes/terms/python), Java, React"
-- "[DevOps](/notes/terms/devops) / [Kubernetes](/notes/terms/kubernetes)"
-- "Big Data / [AI](/notes/terms/artificial-intelligence)"
-- "Robotics & [Transhumanism](/notes/terms/transhumanism)"
+- "Dev: [Python](/notes/software-engineering/python), [Java](/notes/software-engineering/java), [React](/notes/software-engineering/react)"
+- "[DevOps](/notes/devops) / [Kubernetes](/notes/kubernetes)"
+- "[Big Data](/notes/big-data) / [AI](/notes/artificial-intelligence)"
+- "[Robotics](/categories/robotics) & [Transhumanism](/notes/transhumanism)"
 
 education:
   courses:
@@ -92,7 +92,7 @@ Somehow you've stumbled onto my (oft-ignored) website, and then have clicked on 
 
 (Yeah, I should probably update this, especially since I had a job interview once in which the lead engineer gave me a `vi` session and a problem statement and said "go for it".  No IDE? What are we, savages?)
 
-I've a long list of hobbies, including science-fiction, motorcycles, camping, software engineering, devops, craft beer & brewing, robotics/electronics and boardgames. I've travelled a few places, although there are plenty more things I'd like to try.
+I've a long list of hobbies, including science-fiction, motorcycles, camping, software engineering, devops, craft beer & brewing, robotics and boardgames. I've travelled a few places, although there are plenty more things I'd like to try.
 
 ***
 
