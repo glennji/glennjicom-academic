@@ -43,13 +43,14 @@
 
             <div class="post-content">
               {{ if .Params.crosslink }}
-                  {{ $related := .Site.RegularPages.RelatedIndices . "crosslink" }}
+                  {{ $related := .Site.Pages.RelatedIndices . "crosslink" }}
                   {{ $page_title := .Params.title }}
                   {{ $.Page.Scratch.Set "content" .Content }}
                   {{ range $related }}
-
+                      {{ if .Params.title }}
                       {{ $title := .Params.title }}
                       {{ $permalink := .Permalink }}
+
 
                       {{ $content := replaceRE (printf "(%s)/" (lower $title)) "meeeeeeeeeeeeeep" ($.Page.Scratch.Get "content") }}
                       {{ $.Page.Scratch.Set "content" $content }}
@@ -61,7 +62,7 @@
 
                       {{ $content := replaceRE "meeeeeeeeeeeeeep" (printf "%s/" (lower $title)) ($.Page.Scratch.Get "content") }}
                       {{ $.Page.Scratch.Set "content" $content }}
-
+                      {{ end }}
                   {{ end }}
                   {{ $.Page.Scratch.Get "content" | markdownify }}
               {{ else }}
