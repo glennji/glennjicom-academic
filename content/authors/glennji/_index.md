@@ -8,7 +8,6 @@ authors:
 
 # Is this the primary user of the site?
 superuser: true
-
 crosslink: "true"
 
 url: /about
@@ -83,7 +82,7 @@ _This is the personal website of **Glenn J. Mason**, a technologist and unrepent
 
 [^1]: "common law" wife; for some reason, we've never gotten around to actually "tieing the knot", although it's arguably the best excuse for bringing a bunch of old friends from around the world together for a party.
 
-[^2]: Age seven and with greater mastery of a PS4 controller than I've ever seen, let alone the Wii U, iPad, phone ... how many platforms can you get Minecraft on these days? God, I love that kid.
+[^2]: Age eight and with greater mastery of a PS4 controller than I've ever seen, let alone the Wii U, iPad, phone ... how many platforms can you get Minecraft on these days? God, I love that kid.
 
 [^3]: Oh, you don't reincarnate every prime multiple of years? 2,3,5,7,11,13,17,19,23,29,31,37,41
 
