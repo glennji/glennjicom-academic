@@ -5,9 +5,10 @@
 
   {{ partial "page_header.html" . }}
 
-
   {{ with . }}
   <h2>{{ .Params.title }}</h2>
+
+  {{ partial "page_metadata" (dict "page" . "is_list" 1) }}
 
   <div class="article-style" itemprop="notebody">
 
@@ -77,7 +78,6 @@
     {{ end }}
   </div>
 
-{{ partial "page_metadata" (dict "page" . "is_list" 1) }}
-
+{{ partial "tags" . }}
 
 {{- end -}}

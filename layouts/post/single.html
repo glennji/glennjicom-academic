@@ -17,15 +17,17 @@
                         </h3>
                         {{/* If `authors` is set and is not empty. */}}
                         {{ if .Params.authors }}
-                        {{ $authorLen := len .Params.authors }}
-                        {{ if gt $authorLen 0 }}
-                        <div class="authors">
-                          {{ partial "page_metadata_authors" . }}
-                        </div>
-                        {{ end }}
+                          {{ $authorLen := len .Params.authors }}
+                          {{ if gt $authorLen 0 }}
+                          <div class="authors">
+                            {{ partial "page_metadata_authors" . }}
+                          </div>
+                          {{ end }}
                         {{ end }}
 
-                          {{- if .Params.toc }}
+                        {{ partial "page_metadata" (dict "page" . "is_list" 1) }}
+
+                        {{- if .Params.toc }}
                               <hr />
                               <aside id="toc">
                                   <div class="toc-title">{{ i18n "tableOfContents" }}</div>
@@ -62,7 +64,8 @@
                             {{ .Content }}
                             {{ end }}
 
-                            {{ partial "page_metadata" (dict "page" . "is_list" 1) }}
+                            {{ partial "tags" . }}
+
                           </div>
                       </article>
 
@@ -104,24 +107,7 @@
 
               </div>
 
-
-      {{ partial "tags" . }}
-
-      {{ if ne .Type "page" }}
-      {{ partial "page_author" . }}
-      {{ $related := site.RegularPages.Related . | first 5 }}
-      {{/*      {{ with $related }}*/}}
-      {{/*      <div class="article-widget">*/}}
-      {{/*        <div class="hr-light"></div>*/}}
-      {{/*        <h3>{{ i18n "related" }}</h3>*/}}
-      {{/*        <ul>*/}}
-        {{/*          {{ range . }}*/}}
-        {{/*          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>*/}}
-        {{/*          {{ end }}*/}}
-        {{/*        </ul>*/}}
-      {{/*      </div>*/}}
-      {{/*      {{ end }}*/}}
-      {{ end }}
+      {{ partial "comments" . }}
 
       {{ if site.Params.section_pager }}
       <div class="article-widget">
@@ -129,12 +115,8 @@
       </div>
       {{ end }}
 
-      {{ partial "comments" . }}
       </div> <!-- card-simple -->
     </div> <!-- universal-wrapper -->
 
 {{- end -}}
 
-
-{{ define "main" }}
-{{ end }}

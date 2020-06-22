@@ -5,6 +5,10 @@ date: 2016-07-26T06:21:13+10:00
 draft: false
 type: note
 crosslink: "true"
+categories:
+  - Hobbies
+tags:
+  - 
 view: 6
 image:
   caption: _Search Thou The Ruling Passion_ (Harry Tennant)

@@ -5,9 +5,10 @@ title: "Painting With Jules"
 subtitle: "We'll make a wargamer out of him yet!"
 summary: ""
 crosslink: "true"
-authors: []
-tags: []
-categories: []
+authors:
+  - glennji
+tags: [minatures]
+categories: [Hobbies]
 date: 2019-12-21T23:12:44+11:00
 lastmod: 2019-12-21T23:12:44+11:00
 featured: false

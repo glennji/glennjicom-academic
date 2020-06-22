@@ -16,21 +16,21 @@
             <img src="{{ . }}" class="post-cover" />
           {{ end }}
 
-          <div class="post-info">
-            <p>
-              {{ if .IsTranslated }}
-                | {{ i18n "postAvailable" }}
-                {{ range .Translations }}
-                  <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
-                {{ end}}
-              {{ end }}
-              {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
-            </p>
-          </div>
-
           <article>
 
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+
+            <div class="post-info">
+              <p>
+                {{ if .IsTranslated }}
+                | {{ i18n "postAvailable" }}
+                {{ range .Translations }}
+                <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+                {{ end}}
+                {{ end }}
+                {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+              </p>
+            </div>
 
             {{- if .Params.toc }}
               <hr />
@@ -80,28 +80,11 @@
             </div>
           {{ end }}
         </main>
-
       </div>
 
       {{ partial "edit_page" . }}
 
       {{ partial "tags" . }}
-
-      {{ if ne .Type "page" }}
-        {{ partial "page_author" . }}
-        {{ $related := site.RegularPages.Related . | first 5 }}
-  {{/*      {{ with $related }}*/}}
-  {{/*      <div class="article-widget">*/}}
-  {{/*        <div class="hr-light"></div>*/}}
-  {{/*        <h3>{{ i18n "related" }}</h3>*/}}
-  {{/*        <ul>*/}}
-  {{/*          {{ range . }}*/}}
-  {{/*          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>*/}}
-  {{/*          {{ end }}*/}}
-  {{/*        </ul>*/}}
-  {{/*      </div>*/}}
-  {{/*      {{ end }}*/}}
-      {{ end }}
 
       {{ if site.Params.section_pager }}
       <div class="article-widget">
