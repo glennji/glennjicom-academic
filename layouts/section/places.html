@@ -11,7 +11,7 @@
       {{ end }}
 
       <div class="book-list">
-        {{ range .Pages.ByDate.Reverse }}
+        {{ range .Pages.ByTitle }}
 
         {{ if .Params.publication_types }}
           {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
