@@ -3,7 +3,6 @@ title: "Melbourne"
 author: glennji
 date: 2019-05-16T20:39:45+10:00
 draft: false
-type: note
 crosslink: "true"
 ---
 We lived for a relatively short time at the base of the Dandenongs in the outskirts of Melbourne. We actually bought a house[^1] there, before moving up to Canberra, then Inner-west Sydney. We wanted the house to be our <em>ancestral home</em>, a place to grow a family and get old and all that. It wasn't to be.

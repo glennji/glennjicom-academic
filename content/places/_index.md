@@ -7,5 +7,7 @@ type: note
 crosslink: "true"
 categories:
  - Places
+view: 5
 ---
+## Places
 All the places in the world!

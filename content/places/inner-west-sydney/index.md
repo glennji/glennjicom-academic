@@ -3,7 +3,6 @@ title: "Inner-west Sydney"
 author: glennji
 date: 2019-05-16T20:38:47+10:00
 draft: false
-type: note
 crosslink: "true"
 ---
 When we arrived in Sydney, we had no idea where we wanted to live. We looked in Balmain (seemed nice), but eventually found a place in Annandale that ticked all the boxes:

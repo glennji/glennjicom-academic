@@ -3,7 +3,6 @@ title: "Eco Farm-Stay"
 author: glennji
 date: 2016-12-16T22:02:21+10:00
 draft: false
-type: note
 crosslink: "true"
 ---
 A cute little B&B in the country somewhere, with facilities for perhaps 5 rooms (maximum). Possibly little detached cottages (like in SA), or converted house-stables, or...

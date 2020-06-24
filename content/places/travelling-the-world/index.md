@@ -3,7 +3,6 @@ title: "Travelling the World"
 author: glennji
 date: 2019-05-16T20:48:58+10:00
 draft: false
-type: note
 crosslink: "true"
 ---
 Where to next?

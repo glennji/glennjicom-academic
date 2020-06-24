@@ -1,26 +1,27 @@
 {{- define "main" -}}
 {{ $page := . }}
 
-
 <div class="universal-wrapper">
+
+  {{ partial "page_header.html" . }}
+
+  <a href="/places">← More places</a>
+
   <article class="card-simple article article-project" itemscope itemtype="http://schema.org/Article">
-
-    {{ partial "page_header.html" . }}
-
-    <div class="post-info">
-      <p>
-        {{ if .IsTranslated }}
-        | {{ i18n "postAvailable" }}
-        {{ range .Translations }}
-        <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
-        {{ end}}
-        {{ end }}
-        {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
-      </p>
-    </div>
 
     <div class="article-container">
       <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+      <div class="post-info">
+        <p>
+          {{ if .IsTranslated }}
+          | {{ i18n "postAvailable" }}
+          {{ range .Translations }}
+          <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+          {{ end}}
+          {{ end }}
+          {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+        </p>
+      </div>
       <div class="article-style" itemprop="articleBody">
         {{ partial "content" . }}
       </div>

@@ -74,7 +74,7 @@
 
     {{ $image := .Resize "540x" }}
       {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
-        <img src="{{ $image.RelPermalink }}" itemprop="image" alt="">
+        <img src="{{ $image.RelPermalink }}" itemprop="image" alt="" class="showcase">
       {{if $do_link}}</a>{{end}}
     </div>
 
