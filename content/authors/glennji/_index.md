@@ -122,23 +122,31 @@ categories:
 ... and use some derivation of the following in the layout for the content:
 
 ```
-<div class="post-content">
-  {{ if .Params.crosslink }}
-    {{ $related := .Site.RegularPages.RelatedIndices . "crosslink" }}
-    {{ .Scratch.Set "content" .Content }}
-    {{ with $related }}
-      {{ range . }}
+{{ if .Params.crosslink }}
+  {{ $related := .Site.Pages.RelatedIndices . "crosslink" }}
+  {{ .Scratch.Set "content" .Content }}
+  {{ with $related }}
+    {{ range . }}
+      {{ if .Params.title }}
         {{ $title := .Params.title }}
         {{ $permalink := .Permalink }}
-        {{ $content := replaceRE (printf "(.*)\\b(%s|%s|%s)\\b" (lower $title) $title (title $title)) (printf "$1 [$2](%s)" $permalink | markdownify ) ($.Page.Scratch.Get "content") }}
+
+        {{ $content := replaceRE (printf "(%s)/" (lower $title)) "meeeeeeeeeeeep" ($.Page.Scratch.Get "content") }}
+        {{ $.Page.Scratch.Set "content" $content }}
+
+        {{ $content := replaceRE (printf "(.*)\\b(%s|%s|%s)\\b" (lower $title) $title (title $title)) (printf "$1[$2](%s)" $permalink | markdownify ) ($.Page.Scratch.Get "content") }}
+        {{ $.Page.Scratch.Set "content" $content }}
+
+        {{ $content := replaceRE "meeeeeeeeeeeep" (printf "%s/" (lower $title)) ($.Page.Scratch.Get "content") }}
         {{ $.Page.Scratch.Set "content" $content }}
       {{ end }}
     {{ end }}
-    {{ .Scratch.Get "content" | safeHTML }}
-  {{ else }}
-    {{ .Content }}
   {{ end }}
-</div>
+  {{ .Scratch.Get "content" | safeHTML }}
+{{ else }}
+  {{ .Content }}
+{{ end }}
+
 ```
 
 ## Geek Selfie

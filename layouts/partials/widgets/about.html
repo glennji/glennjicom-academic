@@ -78,30 +78,7 @@
     {{ else if $page.Params.widget }}
       {{ $person_page.Params.summary | markdownify | emojify }}
     {{ else }}
-      {{ if $person_page.Params.crosslink }}
-        {{ $related := $person_page.Site.Pages.RelatedIndices $person_page "crosslink" }}
-        {{ $person_page.Scratch.Set "content" $person_page.Content }}
-        {{ with $related }}
-          {{ range . }}
-            {{ if .Params.title }}
-              {{ $title := .Params.title }}
-              {{ $permalink := .Permalink }}
-
-              {{ $content := replaceRE (printf "(%s)/" (lower $title)) "meeeeeeeeeeeeeep" ($person_page.Scratch.Get "content") }}
-              {{ $person_page.Scratch.Set "content" $content }}
-
-              {{ $content := replaceRE (printf "(.*)\\b(%s|%s|%s)\\b" (lower $title) $title (title $title)) (printf "$1[$2](%s)" $permalink | markdownify ) ($person_page.Scratch.Get "content") }}
-              {{ $person_page.Scratch.Set "content" $content }}
-
-              {{ $content := replaceRE "meeeeeeeeeeeeeep" (printf "%s/" (lower $title)) ($person_page.Scratch.Get "content") }}
-              {{ $person_page.Scratch.Set "content" $content }}
-            {{ end }}
-          {{ end }}
-        {{ end }}
-        {{ $person_page.Scratch.Get "content" | safeHTML }}
-      {{ else }}
-        {{ $person_page.Content }}
-      {{ end }}
+      {{ partial "content" $person_page }}
     {{ end }}
 
     <div class="row">

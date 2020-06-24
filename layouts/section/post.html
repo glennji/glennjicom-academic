@@ -7,7 +7,7 @@
   <h2>{{ .Params.Title }}</h2>
 
   {{ with .Content }}
-  <div class="article-style" itemprop="articleBody">{{ . }}</div>
+  <div class="article-style" itemprop="articleBody">{{ partial "content" . }}</div>
   {{ end }}
 
   {{ $paginator := .Paginate .Data.Pages }}

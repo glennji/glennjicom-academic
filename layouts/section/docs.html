@@ -8,32 +8,9 @@
 
   <div class="article-style" itemprop="articleBody">
 
-    {{ if .Params.crosslink }}
-      {{ $related := .Site.RegularPages.RelatedIndices . "crosslink" }}
-      {{ .Scratch.Set "content" .Content }}
-      {{ with $related }}
-        {{ range . }}
-        {{ $title := .Params.title }}
-        {{ $permalink := .Permalink }}
-
-        {{ $content := replaceRE (printf "(%s)/" (lower $title)) "meeeeeeeeeeeeeep" ($.Page.Scratch.Get "content") }}
-        {{ $.Page.Scratch.Set "content" $content }}
-
-        {{ $content := replaceRE (printf "(.*)\\b(%s|%s|%s)\\b" (lower $title) $title (title $title)) (printf "$1[$2](%s)" $permalink | markdownify ) ($.Page.Scratch.Get "content") }}
-        {{ $.Page.Scratch.Set "content" $content }}
-
-        {{ $content := replaceRE "meeeeeeeeeeeeeep" (printf "%s/" (lower $title)) ($.Page.Scratch.Get "content") }}
-        {{ $.Page.Scratch.Set "content" $content }}
-
-      {{ end }}
-      {{ end }}
-      {{ .Scratch.Get "content" | safeHTML }}
-    {{ else }}
-      {{ .Content }}
-    {{ end }}
+    {{ partial "content" . }}
 
     {{ partial "page_metadata" (dict "page" . "is_list" 1) }}
-
 
   </div>
 

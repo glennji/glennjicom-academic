@@ -1,12 +1,12 @@
 {{- define "main" -}}
 
-{{ partial "page_header.html" . }}
+
 <div class="universal-wrapper">
+  {{ partial "page_header.html" . }}
 
   {{ if ne .Name "Books" }}
   <a href="/books">← Back to books</a>
   {{ end }}
-
 
       {{ with .Content }}
       <div class="article-style" itemprop="articleBody">{{ . }}</div>
