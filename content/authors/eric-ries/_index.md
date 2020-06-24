@@ -1,19 +1,14 @@
 ---
 # Display name
 name: Eric Ries
-
-# Username (this should match the folder name)
+title: Ries, Eric
 authors:
 - eric-ries
-
-# Is this the primary user of the site?
 superuser: false
+crosslink: "true"
 
 # Role/position
-role:
-
-avatar: avatar.jpg
-
+#role:
 # Organizations/Affiliations
 #organizations:
 #- name: Stanford University
@@ -22,3 +17,4 @@ avatar: avatar.jpg
 # Short bio (displayed in user profile at end of posts)
 bio:
 ---
+asdf

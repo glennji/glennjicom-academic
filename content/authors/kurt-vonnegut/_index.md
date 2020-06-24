@@ -1,8 +1,8 @@
 ---
-name: "{{ replace .Name "-" " " | title }}"
-title: {{ delimit (union (last 1 (split (replace .Name "-" " ") " ")) (split (replace .Name "-" " ") " ") ) ", " | title }}
+name: "Kurt Vonnegut"
+title: Vonnegut, Kurt
 authors:
-- {{ .Name }}
+- kurt-vonnegut
 superuser: false
 avatar: avatar.jpg
 

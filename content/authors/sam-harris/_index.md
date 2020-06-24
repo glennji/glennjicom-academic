@@ -1,10 +1,11 @@
 ---
 name: "Sam Harris"
+title: "Harris, Sam"
 authors:
 - sam-harris
 superuser: false
 avatar: avatar.jpg
-
+crosslink: "true"
 # Role/position
 # role:
 # Organizations/Affiliations
@@ -12,6 +13,12 @@ avatar: avatar.jpg
 #- name: Stanford University
 #  url: ""
 
+education:
+  courses:
+  - course: Philosophy (degree)
+    institution: Stanford
+  - course: Neuroscience (PhD)
+    institution: UCLA
 ---
 Sam Harris is the author of five New York Times best sellers. His books include The End of Faith, Letter to a Christian Nation, The Moral Landscape, Free Will, Lying, Waking Up, and Islam and the Future of Tolerance (with Maajid Nawaz). The End of Faith won the 2005 PEN Award for Nonfiction. His writing and public lectures cover a wide range of topics—neuroscience, moral philosophy, religion, meditation practice, human violence, rationality—but generally focus on how a growing understanding of ourselves and the world is changing our sense of how we should live.
 

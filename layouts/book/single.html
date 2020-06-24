@@ -4,8 +4,12 @@
 
   <a href="/books">← Back to books</a>
 
-{{ partial "page_header.html" . }}
-{{ $page := . }}
+  {{ partial "page_header.html" . }}
+  {{ $page := . }}
+  {{ $cover := ($page.Resources.ByType "image").GetMatch "*cover*" }}
+  {{ if not $cover }}
+    {{ $cover = "/images/book-cover.jpg" }}
+  {{ end }}
 
 <article class="article" itemscope itemtype="http://schema.org/Article">
 
@@ -18,7 +22,7 @@
         <main class="post">
 
             <div class="book-cover">
-            {{ with .Params.Cover }}
+            {{ with $cover }}
                 <img src="{{ . }}" class="book-cover-image" />
             {{ end }}
             </div>
@@ -55,27 +59,26 @@
 
             <div class="post-content">
               {{ if .Params.crosslink }}
-              {{ $related := .Site.RegularPages.RelatedIndices . "crosslink" }}
-              {{ .Scratch.Set "content" .Content }}
-              {{ with $related }}
-              {{ range . }}
-              {{ $title := .Params.title }}
-              {{ $permalink := .Permalink }}
+                {{ $related := .Site.RegularPages.RelatedIndices . "crosslink" }}
+                {{ .Scratch.Set "content" .Content }}
+                {{ with $related }}
+                  {{ range . }}
+                    {{ $title := .Params.title }}
+                    {{ $permalink := .Permalink }}
 
-              {{ $content := replaceRE (printf "(%s)/" (lower $title)) "meeeeeeeeeeeeeep" ($.Page.Scratch.Get "content") }}
-              {{ $.Page.Scratch.Set "content" $content }}
+                    {{ $content := replaceRE (printf "(%s)/" (lower $title)) "meeeeeeeeeeeeeep" ($.Page.Scratch.Get "content") }}
+                    {{ $.Page.Scratch.Set "content" $content }}
 
-              {{ $content := replaceRE (printf "(.*)\\b(%s|%s|%s)\\b" (lower $title) $title (title $title)) (printf "$1[$2](%s)" $permalink | markdownify ) ($.Page.Scratch.Get "content") }}
-              {{ $.Page.Scratch.Set "content" $content }}
+                    {{ $content := replaceRE (printf "(.*)\\b(%s|%s|%s)\\b" (lower $title) $title (title $title)) (printf "$1[$2](%s)" $permalink | markdownify ) ($.Page.Scratch.Get "content") }}
+                    {{ $.Page.Scratch.Set "content" $content }}
 
-              {{ $content := replaceRE "meeeeeeeeeeeeeep" (printf "%s/" (lower $title)) ($.Page.Scratch.Get "content") }}
-              {{ $.Page.Scratch.Set "content" $content }}
-
-              {{ end }}
-              {{ end }}
-              {{ .Scratch.Get "content" | safeHTML }}
+                    {{ $content := replaceRE "meeeeeeeeeeeeeep" (printf "%s/" (lower $title)) ($.Page.Scratch.Get "content") }}
+                    {{ $.Page.Scratch.Set "content" $content }}
+                  {{ end }}
+                {{ end }}
+                {{ .Scratch.Get "content" | safeHTML }}
               {{ else }}
-              {{ .Content }}
+                {{ .Content }}
               {{ end }}
             </div>
 
