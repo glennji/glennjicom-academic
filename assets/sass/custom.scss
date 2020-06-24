@@ -305,7 +305,8 @@ figure {
     // width: auto\9*0.3; /* ie8 */
     height: auto;
     float: left;
-    margin: 0.2em;
+    margin: 0;
+    margin-right: 0.7em;
   }
 
   &.floatright {

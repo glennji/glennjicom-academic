@@ -17,5 +17,5 @@ image:
 >
 > – Aldo Leopold, _Sand County Almanac_
   
-I'm terrible at making time for non-directed research, play and practise -- aka "hobbies". There are a bunch of things I'd like to try, however:
-
+I'm terrible at making time for non-directed research, play and practise -- aka "hobbies". There are a bunch of things 
+I'd like to try though:

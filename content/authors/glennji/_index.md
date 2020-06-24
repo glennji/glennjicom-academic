@@ -104,7 +104,8 @@ I've a long list of hobbies, including science-fiction, motorcycles, camping, so
 
 ## About this website
 
-I've had a 'blog for a while (check the archives), and have over the years migrated it from one platform to another: Blogspot to Drupal to Wordpress and beyond. These days, it's a static site built by Hugo, using a hacked up version of the hello-friend-ng theme that I've never gotten around to forking. If you haven't checked out Hugo, or static site generators in general (I hear Jekyll is good too) then you definitely should: setting this one up was pretty easy and is currently hosted for free on Firebase. Thanks, Googs!
+{{< figure src="spiderchill.jpg" class="floatleft" lightbox="true" alt="This photo needs no explanation">}}I've had a 'blog for a while (check the archives), and have over the years migrated it from one platform to another: Blogspot to Drupal to Wordpress and beyond. These days, it's a static site built by Hugo, using a hacked up version of the hello-friend-ng theme that I've never gotten around to forking. If you haven't checked out Hugo, or static site generators in general (I hear Jekyll is good too) then you definitely should: setting this one up was pretty easy and is currently hosted for free on Firebase. Thanks, Googs!
+
 
 In fact, there's really only one neat feature that I'm exploring, which is automagic crosslinks between posts and "terms", another content type I created to try to get some notes in order. In short, any mention of the title of a piece of content will become a link to that content. To do this, add the content to the "crosslink" index via frontmatter:
 ```
