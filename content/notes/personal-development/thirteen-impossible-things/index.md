@@ -11,39 +11,39 @@ _So on and off I have this idea to set myself challenges, then take whatever con
 
 _They are, I must admit, not in any particular order._
 
-# #1: Achieve Immortality
+## #1: Achieve Immortality
 
 Okay, I can't do this one on my own, but I certainly can do a bunch of things that might help my longevity, and therefore allow me to still be alive on the day that lady science finally defeats aging — and once we can do that, it's only a matter of time (and careful planning) until we also cure death. Read about this one on my note regarding immortality.
 
-# #2: Get an MBA (become a CTO)
+## #2: Get an MBA (become a CTO)
 
 This is kind of in progress (see the [Entrepreneurship](/categories/entrepreneurship) categories, and notes on opportunity discovery) as I'm studying towards an MBA from Swinburne Online. Of course, I'm also hoping our startup finds funding, which would be the fast-track to CTOship — not that the title is all the meaningful to me! But where else can a software developer go?
 
-# #3: Write a book
-# #4: Reach my goal weight & fitness
+## #3: Write a book
+## #4: Reach my goal weight & fitness
 
 What with a fondness for craft beer, historically poor sleep habits and no real idea on how my body works, I've managed to stack on too much weight to be healthy. In theory, I can shred it off again: see How To Become A Superman.
 
-# #5: Run a marathon
-# #6: Build a robot
-# #7: Release an app
-# #8: Become a true polyglot
+## #5: Run a marathon
+## #6: Build a robot
+## #7: Release an app
+## #8: Become a true polyglot
 
 
 
-# #9: Join MENSA
-# #10: Get good at bouldering
-# #11: Lucid dream
+## #9: Join MENSA
+## #10: Get good at bouldering
+## #11: Lucid dream
 
 I've actually had a lucid dream once, and it was pretty amazing: more than just the fact that I knew it was a dream and thus could control it, it was also the most detailed and realistic dream I've ever had: I could feel the woodgrain under my feet, a night-breeze from an open window, the sunshine on my face when I caused dawn with the wave of a hand.
 
 There are plenty of techniques for encouraging lucid dreaming, and I practice a few of them, but so far nothing has repeated the experience. I should probably create a note specifically for lucid dreaming...
 
-# #12: Learn to cook
-# #13: ...?
+## #12: Learn to cook
+## #13: ...?
 On this review, I couldn't actually think of a full thirteen — either there's no other changes I want in my life right now, or they're things I don't think of as "impossible". (I'm sure I'll think of another one sooner or later, tho'.)
 
-# The old list(s)
+## The old list(s)
 <ol>
  	<li>Read and speak French (with some level of fluency) <strong>2018</strong></li>
  	<li>Write Quenya (for kicks) <strong>2018</strong></li>

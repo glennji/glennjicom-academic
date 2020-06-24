@@ -47,7 +47,7 @@ The following lists are my thoughts and plans for Baker Street. Some of these at
 <ul>
  	<li>with good light and a row of electrical outlets</li>
  	<li>suitable for electronics and robotics</li>
- 	<li>for <a class="encyclopedia" title="I don't have ANY hobbies at the moment -- I'm far too busy for such trivial things as &quot;fun&quot; and &quot;free time&quot;. There are a bunch of things I'd like to try, however: electronics robotics music writing/creating playing running events London marathon Edinburgh marathon triathlon Ironman Kokoda trail cycling activities family tour adventure triathlon…" href="http://glennji.com/lexicon/hobbies/" target="_self" rel="noopener noreferrer">hobbies</a> like papercraft</li>
+ 	<li>for hobbies like papercraft</li>
 </ul>
 </li>
  	<li>a “wallscreen” for extreme monitoring

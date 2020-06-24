@@ -5,6 +5,7 @@ date: 2016-07-26T04:33:52+10:00
 draft: false
 type: note
 crosslink: "true"
+view: 6
 ---
 >"Face the facts. Then act on them. It’s the only mantra I know, the only doctrine I have to offer you, and it’s harder than you’d think, because I swear humans seem hardwired to do anything but. Face the facts. Don’t pray, don’t wish, don’t buy into centuries-old dogma and dead rhetoric. Don’t give in to your conditioning or your visions or your fucked-up sense of… whatever. FACE THE FACTS. THEN act."<div style="text-align: right;">- Quellcrist Falconer, <em>Takashi Kovacs Novels by Richard K. Morgan</em>
 
@@ -25,11 +26,6 @@ If your life can be anything you want it to be, but <strong>what is it now</stro
 ### Next?
 
   - Archetypes
-  - Where Should We Live?
-  - How Should I Spend My Time?
-  - What Should I Eat?
-  - How Should I Dress?
-  - How Should I Spend My Time?
   - What else could be part of your perfect life?
     - My beautiful wife and two adorable children. (Woah, did I actually say "wife"?)
       - How To Propose Like A Rockstar

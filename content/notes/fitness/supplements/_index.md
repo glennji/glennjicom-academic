@@ -5,6 +5,7 @@ date: 2019-05-16T20:02:34+10:00
 draft: false
 type: note
 crosslink: "true"
+view: 6
 ---
 <blockquote><em>A dietary <strong>supplement</strong> is a product intended for ingestion that contains a "dietary ingredient" intended to add further nutritional value to (supplement) the diet.</em>
 <em>A <b>drug</b> is any substance (other than food that provides nutritional support) that, when inhaled, injected, smoked, consumed, absorbed via a patch on the skin, or dissolved under the tongue causes a temporary physiological (and often psychological) change in the body.</em><sup id="cite_ref-diccom_2-0" class="reference"></sup><sup id="cite_ref-drugs.com:_Drug_Definition_3-0" class="reference"></sup>
