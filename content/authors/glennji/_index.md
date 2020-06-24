@@ -1,6 +1,6 @@
 ---
 # Display name
-name: Glenn J. Mason
+name: ✍️ Glenn J. Mason
 
 # Username (this should match the folder name)
 authors:
