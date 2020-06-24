@@ -1,14 +1,15 @@
 {{- define "main" -}}
 
+<div class="universal-wrapper">
 {{ partial "page_header.html" . }}
 
 <div class="article-container">
   <div class="book">
     <div class="col-lg-12">
 
-      {{ with .Content }}
-      <div class="article-style" itemprop="articleBody">{{ . }}</div>
-      {{ end }}
+      <div class="article-style" itemprop="articleBody">
+        {{ partial "content" . }}
+      </div>
 
       <div class="book-list">
         {{ range .Pages.ByTitle }}
@@ -36,6 +37,7 @@
 
     </div>
   </div>
+</div>
 </div>
 
 {{- end -}}
