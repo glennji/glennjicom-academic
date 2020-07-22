@@ -3,7 +3,7 @@ title: "Sanskrit"
 author: glennji
 date: 2019-05-16T20:04:18+10:00
 draft: false
-type: note
+type: docs
 crosslink: "true"
 categories:
   - Language

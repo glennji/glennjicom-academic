@@ -1,5 +1,6 @@
 ---
 title: "Language"
+summary: "I yearn to become a polyglot: to have at least a rudimentary ability in each of the languages listed within."
 author: glennji
 date: 2019-05-16T20:27:21+10:00
 draft: false
@@ -8,6 +9,11 @@ crosslink: "true"
 categories:
   - Anthropology
   - Language
+view: 6
+menu:
+  language:
+    name: Overview
+    weight: 1
 ---
 Language is the medium for the transmission of ideas: the vector for meme activity, perhaps. It also appears to be something which differentiates humans from other animals (although perhaps whale-song or even bird-call is more complex than suspected).
 

@@ -1,9 +1,11 @@
 ---
 title: "Seneca"
-author: glennji
+name: "Seneca"
+authors:
+- seneca
+superuser: false
 date: 2019-05-16T20:54:06+10:00
 draft: false
-type: note
 crosslink: "true"
 categories:
   - Philosophy

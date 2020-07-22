@@ -1,12 +1,22 @@
 ---
+linktitle: Topics of Interest
+summary: There are a number of topics of interest that I like to read about, research, and consider; if it's something I really, *really* want to learn then I should probably implement some different learning hacks.
+
 title: "Topics of Interest"
-author: glennji
+authors: 
+  - glennji
 date: 2019-05-14T11:25:25+10:00
 draft: false
-type: note
+toc: false
 crosslink: "true"
+type: docs
 categories:
   - Learning
+view: 6
+menu:
+  topics-of-interest:
+    name: Overview
+    weight: 1
 ---
 > There does not need to be a specific reason, goal or objective for learning. Learning for its own sake can be very rewarding.
 
@@ -31,6 +41,5 @@ Also, *le topic informatique*:
  - human augmentation (& productivity)
  - artificial intelligence
  - cybernetics, human-computer interaction and user experience
-
 
 Whilst each of these seems to be immensely interconnected (to me), perhaps it is only so in my mind. Nevertheless, it is worth investigating each and "plugging it in" to my particular (peculiar?) neural network.
