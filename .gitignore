@@ -1,6 +1,6 @@
-public/
+# IDEs
 .idea/
-/.firebase/
-/resources/_gen/
-/themes/academic/
-.DS_Store
+
+# Hugo
+/resources/
+public/

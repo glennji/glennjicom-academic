@@ -1,12 +1,11 @@
 ---
 title: "Principles of Economics"
 authors: [N. Gregory Mankiw]
-bookAuthor: N. Gregory Mankiw
+# bookAuthor: N. Gregory Mankiw
 cover: cover.jpg
 author: glennji
 date: 2019-06-11T15:37:26+10:00
 draft: false
-# type: book
 toc: true
 crosslink: "true"
 publication_types: ["5"]

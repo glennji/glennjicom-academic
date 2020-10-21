@@ -9,11 +9,6 @@ crosslink: "true"
 categories:
   - Anthropology
   - Language
-view: 6
-menu:
-  language:
-    name: Overview
-    weight: 1
 ---
 Language is the medium for the transmission of ideas: the vector for meme activity, perhaps. It also appears to be something which differentiates humans from other animals (although perhaps whale-song or even bird-call is more complex than suspected).
 
@@ -22,7 +17,6 @@ Language is the medium for the transmission of ideas: the vector for meme activi
 > _When we developed writing, he says, we found a way to express language that didn't require us to hallucinate voices -- and this is why so-called gods and spirits stopped talking to us. It's a nice idea; it explains how religion could have evolved from a time of prophets and leaders to one of "faith" as a virtue._
 
 I yearn to become a polyglot: to have at least a rudimentary ability in each of the languages listed below:
-
 
  * Français
  * Deutsche

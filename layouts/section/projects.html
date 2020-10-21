@@ -4,7 +4,7 @@
 
 <div class="universal-wrapper">
 
-  {{ with .Content }}
+  {{ if .Content }}
   <div class="article-style" itemprop="articleBody">{{ partial "content" . }}</div>
   {{ end }}
 

@@ -20,7 +20,7 @@ links:
    icon_pack: fab
    icon: github-alt
 ---
-GK61 from 极客定制 (_ji ke ding zhi_?) is a 60% keyboard with hot-swappable switches and a custom firmware. It's my first "Alibaba"
+GK61 from 极客定制 (_Jí kè dìngzhì_? "geek customisation") is a 60% keyboard with hot-swappable switches and a custom firmware. It's my first "Alibaba"
 keyboard purchase, and I really do like it, although I miss having Fn keys (and will likely buy something that includes
 them next). I capped Kailh red switches with some front-printed Cherry-profile keys, switched off most of the RGB glow,
 and use it to hack Python and other things on a Macbook Pro via a USB cable.
