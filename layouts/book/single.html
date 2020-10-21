@@ -1,0 +1,87 @@
+{{- define "main" -}}
+
+<div class="universal-wrapper">
+
+  <a href="/books">← Back to books</a>
+
+  {{ partial "page_header.html" . }}
+  {{ $page := . }}
+  {{ $cover := ($page.Resources.ByType "image").GetMatch "*cover*" }}
+  {{ if not $cover }}
+    {{ $cover = "/images/book-cover.jpg" }}
+  {{ end }}
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+
+      <article>
+
+        <main class="post">
+
+            <div class="book-cover">
+            {{ with $cover }}
+                <img src="{{ . }}" class="book-cover-image" />
+            {{ end }}
+            </div>
+
+            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+            {{ with .Params.authors }}
+            {{ $authors := "" }}
+            {{ $author := "" }}
+            {{ range . }}
+              {{ $author = . }}
+              {{- with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                {{ $authors = (printf "%s;<a href=\"%s\">%s</a>" $authors .Permalink $author ) }}
+              {{ end }}
+            {{ end }}
+                <h3>by
+                   {{ delimit (after 1 (split $authors ";")) " & " }}
+                </h3>
+            {{ end }}
+
+            {{ if .Params.abstract }}
+            <div class="book-abstract">
+              <h3>{{ i18n "abstract" }}</h3>
+              <p class="pub-abstract" itemprop="text">{{ .Params.abstract | markdownify }}</p>
+            </div>
+            {{ end }}
+
+            {{- if .Params.toc }}
+                <aside id="toc">
+                <div class="toc-title"><h3>{{ i18n "tableOfContents" }}</h3></div>
+                    {{ .TableOfContents }}
+                </aside>
+            {{- end }}
+
+            <div class="post-content">
+              {{ partial "content.html" . }}
+            </div>
+
+            <div class="post-info">
+              <p>
+                {{ if .IsTranslated }}
+                | {{ i18n "postAvailable" }}
+                {{ range .Translations }}
+                <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+                {{ end}}
+                {{ end }}
+                {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+              </p>
+            </div>
+
+
+        {{ if .Params.comments }}
+          <div id="comments" class="thin">
+                {{- partial "comments.html" . -}}
+            </div>
+        {{ end }}
+        </main>
+      </article>
+    </div>
+  </div>
+</article>
+</div>
+{{ end }}

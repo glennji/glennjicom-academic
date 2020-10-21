@@ -1,16 +1,18 @@
 +++
 # A Projects section created with the Portfolio widget.
-widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
+widget = "portfolio"
 headless = true  # This file represents a page section.
-active = true  # Activate this widget? true/false
+active = false  # Activate this widget? true/false
 weight = 65  # Order that this section will appear.
 
 title = "Projects"
 subtitle = ""
 
+item_limit = "7"
+
 [content]
   # Page type to display. E.g. project.
-  page_type = "project"
+  page_type = "projects"
   
   # Filter toolbar (optional).
   # Add or remove as many filters (`[[content.filter_button]]` instances) as you like.
@@ -21,21 +23,41 @@ subtitle = ""
   # Default filter index (e.g. 0 corresponds to the first `[[filter_button]]` instance below).
   filter_default = 0
   
-  # [[content.filter_button]]
-  #   name = "All"
-  #   tag = "*"
+  [[content.filter_button]]
+    name = "All"
+    tag = "*"
   
-  # [[content.filter_button]]
-  #   name = "Deep Learning"
-  #   tag = "Deep Learning"
+  [[content.filter_button]]
+    name = "Completed"
+    tag = "completed"
+    
+  [[content.filter_button]]
+    name = "In Progress"
+    tag = "inprogress"
+    
+  [[content.filter_button]]
+    name = "Someday, maybe"
+    tag = "someday"
   
-  # [[content.filter_button]]
-  #   name = "Other"
-  #   tag = "Demo"
+  [[content.filter_button]]
+    name = "Hardware"
+    tag = "hardware"
+    
+  [[content.filter_button]]
+    name = "Software"
+    tag = "software"
+
+  [[content.filter_button]]
+    name = "Professional"
+    tag = "professional"
+    
+  [[content.filter_button]]
+    name = "Hobby"
+    tag = "hobby"
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns = "2"
+  columns = "1"
 
   # Toggle between the various page layout types.
   #   1 = List
@@ -61,11 +83,11 @@ subtitle = ""
   # gradient_end = "SkyBlue"
   
   # Background image.
-  # image = "background.jpg"  # Name of image in `static/media/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  image = "projects-bg2.jpg" 
+  image_darken = 0.8
 
   # Text color (true=light or false=dark).
-  # text_color_light = true  
+  text_color_light = true  
   
 [advanced]
  # Custom CSS. 
@@ -73,5 +95,12 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
-+++
+ 
+[cta]
+  url = "projects"
+  label = "See More"
+  icon_pack = "fas"
+  icon = "wrench"
 
++++
+I've been involved in many, many projects over the years. Here's a small selection of professional and hobby projects I've worked or am working on.
