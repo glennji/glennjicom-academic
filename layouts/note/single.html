@@ -1,0 +1,75 @@
+{{- define "main" -}}
+
+<div class="universal-wrapper">
+
+  {{ partial "page_header.html" . }}
+
+  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+    {{ $page := . }}
+
+    <div class="article-container">
+
+      <div class="article-style" itemprop="articleBody">
+        <main class="post">
+          {{ with .Params.Cover }}
+            <img src="{{ . }}" class="post-cover" />
+          {{ end }}
+
+          <article>
+
+            <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+
+            <div class="post-info">
+              <p>
+                {{ if .IsTranslated }}
+                | {{ i18n "postAvailable" }}
+                {{ range .Translations }}
+                <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+                {{ end}}
+                {{ end }}
+                {{ partial "page_metadata" (dict "page" $page "is_list" 0 "share" true) }}
+              </p>
+            </div>
+
+            {{- if .Params.toc }}
+              <hr />
+              <aside id="toc">
+                <div class="toc-title">{{ i18n "tableOfContents" }}</div>
+                {{ .TableOfContents }}
+              </aside>
+              <hr />
+            {{- end }}
+
+            <div class="post-content">
+              {{ partial "content" . }}
+            </div>
+          </article>
+
+          <hr />
+
+          {{ if .Params.comments }}
+            <div id="comments" class="thin">
+              {{- partial "comments.html" . -}}
+            </div>
+          {{ end }}
+        </main>
+      </div>
+
+      {{ partial "edit_page" . }}
+
+      {{ partial "tags" . }}
+
+      {{ if site.Params.section_pager }}
+      <div class="article-widget">
+        {{ partial "section_pager" . }}
+      </div>
+      {{ end }}
+
+      {{ partial "comments" . }}
+
+    </div>
+  </article>
+</div>
+
+{{- end -}}

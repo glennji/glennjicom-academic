@@ -1,0 +1,36 @@
+<footer class="site-footer">
+
+  <div class="footer__inner">
+    <div class="footer__content">
+
+      <div class="header_socials">
+              <span class="header_socials">
+              {{- with .Site.Params.social }}
+                {{ partialCached "social-icons.html" . }}
+              {{- end }}
+              </span>
+      </div>
+
+      {{ if or (site.GetPage "terms.md") (site.GetPage "privacy.md") }}
+        <p class="powered-by">
+          {{ with site.GetPage "privacy.md" }}
+            {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+          {{ end }}
+          {{ with site.GetPage "terms.md" }}
+            {{ if site.GetPage "privacy.md" }} &middot; {{ end }}
+            {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+          {{ end }}
+        </p>
+      {{ end }}
+
+      <span>
+      {{ with site.Copyright }}{{ replace . "{year}" now.Year | markdownify}} {{ end }}
+      </span>
+
+      {{/* Display copyright license. */}}
+      {{ partial "site_footer_license" . }}
+
+    </div>
+  </div>
+
+</footer>

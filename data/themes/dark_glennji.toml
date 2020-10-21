@@ -1,0 +1,21 @@
+# Theme metadata
+name = "dark_glennji"
+
+# Is theme light or dark?
+light = false
+
+# Primary
+primary = "#EF525B"
+dark_background = "#292a2d"
+light_background = "#fff"
+
+# Menu
+menu_primary = "#24C2CB"
+menu_text = "#fff"
+menu_text_active = "#00828B"
+menu_title = "#fff"
+
+# Home sections
+#home_section_odd = "hsla(231, 15%, 18%, 1)"
+home_section_odd = "#292a2d"
+home_section_even = "#252627"
