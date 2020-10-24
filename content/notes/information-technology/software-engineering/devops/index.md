@@ -5,6 +5,7 @@ authors: [glennji]
 draft: false
 type: note
 crosslink: "true"
+url: /notes/devops
 categories: []
 tags: []
 ---

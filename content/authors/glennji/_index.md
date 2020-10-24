@@ -27,7 +27,7 @@ interests:
 - "Dev: [Python](/notes/software-engineering/python), [Java](/notes/software-engineering/java), [React](/notes/software-engineering/react)"
 - "[DevOps](/notes/devops) / [Kubernetes](/notes/kubernetes)"
 - "[Big Data](/notes/big-data) / [AI](/notes/artificial-intelligence)"
-- "[Robotics](/categories/robotics) & [Transhumanism](/notes/transhumanism)"
+- "[Robotics](/category/robotics) & [Transhumanism](/notes/transhumanism)"
 
 education:
   courses:

@@ -40,11 +40,6 @@ subtitle = ""
   name = "GCP"
 
 [[feature]]
-  icon = "globe"
-  icon_pack = "fas"
-  name = "Internet"
-
-[[feature]]
   icon = "football-ball"
   icon_pack = "fas"
   name = "Agile Delivery"

@@ -2,7 +2,7 @@
 # About widget.
 widget: "about"
 headless: true  # This file represents a page section.
-active: false  # Activate this widget? true/false
+active: true  # Activate this widget? true/false
 weight: 20  # Order that this section will appear in.
 title: ""
 author: "glennji"
@@ -12,5 +12,11 @@ design:
   spacing:
       # Customize the section spacing. Order is top, right, bottom, left.
       padding: ["20px", "0", "0", "0"]
+      
+cta:
+  url: "glenn-mason-engineering-manager.pdf"
+  label: Download PDF
+  icon_pack: "fas"
+  icon: "download"
 ---
 

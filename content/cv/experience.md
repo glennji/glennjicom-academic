@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 view = 2
 
-title = "CV"
+title = ""
 subtitle = ""
 
 [design.spacing]
@@ -38,11 +38,15 @@ subtitle = ""
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
 date_format = "Jan 2006"
 
-# Experiences.
-#   Add/remove as many `[[experience]]` blocks below as you like.
-#   Required fields are `title`, `company`, and `date_start`.
-#   Leave `date_end` empty if it's your current employer.
-#   Begin/end multi-line descriptions with 3 quotes `"""`.
+[[experience]]
+  title = "Development Lead, Full Stack"
+  company = "Douugh"
+  company_url = "https://douugh.com/"
+  logo = "douugh.png"
+  location = "Sydney"
+  date_start = "2020-05-18"
+  description = """
+  """
 
 [[experience]]
   title = "Engineering Practice Lead"
@@ -51,6 +55,7 @@ date_format = "Jan 2006"
   logo = "ico.png"
   location = "Sydney"
   date_start = "2016-02-01"
+  date_end = "2020-05-18"
   description = """
 _Delivering faster, easier, scalable and secure software solutions for start-ups, disruptors and technology companies, whilst helping make our engineering practice the best in the world. I&Co is a technology venturing company, forging partnerships with our
 clients to deliver cutting-edge solutions._

@@ -4,6 +4,7 @@ date: 2020-01-17T10:37:35+11:00
 authors: [glennji]
 draft: false
 type: note
+url: /notes/kubernetes
 
 # layout: quote, tweet, profile ... ?
 
