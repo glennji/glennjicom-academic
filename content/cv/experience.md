@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 view = 2
 
-title = ""
+title = "Experience"
 subtitle = ""
 
 [design.spacing]
@@ -46,6 +46,9 @@ date_format = "Jan 2006"
   location = "Sydney"
   date_start = "2020-05-18"
   description = """
+*_We’re on a mission to democratize banking and make the world financially healthier. Taking an AI-first approach to helping people spend wisely, save more and build wealth._*
+
+Douugh is a different kind of banking, providing real-time insights and assistance via [AI](/notes/artificial-intelligence)-powered account management, a single view of all supported asset and credit lines, and tools for creating financial wellbeing. As a development lead, I'm coding, designing and scaling our systems and infrastructure to deliver real value and delight our growing user-base of happy Douugh customers. And there's so much more to come!
   """
 
 [[experience]]
@@ -174,4 +177,3 @@ As the lead developer for the new GUI Java team it was my responsibility to desi
   icon = "download"
 
 +++
----

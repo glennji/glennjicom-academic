@@ -39,16 +39,33 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[experience]]
-  title = "Engineering Practice Lead (Cloud & DevOps)"
+  title = "Development Lead, Full Stack"
+  company = "Douugh"
+  company_url = "https://douugh.com/"
+  logo = "douugh.png"
+  location = "Sydney"
+  date_start = "2020-05-18"
+  description = """
+*_We’re on a mission to democratize banking and make the world financially healthier. Taking an AI-first approach to helping people spend wisely, save more and build wealth._*
+
+Douugh is a different kind of banking, providing real-time insights and assistance via [AI](/notes/artificial-intelligence)-powered account management, a single view of all supported asset and credit lines, and tools for creating financial wellbeing. As a development lead, I'm coding, designing and scaling our systems and infrastructure to deliver real value and delight our growing user-base of happy Douugh customers. And there's so much more to come!
+  """
+
+[[experience]]
+  title = "Engineering Practice Lead"
   company = "Industrie&Co"
-  company_url = "https://industrie.co/"
+  company_url = ""
   logo = "ico.png"
   location = "Sydney"
   date_start = "2016-02-01"
+  date_end = "2020-05-18"
   description = """
-_Delivering faster, easier, scalable and secure software solutions for start-ups, disruptors and technology companies, whilst helping make our engineering practice the best in the world._
+_Delivering faster, easier, scalable and secure software solutions for start-ups, disruptors and technology companies, whilst helping make our engineering practice the best in the world. I&Co is a technology venturing company, forging partnerships with our
+clients to deliver cutting-edge solutions._
 
-Engineering is in my DNA, with a long history of software development, cloud-focused devops and agile practices, and I bring experience and near-limitless enthusiasm to the difficult problems facing organisations and entrepreneurs today.
+Engineering is in my DNA, with a long history of polyglot software development (Java, Python, Go, etc), cloud-focused devops and agile practices, and I bring experience and near-limitless enthusiasm to the difficult problems facing organisations and entrepreneurs today.
+
+I have completed short and long-term engagements, primarily in Python and Java, with clients including the **ASX**, **Atlassian**, **CompareAsia** and **Westpac Databank**.
   """
 
   [[experience]]
