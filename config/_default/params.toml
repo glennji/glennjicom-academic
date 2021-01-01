@@ -65,7 +65,7 @@ privacy_pack = false
 edit_page = {repo_url = "https://github.com/glennji/website", content_dir = "", repo_branch = "master", editable = {docs = true, page = false, post = false}}
 
 # Show related content at the bottom of pages?
-show_related = {docs = true, page = false, post = true, projects = true, publication = true, talk = true}
+show_related = {docs = true, page = false, post = false, projects = true, publication = true, talk = true, note = true}
 
 ############################
 ## Contact details
@@ -140,7 +140,7 @@ main_menu = {align = "r", show_logo = true, highlight_active_link = true, show_l
 reading_time = true
 
 # Display next/previous section pager? (true/false)
-section_pager = false
+section_pager = true
 docs_section_pager = true  # Display pager in Docs layout (e.g. tutorials)?
 
 # Enable in-built social sharing buttons? (true/false)
@@ -278,6 +278,10 @@ plugins_js  = []
 [icon.pack]
   ai = false  # Academicons icon pack https://jpswalsh.github.io/academicons/
 
+[[social]]
+  medium = "@glennji"
+  icon = "wire"
+  link = "https://get.wire.com/"
 [[social]]
   medium = "Email"
   icon = "email"

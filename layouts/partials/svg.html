@@ -19,7 +19,7 @@
 {{- else if (eq .icon "email") -}}
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
 {{- else if (eq .icon "beer") -}}
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24pt" height="24pt" viewBox="0 0 24 24" version="1.1" stroke="currentColor" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24pt" height="24pt" viewBox="0 0 24 24" version="1.1" stroke="¬" fill="none" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
   <g id="surface1">
     <path d="M 12 3.976562 C 12 7.730469 15.039062 10.828125 18.789062 10.828125 L 19.96875 10.828125 L 19.96875 9.648438 C 19.96875 5.894531 16.917969 2.8125 13.164062 2.8125 L 10.835938 2.8125 C 7.082031 2.8125 4.03125 5.898438 4.03125 9.648438 L 4.03125 10.828125 L 5.210938 10.828125 C 8.964844 10.828125 12 7.730469 12 3.976562 Z M 12 3.976562 "/>
     <path d="M 18.953125 12.21875 C 18.800781 12.207031 17.679688 12.332031 16 11.726562 C 15.742188 12.828125 15.265625 13.871094 14.585938 14.785156 C 16.363281 16.523438 18.054688 16.585938 18.679688 16.820312 C 18.792969 16.121094 19.585938 14.625 18.953125 12.21875 Z M 18.953125 12.21875 "/>
@@ -31,6 +31,10 @@
     <path d="M 10.714844 20.4375 C 10.402344 20.632812 10.082031 20.816406 9.742188 20.96875 C 10.078125 21.765625 10.554688 22.554688 11.175781 23.175781 L 12 24 L 12.824219 23.175781 C 13.445312 22.554688 13.921875 21.765625 14.257812 20.96875 C 13.917969 20.820312 13.597656 20.632812 13.285156 20.4375 L 12 21.722656 Z M 10.714844 20.4375 "/>
     <path d="M 13.164062 1.40625 C 13.484375 1.40625 13.796875 1.429688 14.109375 1.464844 L 14.109375 0 L 9.890625 0 L 9.890625 1.464844 C 10.203125 1.429688 10.515625 1.40625 10.835938 1.40625 Z M 13.164062 1.40625 "/>
   </g>
+</svg>
+{{- else if (eq .icon "wire") -}}
+<svg class="feather feather-mail" width="24" height="24" viewBox="0 35 150 50" fill="currentColor" stroke="currentColor" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+  <path class="fill-theme" d="M131.27 71.915c0 19.232-15.472 34.878-34.7 34.878-7.745 0-14.97-2.57-20.765-6.858 6.48-7.542 10.336-17.32 10.336-28.02l.015-55.5C86.155 7.364 78.793 0 69.745 0c-9.05 0-16.41 7.364-16.41 16.414l-.015 55.5c0 10.7 4.116 20.48 10.594 28.02-5.793 4.29-13.02 6.86-20.764 6.86-19.23 0-34.958-15.647-34.958-34.88V4.21H-.013v67.705C-.013 95.67 19.483 115 43.237 115c10.07 0 19.41-3.5 26.752-9.313C77.332 111.5 86.455 115 96.526 115c23.752 0 42.947-19.33 42.947-43.085V4.21h-8.205v67.705zm-61.54 22.43c-5.11-6.07-8.205-13.892-8.205-22.43l.014-55.5c0-4.527 3.68-8.207 8.205-8.207 4.524 0 8.205 3.68 8.205 8.206l-.015 55.5c0 8.54-3.093 16.36-8.205 22.43zM164.103"></path>
 </svg>
 {{- else -}}
     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>

@@ -6,6 +6,8 @@ name: Glenn J. Mason
 authors:
 - glennji
 
+headless: false
+
 # Is this the primary user of the site?
 superuser: true
 crosslink: "true"
@@ -43,6 +45,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+- icon: comment-dots
+  icon_pack: fas
+  link: "https://get.wire.com/"
 - icon: envelope
   icon_pack: fas
   link: "mailto:glenn@glennji.com"
@@ -78,10 +83,9 @@ summary: Read more [about me](/about)
 
 {{< figure src="/images/little-me.png" class="floatright" >}}**Well this was unexpected: I'm in my 13th incarnation[^3]!**
 
-_This is the personal website of **Glenn J. Mason**, a technologist and unrepentant geek living and working in [Sydney](/places/inner-west-sydney) with his wife[^1] and son[^2]. He also rarely speaks about himself in the third-person..._
+_This is the personal website of **Glenn J. Mason**, a technologist and unrepentant geek living and working in [Sydney](/places/inner-west-sydney) with his wife[^1] and son[^2]. He reads [books](/books), writes Python and Java, and rarely speaks about himself in the third-person..._
 
 [^1]: "common law" wife; for some reason, we've never gotten around to actually "tieing the knot", although it's arguably the best excuse for bringing a bunch of old friends from around the world together for a party.
-
 [^2]: Age eight and with greater mastery of a PS4 controller than I've ever seen, let alone the Wii U, iPad, phone ... how many platforms can you get Minecraft on these days? God, I love that kid.
 
 [^3]: Oh, you don't reincarnate every prime multiple of years? 2,3,5,7,11,13,17,19,23,29,31,37,41

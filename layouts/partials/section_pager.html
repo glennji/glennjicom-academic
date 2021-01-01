@@ -1,0 +1,18 @@
+{{ $str := "" }}
+<div class="row post-nav">
+  <div class="col-md-6 post-nav-item">
+    {{if .NextInSection}}
+      {{/* For the Book layout, prev/next labels are reversed. */}}
+      {{ if in (slice "docs" "book") .Type }}{{ $str = "previous" }}{{else}}{{ $str = "next" }}{{end}}
+      <div class="meta-nav">{{ i18n $str }}</div>
+      <a href="{{.NextInSection.RelPermalink}}" rel="next">{{.NextInSection.Title}}</a>
+    {{end}}
+  </div>
+  <div class="col-md-6 post-nav-item text-align-right">
+    {{if .PrevInSection}}
+      {{ if in (slice "docs" "book") .Type }}{{ $str = "next" }}{{else}}{{ $str = "previous" }}{{end}}
+      <div class="meta-nav">{{ i18n $str }}</div>
+      <a href="{{.PrevInSection.RelPermalink}}" rel="prev">{{.PrevInSection.Title}}</a>
+    {{end}}
+  </div>
+</div>

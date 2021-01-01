@@ -3,7 +3,7 @@
 @import "_footer";
 
 html {
-  background-color: #252627;
+  background-color: #23252f;
   letter-spacing: 0.06em;
 }
 
@@ -40,6 +40,10 @@ a:link {
   #education {
     //page-break-before:always
   }
+}
+
+.text-align-right {
+  text-align: right;
 }
 
 .post-info .tag::before, .lexicon-term-info .tag::before {
@@ -105,8 +109,8 @@ a:link {
 }
 
 img.showcase {
-  padding-top: 0.7em;
-  padding-bottom: 0.7em;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .book {
@@ -143,6 +147,14 @@ img.showcase {
     .article-style {
       font-size: 1rem;
     }
+  }
+}
+
+.card-simple {
+  padding: 0;
+
+  .article-style {
+    font-size: 1rem;
   }
 }
 

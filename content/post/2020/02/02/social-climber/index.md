@@ -2,7 +2,7 @@
 title: "Social Climber"
 subtitle: ""
 summary: ""
-authors: []
+authors: [glennji]
 tags: []
 categories: []
 date: 2020-02-02T18:00:43+11:00

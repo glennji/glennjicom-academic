@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 40  # Order that this section will appear.
 view = 2
 
-title = "Experience"
+title = ""
 subtitle = ""
 
 [design.spacing]

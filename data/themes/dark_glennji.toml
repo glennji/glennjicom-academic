@@ -6,6 +6,8 @@ light = false
 
 # Primary
 primary = "#EF525B"
+#primary = "#292a2d"
+background = "#23252f"
 dark_background = "#292a2d"
 light_background = "#fff"
 
@@ -17,5 +19,7 @@ menu_title = "#fff"
 
 # Home sections
 #home_section_odd = "hsla(231, 15%, 18%, 1)"
-home_section_odd = "#292a2d"
-home_section_even = "#252627"
+dark_home_section_odd = "#23252f"
+dark_home_section_even = "#23252f"
+home_section_even = "#23252f"
+home_section_odd = "#23252f"

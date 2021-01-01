@@ -19,15 +19,18 @@
 
 
 <!-- About widget -->
-<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
+<div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person"
+     itemref="{{ if site.Params.email }}person-email{{ end }}{{ if site.Params.phone }} person-telephone{{ end }}{{ if site.Params.address}} person-address{{ end }}">
   <div class="col-12 col-sm-4">
     <div id="profile">
 
       {{ if $avatar }}
-      {{ $avatar_image := $avatar.Fill "250x250 Center" }}
-      <img class="avatar portrait {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar">
+        {{ $avatar_image := $avatar.Fill "250x250 Center" }}
+        <img class="avatar portrait {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}"
+             src="{{ $avatar_image.RelPermalink }}" itemprop="image" alt="Avatar">
       {{ else if (and site.Params.gravatar $person.email) }}
-      <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image" alt="Avatar">
+        <img class="portrait" src="https://s.gravatar.com/avatar/{{ md5 $person.email }}?s=200')" itemprop="image"
+             alt="Avatar">
       {{ end }}
 
       <div class="portrait-title">
@@ -35,11 +38,11 @@
         {{ with $person.role }}<h3 itemprop="jobTitle">{{ . | markdownify | emojify }}</h3>{{ end }}
 
         {{ range $person.organizations }}
-        <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
-          {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
-          <span itemprop="name">{{ .name }}</span>
-          {{ if .url }}</a>{{ end }}
-        </h3>
+          <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            {{ with .url }}<a href="{{ . }}" target="_blank" itemprop="url" rel="noopener">{{ end }}
+              <span itemprop="name">{{ .name }}</span>
+              {{ if .url }}</a>{{ end }}
+          </h3>
         {{ end }}
       </div>
 
@@ -47,24 +50,24 @@
 
       <ul class="network-icon" aria-hidden="true">
         {{ range $person.social }}
-        {{ $pack := or .icon_pack "fas" }}
-        {{ $pack_prefix := $pack }}
-        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-          {{ $pack_prefix = "fa" }}
-        {{ end }}
-        {{ $link := .link }}
-        {{ $scheme := (urls.Parse $link).Scheme }}
-        {{ $target := "" }}
-        {{ if not $scheme }}
-          {{ $link = .link | relLangURL }}
-        {{ else if in (slice "http" "https") $scheme }}
-          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-        {{ end }}
-        <li>
-          <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
-            <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
-          </a>
-        </li>
+          {{ $pack := or .icon_pack "fas" }}
+          {{ $pack_prefix := $pack }}
+          {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+            {{ $pack_prefix = "fa" }}
+          {{ end }}
+          {{ $link := .link }}
+          {{ $scheme := (urls.Parse $link).Scheme }}
+          {{ $target := "" }}
+          {{ if not $scheme }}
+            {{ $link = .link | relLangURL }}
+          {{ else if in (slice "http" "https") $scheme }}
+            {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+          {{ end }}
+          <li>
+            <a itemprop="sameAs" href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}>
+              <i class="{{ $pack }} {{ $pack_prefix }}-{{ .icon }} big-icon"></i>
+            </a>
+          </li>
         {{ end }}
       </ul>
 
@@ -86,81 +89,81 @@
     <div class="row">
 
       {{ with $person.interests }}
-      <div class="col-md-5">
-        <h3>{{ i18n "interests" | markdownify }}</h3>
-        <ul class="ul-interests">
-          {{ range . }}
-          <li>{{ . | markdownify | emojify }}</li>
-          {{ end }}
-        </ul>
-      </div>
+        <div class="col-md-5">
+          <h3>{{ i18n "interests" | markdownify }}</h3>
+          <ul class="ul-interests">
+            {{ range . }}
+              <li>{{ . | markdownify | emojify }}</li>
+            {{ end }}
+          </ul>
+        </div>
       {{ end }}
 
       {{ with $person.education }}
-      <div class="col-md-7">
-        <h3>{{ i18n "education" | markdownify }}</h3>
-        <ul class="ul-edu fa-ul">
-          {{ range .courses }}
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
-              <p class="institution">{{ .institution }}</p>
-            </div>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
+        <div class="col-md-7">
+          <h3>{{ i18n "education" | markdownify }}</h3>
+          <ul class="ul-edu fa-ul">
+            {{ range .courses }}
+              <li>
+                <i class="fa-li fas fa-graduation-cap"></i>
+                <div class="description">
+                  <p class="course">{{ .course }}{{ with .year }}, {{ . }}{{ end }}</p>
+                  <p class="institution">{{ .institution }}</p>
+                </div>
+              </li>
+            {{ end }}
+          </ul>
+        </div>
       {{ end }}
 
-      </div>
-
-
-
-      <div class="row cta">
-        {{/* Call-to-action link */}}
-        {{ if $page.Params.cta.url }}
-          {{ $pack := or $page.Params.cta.icon_pack "fas" }}
-          {{ $pack_prefix := $pack }}
-          {{ if in (slice "fab" "fas" "far" "fal") $pack }}
-            {{ $pack_prefix = "fa" }}
-          {{ end }}
-          {{ $link := $page.Params.cta.url }}
-          {{ $scheme := (urls.Parse $link).Scheme }}
-          {{ $target := "" }}
-          {{ if not $scheme }}
-            {{ $link = $link | relLangURL }}
-          {{ else if in (slice "http" "https") $scheme }}
-            {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-          {{ end }}
-          <p class="cta-btns">
-            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="btn-outline-primary btn btn-lg see-all">{{ if $page.Params.cta.icon }}<i class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1" aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
-
-            {{/* Alternative Call-to-action link */}}
-            {{ if $page.Params.cta_alt.url }}
-              {{ $link := $page.Params.cta_alt.url }}
-              {{ $scheme := (urls.Parse $link).Scheme }}
-              {{ $target := "" }}
-              {{ if not $scheme }}
-                {{ $link = $link | relLangURL }}
-              {{ else if in (slice "http" "https") $scheme }}
-                {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
-              {{ end }}
-              <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }} class="hero-cta-alt pl-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} <i class="fas fa-angle-right"></i></a>
-            {{ end }}
-          </p>
-        {{ end }}
-
-        {{/* Call-to-action note */}}
-        {{ with $page.Params.cta_note }}
-          <p class="hero-note text-muted mb-0">
-            {{ .label | markdownify | emojify | safeHTML }}
-          </p>
-        {{ end }}
     </div>
 
+
+    <div class="row cta">
+      {{/* Call-to-action link */}}
+      {{ if $page.Params.cta.url }}
+        {{ $pack := or $page.Params.cta.icon_pack "fas" }}
+        {{ $pack_prefix := $pack }}
+        {{ if in (slice "fab" "fas" "far" "fal") $pack }}
+          {{ $pack_prefix = "fa" }}
+        {{ end }}
+        {{ $link := $page.Params.cta.url }}
+        {{ $scheme := (urls.Parse $link).Scheme }}
+        {{ $target := "" }}
+        {{ if not $scheme }}
+          {{ $link = $link | relLangURL }}
+        {{ else if in (slice "http" "https") $scheme }}
+          {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+        {{ end }}
+        <p class="cta-btns">
+          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}
+             class="btn-outline-primary btn btn-lg see-all">{{ if $page.Params.cta.icon }}<i
+                    class="{{ $pack }} {{ $pack_prefix }}-{{ $page.Params.cta.icon }} pr-1"
+                    aria-hidden="true"></i>{{end}}{{ $page.Params.cta.label | markdownify | emojify | safeHTML }}</a>
+
+          {{/* Alternative Call-to-action link */}}
+          {{ if $page.Params.cta_alt.url }}
+            {{ $link := $page.Params.cta_alt.url }}
+            {{ $scheme := (urls.Parse $link).Scheme }}
+            {{ $target := "" }}
+            {{ if not $scheme }}
+              {{ $link = $link | relLangURL }}
+            {{ else if in (slice "http" "https") $scheme }}
+              {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+            {{ end }}
+            <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}
+               class="hero-cta-alt pl-4">{{ $page.Params.cta_alt.label | markdownify | emojify | safeHTML }} <i
+                      class="fas fa-angle-right"></i></a>
+          {{ end }}
+        </p>
+      {{ end }}
+
+      {{/* Call-to-action note */}}
+      {{ with $page.Params.cta_note }}
+        <p class="hero-note text-muted mb-0">
+          {{ .label | markdownify | emojify | safeHTML }}
+        </p>
+      {{ end }}
+    </div>
   </div>
-
-
-
 </div>
