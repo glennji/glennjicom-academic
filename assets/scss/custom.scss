@@ -50,6 +50,16 @@ a:link {
   content: "";
 }
 
+.post {
+  &-subtitle {
+    font-style: italic;
+    font-weight: normal;
+    font-size: small;
+    color: #ef525b;
+    margin-top: 0.5rem;
+  }
+}
+
 .tags {
   text-align: right;
 }
